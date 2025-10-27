@@ -19,8 +19,10 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "9df565f96891f4581e7395529182aba0",
-      "PARENT:MD5-CAM-1.0.1" : "0A5231D7B62977A3C73DC17A92BFE36F"
+      "MD5-CAM-1.0.1" : "4e6ffbca80295e55ce2e3c8a9df3dc3d",
+      "PARENT:MD5-CAM-1.0.1" : "0A5231D7B62977A3C73DC17A92BFE36F",
+      "sem_ver" : "1.0.0",
+      "build_uid" : ""
     },
     "details" : {
       "nb" : {
@@ -98,7 +100,6 @@
           "children" : [ {
             "@type" : "C_COMPLEX_OBJECT",
             "rmTypeName" : "ELEMENT",
-            "occurrences" : "0..0",
             "nodeId" : "at0018.1",
             "attributes" : [ ],
             "attributeTuples" : [ ]
@@ -213,6 +214,10 @@
                       "terminologyId" : "utdanning",
                       "code" : "9",
                       "value" : "Ukjent"
+                    }, {
+                      "terminologyId" : "utdanning",
+                      "code" : "99",
+                      "value" : "Vil ikke svare"
                     } ]
                   } ]
                 } ],
