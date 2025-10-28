@@ -1,9 +1,8 @@
-archetype (adl_version=1.4; uid=4bb218a8-9cac-4d33-84e1-ed4ffed4cd3a)
+﻿archetype (adl_version=1.4; uid=d0e8e05e-43e2-48ab-9308-a432f6195478)
 	openEHR-EHR-OBSERVATION.substance_use_screening.v1
 
 concept
-	[at0000]
-
+	[at0000]	-- Substance use screening questionnaire
 language
 	original_language = <[ISO_639-1::en]>
 	translations = <
@@ -33,22 +32,17 @@ language
 			accreditation = <"PhD">
 		>
 	>
-
 description
 	original_author = <
-		["date"] = <"2018-11-07">
 		["name"] = <"Silje Ljosland Bakke">
 		["organisation"] = <"Nasjonal IKT HF">
 		["email"] = <"silje.ljosland.bakke@nasjonalikt.no">
+		["date"] = <"2018-11-07">
 	>
-	lifecycle_state = <"published">
-	other_contributors = <"Nuno Abreu, openEHR Portugal, Portugal","Vebjørn Arntzen, Oslo University Hospital, Norway (openEHR Editor)","Silje Ljosland Bakke, Helse Vest IKT AS, Norway (openEHR Editor)","Ivar Berge, Oslo University Hospital, Norway (openEHR Editor)","SB Bhattacharyya, Bhattacharyyas Clinical Records Research & Informatics LLP, India","Tara Bonet Chinillach, Catalan Health Service, Spain","Hanne Marte Bårholm, Helse Vest IKT, Norway (openEHR Editor)","Clara Calleja Vega, CatSalut. Servei Català de la Salut., Spain","giovanni delussu, crs4, Italy","Manuela Domingo, hospital general universitario dr. balmis, Spain","Grant Forrest, Lunaria Ltd, United Kingdom","Santiago Frid, Hospital Clínic de Barcelona, Spain","Rosane Gotardo, Systema Ltda., Brazil","Evelyn Hovenga, EJSH Consulting, Australia","Mikkel Johan Gaup Grønmo, Helse Nord IKT, Norway (openEHR Editor)","Mika Kiviaho, Tietoevry, Finland","June Marie Nepstad Knappskog, Helse Nord IKT AS, Norway (openEHR Editor), Norway (openEHR Editor)","Martin Koch, Servei Català de la Salut, Spain","Heidi Koikkalainen, United Kingdom","Bouwe Koopal, ADkwADraat B.V., Netherlands","Ronald Krawec, Alberta Health Services, Canada","Anjali Kulkarni, Karkinos, India","Kanika Kuwelker, Helse Vest IKT, Norway (openEHR Editor)","Jörgen Kuylenstierna, eWeave AB, Sweden","michel laji!, Karolinska Institutet, Sweden","Liv Laugen, ​Oslo University Hospital, Norway, Norway (openEHR Editor)","Darin Leonhardt, PLRI für medizinische Informatik/ Medizinische Hochschule, Germany","Heather Leslie, Atomica Informatics, Australia (openEHR Editor)","Brad Littleton, Big Picture Medical, Australia","Rikard Lovstrom, Karolinska University Hospital, Sweden","Michael Lutz, BITsoft, Germany","Priscila Maranhão, MEDCIDS-FMUP, Portugal","Ian McNicoll, freshEHR Clinical Informatics, United Kingdom","Paul Miller, NES Digital Service, NHS Scotland, United Kingdom","Laura Moral Lopez, Sistema de Salut de Catalunya, Spain","Mikael Nyström, Cambio Healthcare Systems AB, Sweden","Ana Pascual Segura, Catsalut, Spain","Xavier Pastor, Hospital Clínic - University of Barcelona, Spain","Marlene Pérez Colman, Digital Health and Care Wales, United Kingdom","Terje Sagmyr, Helse Vest IKT, Norway (openEHR Editor)","Kritika Sarkar, Karkinos Healthcare, India","Norwegian Review Summary, Norwegian Public Hospitals, Norway","John Tore Valand, Helse Vest IKT, Norway (openEHR Editor)","Marit Alice Venheim, Helse Vest IKT, Norway (openEHR Editor)">
 	details = <
 		["de"] = <
 			language = <[ISO_639-1::de]>
 			purpose = <"Zur Erstellung eines Rahmens für die Dokumentation von Antworten auf vordefinierte Screening-Fragen zum Konsum von Substanzen oder einer bestimmten Gruppe, Klasse oder einzelnen Substanz(en), die der Gesundheit oder dem sozialen Wohlbefinden einer Person schaden können.">
-			keywords = <"Substanz, Screening, Fragebogen, Droge, Sucht, Missbrauch, Missbrauch, Abhängigkeit, Doping, Stimulanzien, Sedativa", ...>
-			copyright = <"© openEHR Foundation, Nasjonal IKT HF, openEHR Foundation, openEHR Foundation">
 			use = <"Zur Erstellung eines Rahmens für die Dokumentation von Antworten auf vordefinierte Screening-Fragen zum Konsum von Substanzen oder einer bestimmten Gruppe, Klasse oder einzelnen Substanz(en), die die Gesundheit oder das soziale Wohlbefinden einer Person beeinträchtigen können.
 
 Zu den Substanzen, die in den Anwendungsbereich dieses Archetyps fallen, gehören schädliche oder potenziell süchtig machende Substanzen, legale und illegale Substanzen sowie Medikamente, die missbräuchlich verwendet werden. Missbrauch kann die Verabreichung ohne klinische Aufsicht, die Verwendung zu nicht empfohlenen Zwecken oder die Einnahme in Mengen oder Häufigkeiten, die über die sichere Dosierung hinausgehen, beinhalten. Beispiele für Substanzen, die mit diesem Archetyp erfasst werden können, sind unter anderem:
@@ -82,6 +76,7 @@ Die EVENT-Struktur aus dem Referenzmodell kann verwendet werden, um anzugeben, o
 Die Quelle der Informationen in einer Fragebogenantwort kann in verschiedenen Kontexten variieren, kann aber mit Hilfe des Elements „Information provider“ im Referenzmodell spezifisch identifiziert werden.
 
 Dieser Archetyp wurde für die Verwendung als Screening-Instrument oder zur Aufzeichnung einfacher Daten im Fragebogenformat für die Verwendung in Situationen wie einem Krankheitsregister konzipiert. Wenn der Screening-Fragebogen das Vorhandensein einer Substanz feststellt, wird empfohlen, dass das klinische System die spezifischen Details über die Substanz unter Verwendung eines entsprechenden Archetyps aufzeichnet und aufbewahrt, z. B. die Archetypen EVALUATION.alcohol_consumption_summary, EVALUATION.tobacco_smoking_summary, EVALUATION.substance_use_summary oder EVALUATION.health_risk.">
+			keywords = <"Substanz, Screening, Fragebogen, Droge, Sucht, Missbrauch, Missbrauch, Abhängigkeit, Doping, Stimulanzien, Sedativa", ...>
 			misuse = <"Nicht zu verwenden, um die typische Häufigkeit oder Menge des Konsums einer Substanz zu erfassen. Verwenden Sie den Archetyp EVALUATION.substance_use_summary oder einen geeigneten stoffspezifischen Zusammenfassungstyp.
 
 Nicht für die Aufzeichnung einer Zusammenfassung des Konsums einer Substanz über die gesamte Lebenszeit der Person zu verwenden. Verwenden Sie für diesen Zweck EVALUATION.substance_use_summary.
@@ -93,12 +88,11 @@ Nicht zu verwenden für die Aufzeichnung einer Zusammenfassung des Alkoholkonsum
 Nicht zur Aufzeichnung von Informationen über den tatsächlichen Substanzkonsum zu einem bestimmten Zeitpunkt oder in einem bestimmten Zeitintervall zu verwenden, wie z. B. der tägliche oder durchschnittliche Konsum über einen bestimmten Zeitraum oder ein Konsumtagebuch. Verwenden Sie zu diesem Zweck den Archetyp OBSERVATION.substance_use.
 
 Nicht zu verwenden für die Aufzeichnung von Informationen über die angemessene Einnahme von Medikamenten unter klinischer Aufsicht, für empfohlene therapeutische Zwecke und in angemessener Dosierung. Verwenden Sie zu diesem Zweck einen geeigneten Medikationsarchetyp.">
+			copyright = <"© openEHR Foundation, Nasjonal IKT HF, openEHR Foundation, openEHR Foundation">
 		>
 		["nb"] = <
 			language = <[ISO_639-1::nb]>
 			purpose = <"For å lage et rammeverk for å registrere svar på forhåndsdefinerte spørsmål om bruk av substanser, eller en spesifikk gruppe, klasse eller en spesifikk substans som kan ha skadelige effekter på individets helse eller sosiale velferd.">
-			keywords = <"intervjuskjema, kartleggingsskjema, screening, spørreskjema, spørreundersøkelse, dop, rusmiddel, substans, stoff, narkotika, avhengighet, misbruk, stimulantia, doping, rusavhengighet", ...>
-			copyright = <"© openEHR Foundation, Nasjonal IKT HF, openEHR Foundation, openEHR Foundation">
 			use = <"Brukes for å lage et rammeverk for å registrere svar på forhåndsdefinerte spørsmål om bruk av substanser, eller en spesifikk gruppe, klasse eller en spesifikk substans (-er) som kan ha skadelige effekter på individets helse eller sosiale velferd.
 
 Substanser som kommer inn under denne arketypen inkluderer skadelige eller potensielt vanedannende substanser, lovlige og ulovlige substanser, i tillegg til medikamenter som misbrukes. Misbruket kan innbefatte administrasjon utenfor klinisk kontroll, bruk utenfor det tiltenkte formålet eller i mengder eller hyppighet som overstiger trygg dosering. Eksempler av slike substanser som kan registreres ved å bruke denne arketypen er, men er ikke begrenset til:
@@ -133,6 +127,7 @@ Bruk egne instanser av denne arketypen for å skille mellom spørsmål om bruk a
 Kilden til informasjonen i et spørreskjema kan variere i ulike kontekster, men kan identifiseres spesifikt ved å benytte \"Information provider\" elementet i openEHR referansemodellen.
 
 Denne arketypen er laget for å bli brukt i et spørreskjema eller for å registrere enkle strukturerte data til for eksempel et sykdomsregister. Dersom det i spørreskjemaet identifiseres at bruken av en substans er tilstede, anbefales det at spesifikke detaljer om substansen registreres og lagres i pasientjournalen i en relevant arketype, for eksempel i arketypene EVALUATION.alcohol_consumption_summary (Alkoholanamnese), EVALUATION.tobacco_smoking_summary (Røykeanamnese), EVALUATION.substance_use_summary (Substansanamnese) eller EVALUATION.health_risk archetypes (Helserisiko).">
+			keywords = <"intervjuskjema, kartleggingsskjema, screening, spørreskjema, spørreundersøkelse, dop, rusmiddel, substans, stoff, narkotika, avhengighet, misbruk, stimulantia, doping, rusavhengighet", ...>
 			misuse = <"Skal ikke brukes til å registrere bruksmønsteret eller mengde et individ vanligvis har av en bestemt substans. Bruk arketypen EVALUATION.substance_use_summary (Substansanamnese) til dette formålet.
 
 Skal ikke brukes for å registrere et sammendrag av bruken av en substans over et individs livstid. Bruk arketypen EVALUATION.substance_use_summary (Substansanamnese) til dette formålet.
@@ -144,12 +139,11 @@ Brukes ikke for å registrere et sammendrag av bruken av alkohol over et individ
 Skal ikke brukes til å registrere informasjon om den faktiske bruken av substansen på en gitt tid eller i et tidsintervall, som for eksempel et gjennomsnittlig forbruk i en spesifisert periode eller i en daglig registrering. Bruk arketypen OBSERVATION.substance_use til dette formålet.
 
 Skal ikke brukes til å registrere informasjon om legemidler som er gitt under klinisk kontroll for det tiltenkte formålet og i passende doser. Bruk en passende arketype innenfor gruppen av legemiddelarketyper til dette formålet.">
+			copyright = <"© openEHR Foundation, Nasjonal IKT HF, openEHR Foundation, openEHR Foundation">
 		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
 			purpose = <"To record a framework for documenting answers to pre-defined screening questions about the use of any substances or a specific grouping, class or individual substance/s that may harm an individual's health or social well-being.">
-			keywords = <"substance, screening, questionnaire, drug, addiction, abuse, misuse, dependence, doping, stimulants, sedatives", ...>
-			copyright = <"© openEHR Foundation, Nasjonal IKT HF">
 			use = <"Use to record a framework for documenting answers to pre-defined screening questions about the use of any substances or a specific grouping, class or individual substance/s that may harm an individual's health or social well-being.
 
 Substances that fall within the scope of this archetype include harmful or potentially addictive substances, legal and illegal substances, as well as medications that are misused. Misuse may involve administration without clinical supervision, use for non-recommended purposes, or consumption in quantities or frequencies that exceed safe dosages. Examples of substances that may be recorded using this archetype include but are not limited to:
@@ -183,6 +177,7 @@ The EVENT structure from the reference model can be used to specify whether the 
 The source of the information in a questionnaire response may vary in different contexts but can be specifically identified using the 'Information provider' element in the Reference Model.
 
 This archetype has been designed to be used as a screening tool or to record simple questionnaire-format data for use in situations such as a disease registry. If the screening questionnaire identifies the presence of a substance, it is recommended that clinical system record and persist the specific details about the substance using a relevant archetype, for example the EVALUATION.alcohol_consumption_summary, EVALUATION.tobacco_smoking_summary, EVALUATION.substance_use_summary, or EVALUATION.health_risk archetypes.">
+			keywords = <"substance, screening, questionnaire, drug, addiction, abuse, misuse, dependence, doping, stimulants, sedatives", ...>
 			misuse = <"Not to be used to record the typical frequency or amount of use of any substance. Use the EVALUATION.substance_use_summary or an appropriate substance-specific summary archetype.
 
 Not to be used for recording a summary of use of a substance over the lifetime of the individual. Use EVALUATION.substance_use_summary for this purpose.
@@ -194,12 +189,11 @@ Not to be used for recording a summary of use of alcohol over the lifetime of th
 Not to be used to record information about actual substance use at or during a specified point or interval of time, such as daily or average use over a specified period of time, or a diary of use. Use the OBSERVATION.substance_use archetype for this purpose.
 
 Not to be used for recording information about appropriate medication use under clinical supervision, for recommended therapeutic intent and at appropriate dosages. Use an appropriate medication archetype for this purpose.">
+			copyright = <"© openEHR Foundation, Nasjonal IKT HF">
 		>
 		["nl"] = <
 			language = <[ISO_639-1::nl]>
 			purpose = <"*To record a framework for documenting answers to pre-defined screening questions about the use of any substances or a specific grouping, class or individual substance/s that may harm an individual's health or social well-being. (en)">
-			keywords = <"*substance, screening, questionnaire, drug, addiction, abuse, misuse, dependence, doping, stimulants, sedatives (en)", ...>
-			copyright = <"© openEHR Foundation, Nasjonal IKT HF, openEHR Foundation, openEHR Foundation">
 			use = <"*Use to record a framework for documenting answers to pre-defined screening questions about the use of any substances or a specific grouping, class or individual substance/s that may harm an individual's health or social well-being.
 
 Substances that fall within the scope of this archetype include harmful or potentially addictive substances, legal and illegal substances, as well as medications that are misused. Misuse may involve administration without clinical supervision, use for non-recommended purposes, or consumption in quantities or frequencies that exceed safe dosages. Examples of substances that may be recorded using this archetype include but are not limited to:
@@ -233,6 +227,7 @@ The EVENT structure from the reference model can be used to specify whether the 
 The source of the information in a questionnaire response may vary in different contexts but can be specifically identified using the 'Information provider' element in the Reference Model.
 
 This archetype has been designed to be used as a screening tool or to record simple questionnaire-format data for use in situations such as a disease registry. If the screening questionnaire identifies the presence of a substance, it is recommended that clinical system record and persist the specific details about the substance using a relevant archetype, for example the EVALUATION.alcohol_consumption_summary, EVALUATION.tobacco_smoking_summary, EVALUATION.substance_use_summary, or EVALUATION.health_risk archetypes. (en)">
+			keywords = <"*substance, screening, questionnaire, drug, addiction, abuse, misuse, dependence, doping, stimulants, sedatives (en)", ...>
 			misuse = <"*Not to be used to record the typical frequency or amount of use of any substance. Use the EVALUATION.substance_use_summary or an appropriate substance-specific summary archetype.
 
 Not to be used for recording a summary of use of a substance over the lifetime of the individual. Use EVALUATION.substance_use_summary for this purpose.
@@ -244,18 +239,21 @@ Not to be used for recording a summary of use of alcohol over the lifetime of th
 Not to be used to record information about actual substance use at or during a specified point or interval of time, such as daily or average use over a specified period of time, or a diary of use. Use the OBSERVATION.substance_use archetype for this purpose.
 
 Not to be used for recording information about appropriate medication use under clinical supervision, for recommended therapeutic intent and at appropriate dosages. Use an appropriate medication archetype for this purpose. (en)">
+			copyright = <"© openEHR Foundation, Nasjonal IKT HF, openEHR Foundation, openEHR Foundation">
 		>
 	>
+	lifecycle_state = <"published">
+	other_contributors = <"Nuno Abreu, openEHR Portugal, Portugal", "Vebjørn Arntzen, Oslo University Hospital, Norway (openEHR Editor)", "Silje Ljosland Bakke, Helse Vest IKT AS, Norway (openEHR Editor)", "Ivar Berge, Oslo University Hospital, Norway (openEHR Editor)", "SB Bhattacharyya, Bhattacharyyas Clinical Records Research & Informatics LLP, India", "Tara Bonet Chinillach, Catalan Health Service, Spain", "Hanne Marte Bårholm, Helse Vest IKT, Norway (openEHR Editor)", "Clara Calleja Vega, CatSalut. Servei Català de la Salut., Spain", "giovanni delussu, crs4, Italy", "Manuela Domingo, hospital general universitario dr. balmis, Spain", "Grant Forrest, Lunaria Ltd, United Kingdom", "Santiago Frid, Hospital Clínic de Barcelona, Spain", "Rosane Gotardo, Systema Ltda., Brazil", "Evelyn Hovenga, EJSH Consulting, Australia", "Mikkel Johan Gaup Grønmo, Helse Nord IKT, Norway (openEHR Editor)", "Mika Kiviaho, Tietoevry, Finland", "June Marie Nepstad Knappskog, Helse Nord IKT AS, Norway (openEHR Editor), Norway (openEHR Editor)", "Martin Koch, Servei Català de la Salut, Spain", "Heidi Koikkalainen, United Kingdom", "Bouwe Koopal, ADkwADraat B.V., Netherlands", "Ronald Krawec, Alberta Health Services, Canada", "Anjali Kulkarni, Karkinos, India", "Kanika Kuwelker, Helse Vest IKT, Norway (openEHR Editor)", "Jörgen Kuylenstierna, eWeave AB, Sweden", "michel laji!, Karolinska Institutet, Sweden", "Liv Laugen, ​Oslo University Hospital, Norway, Norway (openEHR Editor)", "Darin Leonhardt, PLRI für medizinische Informatik/ Medizinische Hochschule, Germany", "Heather Leslie, Atomica Informatics, Australia (openEHR Editor)", "Brad Littleton, Big Picture Medical, Australia", "Rikard Lovstrom, Karolinska University Hospital, Sweden", "Michael Lutz, BITsoft, Germany", "Priscila Maranhão, MEDCIDS-FMUP, Portugal", "Ian McNicoll, freshEHR Clinical Informatics, United Kingdom", "Paul Miller, NES Digital Service, NHS Scotland, United Kingdom", "Laura Moral Lopez, Sistema de Salut de Catalunya, Spain", "Mikael Nyström, Cambio Healthcare Systems AB, Sweden", "Ana Pascual Segura, Catsalut, Spain", "Xavier Pastor, Hospital Clínic - University of Barcelona, Spain", "Marlene Pérez Colman, Digital Health and Care Wales, United Kingdom", "Terje Sagmyr, Helse Vest IKT, Norway (openEHR Editor)", "Kritika Sarkar, Karkinos Healthcare, India", "Norwegian Review Summary, Norwegian Public Hospitals, Norway", "John Tore Valand, Helse Vest IKT, Norway (openEHR Editor)", "Marit Alice Venheim, Helse Vest IKT, Norway (openEHR Editor)">
 	other_details = <
 		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
 		["custodian_organisation"] = <"openEHR Foundation">
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"6E123581FA3F6CA9D8B4225DABA95556">
-		["build_uid"] = <"6d6213fd-b20d-4448-afe4-f84f78c71c38">
+		["MD5-CAM-1.0.1"] = <"4BA90DE6E8273F4E4517597B8A3E3F12">
+		["build_uid"] = <"bd6f047c-5c79-48a9-9815-513b40a11941">
 		["ip_acknowledgements"] = <"This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.">
-		["revision"] = <"1.0.1">
+		["revision"] = <"1.0.3">
 	>
 
 definition
@@ -367,6 +365,7 @@ definition
 			}
 		}
 	}
+
 
 ontology
 	terminologies_available = <"SNOMED-CT", ...>
@@ -840,7 +839,7 @@ For example: 'tobacco'; 'cigarettes'; 'alcohol'; 'any substance other than tobac
 			>
 		>
 	>
-	term_binding = <
+	term_bindings = <
 		["SNOMED-CT"] = <
 			items = <
 				["at0039"] = <[SNOMED-CT::261665006]>
