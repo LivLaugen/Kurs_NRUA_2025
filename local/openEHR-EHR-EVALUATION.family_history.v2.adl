@@ -1,9 +1,8 @@
-archetype (adl_version=1.4; uid=237645f9-ed6c-412c-94c9-3d5f441be55a)
+﻿archetype (adl_version=1.4; uid=12e8fcc3-a17b-45ad-a7dd-6e8ec78d60a4)
 	openEHR-EHR-EVALUATION.family_history.v2
 
 concept
-	[at0000]
-
+	[at0000]	-- Family history
 language
 	original_language = <[ISO_639-1::en]>
 	translations = <
@@ -18,9 +17,9 @@ language
 		["sv"] = <
 			language = <[ISO_639-1::sv]>
 			author = <
-				["name"] = <"Emma Malm">
-				["organisation"] = <"Karolinska Universitetssjukhuset">
-				["email"] = <"emma.malm@cambio.se">
+				["name"] = <"Emma Malm, sofia Lång Janstad">
+				["organisation"] = <"Karolinska Universitetssjukhuset, Karolinska University Hospital">
+				["email"] = <"emma.malm@cambio.se, sofia.lang-janstad@regionstockholm.se">
 			>
 		>
 		["nb"] = <
@@ -37,6 +36,14 @@ language
 				["name"] = <"Vladimir Pizzo">
 				["organisation"] = <"Hospital Sirio Libanes - Brazil">
 				["email"] = <"vladimir.pizzo@hsl.org.br">
+			>
+		>
+		["el"] = <
+			language = <[ISO_639-1::el]>
+			author = <
+				["name"] = <"Erasmia Partafylla">
+				["organisation"] = <"Sigmasoft">
+				["email"] = <"c.partafylla@sigmasoft.gr">
 			>
 		>
 		["fr"] = <
@@ -57,23 +64,19 @@ language
 			accreditation = <"TBD">
 		>
 	>
-
 description
 	original_author = <
-		["date"] = <"2010-12-15">
 		["name"] = <"Sam Heard">
 		["organisation"] = <"Ocean Informatics">
 		["email"] = <"sam.heard@oceaninformatics.com">
+		["date"] = <"2010-12-15">
 	>
-	lifecycle_state = <"published">
-	other_contributors = <"Tomas Alme, DIPS ASA, Norway","Ole Andreas Bjordal, Webmed, Norway","Gunn Anita Skjulhaug, Helse-Bergen HF, Norway","Rita Apelt, Department of Health,NT, Australia","Vebjørn Arntzen, Oslo universitetssykehus HF, Norway (Nasjonal IKT redaktør)","Koray Atalag, University of Auckland, New Zealand","Silje Ljosland Bakke, Helse Vest IKT AS, Norway (openEHR Editor)","John Bennett, NEHTA, Australia","Kristian Berg, Universitetssykehuset Nord Norge, Norway","Lars Bitsch-Larsen, Haukeland University Hospital, Bergen, Norway","Anita Bjørnnes, Helse Bergen, Norway","Terje Bless, Helse Nord FIKS, Norway","Diego Bosca, IBIME group, Spain","Mauricio Botero, Universidad de Caldas, Colombia","Rong Chen, Cambio Healthcare Systems, Sweden","Bjørn Christensen, HUS, Norway","Stephen Chu, Queensland Health, Australia","Lisbeth Dahlhaug, Helse Midt - Norge IT, Norway","Eva Dybvik, Nasjonal kompetansetjeneste for leddproteser og hoftebrudd, Haukeland Universitetssjukehus, Norway","David Evans, Queensland Health, Australia","Shahla Foozonkhah, Ocean Informatics, Australia","Einar Fosse, UNN HF, Norwegian Centre for Integrated Care and Telemedicine, Norway","Samuel Frade, Marand, Portugal","Hildegard Franke, freshEHR Clinical Informatics Ltd., United Kingdom","Tim Garden, NTG Department of Health, Australia","Sebastian Garde, Ocean Informatics, Germany","Jacquie Garton-Smith, Royal Perth Hospital and DoHWA, Australia","Andrew Goodchild, NEHTA, Australia","Gyri Gradek, Senter for medisinsk genetikk og molekylærmedisin, Haukeland Universitetssykehus, Norway","Heather Grain, Llewelyn Grain Informatics, Australia","Elisabeth Gudmestad, Helse Bergen HF, Haukeland Universitetssykehus, Dokumentasjonsavdelingen, Norway","Daniel Habashi, PasientSky AS, Norway","Dag Hanoa, Oslo universitetssykehus, Norway","Sam Heard, Ocean Informatics, Australia (Editor)","Kristian Heldal, Telemark Hospital Trust, Norway","Anca Heyd, DIPS ASA, Norway","Nils-Harald Holsen, Nasjonal IKT HF, Norway","Evelyn Hovenga, EJSH Consulting, Australia","Ann Iren Tellnes Moe, Helse Vest IKT, Norway","Leif Ivar Havelin, Helse Bergen, Norway","Lars Ivar Mehlum, Helse Bergen HF, Norway","Hans Johan Breidablik, Helse Førde HF, Norway","Lars Karlsen, DIPS ASA, Norway","Goran Karlstrom, County Of Värmland, Sweden","Mary Kelaher, NEHTA, Australia","Shinji Kobayashi, Kyoto University, Japan","Nils Kolstrup, Skansen Legekontor og Nasjonalt Senter for samhandling og telemedisin, Norway","Robert L'egan, NEHTA, Australia","Sabine Leh, Helse-Bergen, Norway","Heather Leslie, Atomica Informatics, Australia (openEHR Editor)","Hugh Leslie, Ocean Informatics, Australia","Hallvard Lærum, Oslo Universitetssykehus HF, Norway","Mike Martyn, The Hobart Anaesthetic Group, Australia","Shane McKee, Belfast Health & Social Care Trust, United Kingdom","Ian McNicoll, freshEHR Clinical Informatics, United Kingdom (openEHR Editor)","Chris Mitchell, RACGP, Australia","Lars Morgan Karlsen, DIPS ASA, Norway","Stewart Morrison, NEHTA, Australia","Bengt Nilssen, Sykehuset Innlandet HFq, Norway","Bjørn Næss, DIPS ASA, Norway","Jeremy Oats, NT Health, Australia","Andrej Orel, Marand d.o.o., Slovenia","Lynne Parsons, Primary and Community Health Services, Australia","Anne Pauline Anderssen, Helse Nord RHF, Norway","Vladimir Pizzo, Hospital Sírio Libanês, Brazil","Jodie Pycroft, Adelaide Northern Division of General Practice Ltd, Australia","Norwegian Review Summary, National ICT Norway, Norway","Robyn Richards, NEHTA - Clinical Terminology, Australia","Tanja Riise, Nasjonal IKT HF, Norway","Jussara Rotzsch, UNB, Brazil","Anoop Shah, University College London, United Kingdom","Elizabeth Stanick, Hobart Anaesthetic Group, Australia","Kirsten Steen Kyrkjebø, Helse Vest IKT AS, Norway","Møyfrid Stokke, Helse Vest IKT, Norway","Line Sæle, Nasjonal IKT HF, Norway","John Taylor, NEHTA, Australia","Micaela Thierley, Helse Bergen, Norway","Gordon Tomes, Australian Institute of Health and Welfare, Australia","John Tore Valand, Haukeland Universitetssjukehus, Norway (Nasjonal IKT redaktør, Nasjonal IKT oversettelsesredaktør)","Richard Townley-O'Neill, NEHTA, Australia","Donna Truran, ACCTI-UoW, Australia","Jon Tysdahl, Furst medlab AS, Norway","Ørjan Vermeer, Haukeland Universitetssjukehus, Kvinneklinikken, Norway","Jo Wright, NT Dept of Health, Australia (Editor)","Natalia Strauch, Medizinische Hochschule Hannover, Germany">
 	details = <
 		["de"] = <
 			language = <[ISO_639-1::de]>
 			purpose = <"Zur Repräsentation von Informationen über das Auftreten bedeutender gesundheitlicher Probleme bei genetisch und nicht-genetisch verwandten Familienmitgliedern - sowohl lebendig, als auch verstorben.
 
 Der eigentliche Anwendungsbereich des Archetyps wurde offen gelassen, um verschiedene, mögliche Probleme oder Situationen innerhalb einer Familie zu berücksichtigen. Dazu gehören insbesondere bekannte Probleme und Diagnosen, identifizierte biologische Marker sowie alle relevanten psychosozialen und ökologischen Faktoren.">
-			keywords = <"Familie","Anamnese","Gesundheit","Zustand","Problem","Diagnose","genetisch","Stammbaum","Genealogie","Familienanamnese","Verwandter","erblich","vererbt","familiär","Vererbung">
 			use = <"Zur Repräsentation von zusammenfassenden Informationen über Probleme oder Diagnosen bei Familienmitgliedern. Diese Informationen können als Beitrag zur Ermittlung aktueller Gesundheitsprobleme, zur Abschätzung der möglichen Risiken aufgrund familiäre Probleme oder Umstände oder zur Einleitung präventiver Gesundheitsmaßnahmen verwendet werden.
 
 Traditionell konzentriert sich die Familienanamnese auf die genetischen Faktoren oder Biomarker als Risikoindikatoren oder als potenzielle Gefährdung. Der Archetyp umfasst sowohl die Probleme oder Diagnosen vererbbaren Ursprungs, als auch solche, die nicht direkt vererbbar, sondern von der häuslichen Umgebung oder durch psychosoziale oder ökologische Faktoren beeinflusst werden. Beispiele dafür sind die Belastung der Umgebung der Familie mit Schadstoffen, häusliche Gewalt, sexueller Missbrauch, Alkohol- und andere Suchtprobleme.
@@ -91,6 +94,7 @@ Zusätzliche Angaben über spezifische Probleme, Diagnosen oder bisherige Verfah
 Dieser Archetyp kann als Grundlage für ein Familienstammbaum-Diagramm von Gesundheitsproblemen/Diagnosen oder zur Risikoabschätzung einer Erkrankung basierend auf der Prävalenz in der Familienanamnese oder bei bekannten Biomarkern verwendet werden.
 
 Es kann notwendig sein, jedes Familienmitglied spezifisch zu bezeichnen und nicht nur durch das Verhältnis zum Patienten. Zum Beispiel, während es nur eine Großmutter mütterlicherseits geben wird, kann es mütterlicherseits viele Cousinen geben. Dies kann erforderlich sein, um sicherzustellen, dass eine Stammbaumübersicht korrekt ist. Es wird auch genaue Änderungen an der Aufzeichnung für jedes einzelne ausgewählte Familienmitglied ermöglichen. In einem vertraulichen, nicht zur Weiterleitung bestimmten Datensatz, ist die Erfassung der Verwandten mit realen Namen aus Gründen der Übersichtlichkeit vorzuziehen. Wenn der Datensatz oder ein Teil des Datensatzes geteilt werden soll, kann die Identifikation des Familienmitglieds durch ein eindeutiges Zeichen oder einen Alias sinnvoller sein.">
+			keywords = <"Familie", "Anamnese", "Gesundheit", "Zustand", "Problem", "Diagnose", "genetisch", "Stammbaum", "Genealogie", "Familienanamnese", "Verwandter", "erblich", "vererbt", "familiär", "Vererbung">
 			misuse = <"Nicht zur Repräsentation von Informationen über das relative oder absolute Risiko einer Erkrankung aufgrund der Familienanamnese zu entwickeln. Verwenden Sie für diesen Zweck spezifische Archetypen EVALUATION.health_risk, einschließlich CLUSTER.Familäre Prävalenz für die Details über den betroffenen Anteil der Familienmitglieder.
 
 Nicht zur Repräsentation der Rückverfolgbarkeit von Kontakten bei Infektionskrankheiten, die ein sofortiges Handeln erfordern. Verwenden Sie für diesen Zweck spezifische Archetypen.
@@ -102,7 +106,6 @@ Nicht zur Repräsentation eines Ausschlusses der Familienanamnese. Verwenden Sie
 			purpose = <"Att registrera information om förekomst av hälsorelaterade problem hos genetiska och icke-genetiska släktskap, både de i livet och de avlidna.
 
 Omfattningen av denna arketyp är medvetet öppen för att inkludera så många familjerelaterade problem som möjligt. Dessa innefattar dock specifikt kända hälsoproblem och diagnoser, identifiering av biologiska markörer, samt relevanta psykosociala och miljöfaktorer.">
-			keywords = <"familj","historia","hälsa","tillstånd","hälsoproblem","diagnos","genetisk","stamtavla","genealogi","familjeanamnes","relativt","ärftlig","ärvt","familjär","ärftlighet">
 			use = <"Används för att sammanfatta information om problem eller diagnoser hos familjemedlemmar. Denna information kan sedan användas för att identifiera ett aktuellt hälsoproblem, bedöma framtida risker eller tillstånd samt för att initiera förebyggande hälsoaktiviteter.
 
 Familjeanamnes har enligt tradition endast fokuserat på genetiska faktorer eller biomarkörer som indikatorer för risk eller potentiell risk. Omfattningen av denna arketyp inkluderar däremot registrering av hälsoproblem eller diagnoser som både har ett ärftligt ursprung såväl som de som påverkats av den inhemska miljön, inklusive psykosociala eller miljömässiga faktorer. Exempelvis exponering för toxiner i hemmet, våld i nära relation, sexuella övergrepp, alkoholism och andra missbruk.
@@ -120,6 +123,7 @@ Ytterligare detaljer om en familjemedlems specifika hälsoproblem, diagnos eller
 Denna arketyp kan även användas som grund för en familjeanamnes över hälsoproblem/diagnoser, eller för att bidra till estimerade risktillstånd baserat på förekomst i familjeanamnesen eller kända biomarkörer.
 
 Ibland kan det vara nödvändigt att identifiera varje familjemedlem separat, och inte bara genom förhållandet till patienten, i syfte att säkerställa ett korrekt släktträd. Till exempel: även om det bara finns en mormor på moderns sida, kan det finnas flera kvinnliga kusiner på samma sida. Detta möjliggör även korrekta ändringar av journalen för varje identifierad familjemedlem. Om dokumentationen är sekretessbelagd, kan det vara användbart att registrera släktingens faktiska namn. Om dokumentationen, eller del av dokumentationen, ska delas vidare kan det vara lämpligare att identifiera familjemedlemmarna med ett alias.">
+			keywords = <"familj", "historia", "hälsa", "tillstånd", "hälsoproblem", "diagnos", "genetisk", "stamtavla", "genealogi", "familjeanamnes", "relativt", "ärftlig", "ärvt", "familjär", "ärftlighet">
 			misuse = <"Ska inte användas för utvärdering av relativ eller absolut risk för att utveckla ett tillstånd baserat på familjeanamnes. Använd i stället EVALUATION.health_risk-arketypen, inklusive CLUSTER.family_prevalence för information om det berörda förhållandet mellan familjemedlemmarna.
 
 Ska inte användas för kontaktspårning av infektionssjukdomar som kräver omedelbar åtgärd. Använd specifika arketyper för detta ändamål.
@@ -131,7 +135,6 @@ Ska inte användas för att uteslutande registrera familjeanamnes. Använd i st�
 			purpose = <"For registrering av informasjon om forekomst av helserelaterte forhold hos både levende og døde, genetiske og ikke-genetiske familiemedlemmer.
 
 Arketypens avgrensninger er med vilje gjort utydelige, for å omfatte et bredest mulig spekter av problemer som kan opptre innenfor familier. Arketypen omfatter kjente problemer eller diagnoser, identifiserte biologiske markører, samt alle relevante psykososiale faktorer og miljøfaktorer.">
-			keywords = <"familie","anamnese","helse","tilstand","problem","diagnose","genetisk","slektstre","genealogi","familieanamnese","slektning","arvelighet","biologisk","familietre","hereditet","ikke-genetisk","ikke-biologisk","familiær","genetikk","arvelig","hereditær","far","mor","foreldre">
 			use = <"Brukes for å registrere et sammendrag av helserelaterte forhold, problemer eller diagnoser hos familiemedlemmer. Informasjonen kan bidra til identifisering av et eksisterende helseproblem, et grunnlag for å vurdere individets fremtidige risiko for familiære sykdommer eller for å iverksette forebyggende helsearbeid.
 
 Tradisjonelt har familieanamnese fokusert på genetiske faktorer eller biomarkører som indikatorer for risiko eller potensiell risiko. Denne arketypen omfatter registrering av informasjon både om arvelige problemer eller diagnoser, og de som ikke er arvelige. Dette kan gjelde påvirkninger i familiesituasjonen, psykososiale eller miljøfaktorer. Eksempler kan være eksponering for toksiner i hjemmet, vold i nære relasjoner, seksuelle overgrep, alkoholisme eller andre avhengigheter.
@@ -149,6 +152,7 @@ Ytterligere detaljer om et familiemedlems spesifikke problemer, diagnoser eller 
 Arketypen kan brukes som basis for et slektstre over helseproblemer og diagnoser, eller for å understøtte risikoberegninger basert på forekomst i familieanamnesen eller kjente biomarkører.
 
 Det kan være nødvendig å identifisere hvert enkelt familiemedlem spesifikt og ikke bare relasjonen til pasienten. For eksempel: Det finnes bare én mormor, men det er mulig at det finnes flere kvinnelige søskenbarn på morssiden. En slik registrering kan være nødvendig for å sikre at et slektstre blir nøyaktig, og kan også muliggjøre nøyaktige korreksjoner eller tillegg til journalen for hvert identifiserte familiemedlem.">
+			keywords = <"familie", "anamnese", "helse", "tilstand", "problem", "diagnose", "genetisk", "slektstre", "genealogi", "familieanamnese", "slektning", "arvelighet", "biologisk", "familietre", "hereditet", "ikke-genetisk", "ikke-biologisk", "familiær", "genetikk", "arvelig", "hereditær", "far", "mor", "foreldre">
 			misuse = <"Skal ikke benyttes for å registrere informasjon om relativ eller absolutt risiko for å utvikle en tilstand ut fra en familieanamnese, bruk EVALUATION.health_risk-arketypen med CLUSTER.family_prevalence-arketypen for å registrere detaljer om andelen familiemedlemmer som er rammet.
 
 Brukes ikke for smittesporing av sykdommer som krever øyeblikkelig handling. Bruk spesifikke arketyper for dette formålet.
@@ -160,7 +164,6 @@ Brukes ikke for å registrere fravær av problemer og eller diagnoser i familiea
 			purpose = <"Para registrar informações sobre a ocorrência de problemas significativos relacionados com a saúde de membros da família (relacionados ou não relacionados) tanto vivos quanto falecidos.
 
 O âmbito de aplicação deste arquétipo é deliberadamente mantido amplo para incluir a maior gama de problemas ou questões que possam ser encontrados dentro das famílias. Ele inclui problemas e diagnósticos, marcadores biológicos identificados, além de todos os fatores psicossociais e ambientais relevantes conhecidos.">
-			keywords = <"família","história","estória","saúde","condição","problema","diagnóstico","genético","pedigree","genealogia","história familiar","parente","hereditário">
 			use = <"Use para gravar um resumo das informações sobre problemas ou diagnósticos encontrados nos membros da família. Esta informação pode ser utilizada para contribuir numa avaliação de risco de condições potencialmente herdadas ou início de atividades preventivas de saúde para o indivíduo.
 
 Tradicionalmente, o escopo da história da família tem sido focado em fatores genéticos ou biomarcadores como indicadores de risco ou risco potencial. No entanto, o escopo deste arquétipo inclui explicitamente o registro da informação sobre problemas ou diagnósticos que possam ser influenciados pela exposição familiar de membros não aparentados a fatores psicossociais ou ambientais. Exemplos que são relevantes para os membros não aparentados da família incluem a exposição a toxinas no ambiente familiar, violência doméstica, abuso sexual, alcoolismo e outros vícios.
@@ -179,48 +182,18 @@ Este arquétipo pode ser usado como a base para uma genealogia dos problemas / o
 
 Pode ser necessário identificar cada membro da família especificamente e não apenas pela relação com o paciente. Por exemplo, só há uma avó materna mas podem haver muitas primas maternas. Isso pode ser necessário para assegurar que um gráfico de linhagem seja preciso. Ele também permite alterações no registro para cada membro da família identificado. Se o registro for privado e não puder ser compartilhado, pode ser preferível gravar o nome real do parente. Se o registro, ou parte do registro, puder ser compartilhado, pode ser mais apropriado que o membro da família seja identificado por um rótulo exclusivo ou alias.
 ">
+			keywords = <"família", "história", "estória", "saúde", "condição", "problema", "diagnóstico", "genético", "pedigree", "genealogia", "história familiar", "parente", "hereditário">
 			misuse = <"Não deve ser usado para registrar informações sobre o risco relativo ou absoluto de desenvolver uma condição devido à história familiar - usar o arquétipo EVALUATION.health_risk , incluindo o CLUSTER.family_prevalence para detalhes sobre a relação dos membros da família afetada.
 
 Não deve ser usado para busca de contactantes de doenças infecciosas que requeiram ações imediatas.
 
 Não deve ser usado para registrar uma exclusão de História Familiar - utilizar o arquétipo EVALUATION.exclusion-family_history para esta finalidade.">
 		>
-		["en"] = <
-			language = <[ISO_639-1::en]>
-			purpose = <"To record information about the occurrence of significant health-related problems in genetic and non-genetic family members - both alive and deceased. 
-
-The intended scope of this archetype is deliberately kept loose to include the broadest range of problems or issues that might be found within families. It specifically includes known problems and diagnoses, identified biological markers, plus any relevant psychosocial factors and environmental factors.">
-			keywords = <"family","history","health","condition","problem","diagnosis","genetic","pedigree","genealogy","family history","relative","hereditary","inherited","familial","heredity">
-			copyright = <"© openEHR Foundation">
-			use = <"Use to record a summary of information about problems or diagnoses found in family members. This information may be used to contribute to the identification of a current health problem, assessment of future risk from familial problems or conditions, or to initiate preventive health activities.
-
-Traditionally the scope of family history has been focused on genetic factors or biomarkers as indicators of risk or potential risk. The scope of this archetype includes both recording of problems or diagnoses that have an inheritable origin as well as those that are not directly inheritable but influenced by the domestic setting, including psychosocial or environmental factors. Examples include exposure to toxins in the family environment, domestic violence, sexual abuse, alcoholism and other addictions.
-
-Non-genetic family members can include adopted or long term fostered children, those related by marriage, or other unrelated individuals who participate in the regular life and influence of the family.
-
-This archetype has been designed to include:
-- a narrative overview as free text. This will allow family history details from existing systems to be incorporated as non-structured text; and
-- a detailed area focusing on relevant health details about specific family members, including their medical history and biomarkers.
-
-This archetype can be used within many contexts. For example, recording a family history entry within a clinical consultation; populating a Family History List; or to provide a summary statement within a Discharge Summary document.
-
-Additional detail about a family member's specific problem, diagnosis or past procedures can be captured using the EVALUATION.problem_diagnosis or the ACTION.procedure archetype and specifying the 'Subject of Care' as the family member, rather than the subject of the health record. 
-
-This archetype can be used as the basis for a Family Pedigree chart of health problems/diagnoses or to support estimations of risk of a condition based on prevalence in the family history or known biomarkers.
-
-It may be necessary to identify each family member specifically and not just by the relationship to the patient. For example, while there will be only one maternal grandmother, there may be many female maternal cousins. This may be required to ensure that a pedigree chart is accurate. It will also enable accurate amendments to the record for each identified family member. If the record is private and will not be shared, for reasons of clarity it may be preferable to record the relative's actual name. If the record, or part of the record, is to be shared, it may be more appropriate for the family member to be identified by a unique label or alias.">
-			misuse = <"Not to be used to record information about the relative or absolute risk of developing a condition due to family history - use the EVALUATION.health_risk archetype, including the CLUSTER.family_prevalence for details about the affected ratio of family members.
-
-Not to be used for contact tracing for infectious diseases requiring immediate action. Use specific archetypes for this purpose.
-
-Not to be used to record an exclusion of Family History - use the EVALUATION.exclusion-family_history archetype for this purpose.">
-		>
-		["fr"] = <
-			language = <[ISO_639-1::fr]>
+		["el"] = <
+			language = <[ISO_639-1::el]>
 			purpose = <"*To record information about the occurrence of significant health-related problems in genetic and non-genetic family members - both alive and deceased. 
 
 The intended scope of this archetype is deliberately kept loose to include the broadest range of problems or issues that might be found within families. It specifically includes known problems and diagnoses, identified biological markers, plus any relevant psychosocial factors and environmental factors.(en)">
-			keywords = <"famille","histoire","santé","état","problème","diagnostic","génétique","pedigree","généalogie","histoire de famille","relatif","héréditaire","hérité","familial","hérédité">
 			use = <"*Use to record a summary of information about problems or diagnoses found in family members. This information may be used to contribute to the identification of a current health problem, assessment of future risk from familial problems or conditions, or to initiate preventive health activities.
 
 Traditionally the scope of family history has been focused on genetic factors or biomarkers as indicators of risk or potential risk. The scope of this archetype includes both recording of problems or diagnoses that have an inheritable origin as well as those that are not directly inheritable but influenced by the domestic setting, including psychosocial or environmental factors. Examples include exposure to toxins in the family environment, domestic violence, sexual abuse, alcoholism and other addictions.
@@ -238,6 +211,66 @@ Additional detail about a family member's specific problem, diagnosis or past pr
 This archetype can be used as the basis for a Family Pedigree chart of health problems/diagnoses or to support estimations of risk of a condition based on prevalence in the family history or known biomarkers.
 
 It may be necessary to identify each family member specifically and not just by the relationship to the patient. For example, while there will be only one maternal grandmother, there may be many female maternal cousins. This may be required to ensure that a pedigree chart is accurate. It will also enable accurate amendments to the record for each identified family member. If the record is private and will not be shared, for reasons of clarity it may be preferable to record the relative's actual name. If the record, or part of the record, is to be shared, it may be more appropriate for the family member to be identified by a unique label or alias.(en)">
+			keywords = <"*family(en)", "*history(en)", "*health(en)", "*condition(en)", "*problem(en)", "*diagnosis(en)", "*genetic(en)", "*pedigree(en)", "*genealogy(en)", "*family history(en)", "*relative(en)", "*hereditary(en)", "*inherited(en)", "*familial(en)", "*heredity(en)">
+			misuse = <"*Not to be used to record information about the relative or absolute risk of developing a condition due to family history - use the EVALUATION.health_risk archetype, including the CLUSTER.family_prevalence for details about the affected ratio of family members.
+
+Not to be used for contact tracing for infectious diseases requiring immediate action. Use specific archetypes for this purpose.
+
+Not to be used to record an exclusion of Family History - use the EVALUATION.exclusion-family_history archetype for this purpose.(en)">
+		>
+		["en"] = <
+			language = <[ISO_639-1::en]>
+			purpose = <"To record information about the occurrence of significant health-related problems in genetic and non-genetic family members - both alive and deceased. 
+
+The intended scope of this archetype is deliberately kept loose to include the broadest range of problems or issues that might be found within families. It specifically includes known problems and diagnoses, identified biological markers, plus any relevant psychosocial factors and environmental factors.">
+			use = <"Use to record a summary of information about problems or diagnoses found in family members. This information may be used to contribute to the identification of a current health problem, assessment of future risk from familial problems or conditions, or to initiate preventive health activities.
+
+Traditionally the scope of family history has been focused on genetic factors or biomarkers as indicators of risk or potential risk. The scope of this archetype includes both recording of problems or diagnoses that have an inheritable origin as well as those that are not directly inheritable but influenced by the domestic setting, including psychosocial or environmental factors. Examples include exposure to toxins in the family environment, domestic violence, sexual abuse, alcoholism and other addictions.
+
+Non-genetic family members can include adopted or long term fostered children, those related by marriage, or other unrelated individuals who participate in the regular life and influence of the family.
+
+This archetype has been designed to include:
+- a narrative overview as free text. This will allow family history details from existing systems to be incorporated as non-structured text; and
+- a detailed area focusing on relevant health details about specific family members, including their medical history and biomarkers.
+
+This archetype can be used within many contexts. For example, recording a family history entry within a clinical consultation; populating a Family History List; or to provide a summary statement within a Discharge Summary document.
+
+Additional detail about a family member's specific problem, diagnosis or past procedures can be captured using the EVALUATION.problem_diagnosis or the ACTION.procedure archetype and specifying the 'Subject of Care' as the family member, rather than the subject of the health record. 
+
+This archetype can be used as the basis for a Family Pedigree chart of health problems/diagnoses or to support estimations of risk of a condition based on prevalence in the family history or known biomarkers.
+
+It may be necessary to identify each family member specifically and not just by the relationship to the patient. For example, while there will be only one maternal grandmother, there may be many female maternal cousins. This may be required to ensure that a pedigree chart is accurate. It will also enable accurate amendments to the record for each identified family member. If the record is private and will not be shared, for reasons of clarity it may be preferable to record the relative's actual name. If the record, or part of the record, is to be shared, it may be more appropriate for the family member to be identified by a unique label or alias.">
+			keywords = <"family", "history", "health", "condition", "problem", "diagnosis", "genetic", "pedigree", "genealogy", "family history", "relative", "hereditary", "inherited", "familial", "heredity">
+			misuse = <"Not to be used to record information about the relative or absolute risk of developing a condition due to family history - use the EVALUATION.health_risk archetype, including the CLUSTER.family_prevalence for details about the affected ratio of family members.
+
+Not to be used for contact tracing for infectious diseases requiring immediate action. Use specific archetypes for this purpose.
+
+Not to be used to record an exclusion of Family History - use the EVALUATION.exclusion-family_history archetype for this purpose.">
+			copyright = <"© openEHR Foundation">
+		>
+		["fr"] = <
+			language = <[ISO_639-1::fr]>
+			purpose = <"*To record information about the occurrence of significant health-related problems in genetic and non-genetic family members - both alive and deceased. 
+
+The intended scope of this archetype is deliberately kept loose to include the broadest range of problems or issues that might be found within families. It specifically includes known problems and diagnoses, identified biological markers, plus any relevant psychosocial factors and environmental factors.(en)">
+			use = <"*Use to record a summary of information about problems or diagnoses found in family members. This information may be used to contribute to the identification of a current health problem, assessment of future risk from familial problems or conditions, or to initiate preventive health activities.
+
+Traditionally the scope of family history has been focused on genetic factors or biomarkers as indicators of risk or potential risk. The scope of this archetype includes both recording of problems or diagnoses that have an inheritable origin as well as those that are not directly inheritable but influenced by the domestic setting, including psychosocial or environmental factors. Examples include exposure to toxins in the family environment, domestic violence, sexual abuse, alcoholism and other addictions.
+
+Non-genetic family members can include adopted or long term fostered children, those related by marriage, or other unrelated individuals who participate in the regular life and influence of the family.
+
+This archetype has been designed to include:
+- a narrative overview as free text. This will allow family history details from existing systems to be incorporated as non-structured text; and
+- a detailed area focusing on relevant health details about specific family members, including their medical history and biomarkers.
+
+This archetype can be used within many contexts. For example, recording a family history entry within a clinical consultation; populating a Family History List; or to provide a summary statement within a Discharge Summary document.
+
+Additional detail about a family member's specific problem, diagnosis or past procedures can be captured using the EVALUATION.problem_diagnosis or the ACTION.procedure archetype and specifying the 'Subject of Care' as the family member, rather than the subject of the health record. 
+
+This archetype can be used as the basis for a Family Pedigree chart of health problems/diagnoses or to support estimations of risk of a condition based on prevalence in the family history or known biomarkers.
+
+It may be necessary to identify each family member specifically and not just by the relationship to the patient. For example, while there will be only one maternal grandmother, there may be many female maternal cousins. This may be required to ensure that a pedigree chart is accurate. It will also enable accurate amendments to the record for each identified family member. If the record is private and will not be shared, for reasons of clarity it may be preferable to record the relative's actual name. If the record, or part of the record, is to be shared, it may be more appropriate for the family member to be identified by a unique label or alias.(en)">
+			keywords = <"famille", "histoire", "santé", "état", "problème", "diagnostic", "génétique", "pedigree", "généalogie", "histoire de famille", "relatif", "héréditaire", "hérité", "familial", "hérédité">
 			misuse = <"*Not to be used to record information about the relative or absolute risk of developing a condition due to family history - use the EVALUATION.health_risk archetype, including the CLUSTER.family_prevalence for details about the affected ratio of family members.
 
 Not to be used for contact tracing for infectious diseases requiring immediate action. Use specific archetypes for this purpose.
@@ -249,7 +282,6 @@ Not to be used to record an exclusion of Family History - use the EVALUATION.exc
 			purpose = <"旨在记录有关有遗传学血缘关系和无遗传学血缘关系的家族成员（包括在世者和已故者）重要健康问题的信息。
 
 本原始型有意保持宽松的预定适用范围，以包括家族之中可能存在的范围/种类最为广泛的问题。其中具体包括已知的问题和诊断，已明确/鉴定的生物标志物，以及任何相关的心理社会因素和环境因素。">
-			keywords = <"家庭","家族","历史","史","健康","疾病","问题","健康问题","诊断","遗传","遗传性","遗传学","谱系","系谱","家谱","家族史","家族病史","相对","家族性","亲属","家属">
 			use = <"用于记录关于那些在家族成员中所发现的问题或诊断的信息摘要。这些信息可用于帮助确定现有的健康问题，评估家族性问题或疾病所造成的未来风险，或者是启动预防性的健康/医疗活动。
 
 从传统上来说，家族史的适用范围一直侧重于那些作为风险或潜在风险指标的遗传因素或生物标志物。这种原始型的适用范围既包括记录具有遗传起源的问题或诊断，也包括那些不能直接遗传但受家庭环境影响的问题或诊断，包括社会心理因素或环境因素。相应的例子包括家族环境下的毒素暴露、家庭暴力、性虐待、酗酒和其他的成瘾问题。
@@ -267,6 +299,7 @@ Not to be used to record an exclusion of Family History - use the EVALUATION.exc
 本原始型可用作健康问题/诊断家族谱系图的基础，或用于支持基于家族史或已知生物标志物方面的患病率来估算疾病风险。
 
 可能需要具体标识每个家族成员的身份，而不仅仅是利用其与患者的关系来标识。例如，虽然只有一位外祖母，但可能会同时有许多位女性姨表亲。这就可能要求确保谱系图表的准确性。这样还使得能够准确修改每位身份已明确的家族成员的记录。如果档案记录是私密的且不会进行共享，为了清楚起见，则可能最好记录亲属的实际姓名。如果要共享档案记录或其中的部分内容，则可以更适合利用唯一性的标签或别名来标识家族成员。">
+			keywords = <"家庭", "家族", "历史", "史", "健康", "疾病", "问题", "健康问题", "诊断", "遗传", "遗传性", "遗传学", "谱系", "系谱", "家谱", "家族史", "家族病史", "相对", "家族性", "亲属", "家属">
 			misuse = <"并非旨在用于记录关于因家族史而发生疾病的相对或绝对风险的信息 – 此时请采用原始型EVALUATION.health_risk（评价类原始型“健康风险”），包括采用原始型CLUSTER.family_prevalence（群簇类原始型“家族患病率”），来记录关于受影响家族成员比例的详情。
 
 并非旨在用于需要立即采取行动的传染病接触者追踪。对于此类目的，请采用专用的原始型。
@@ -274,6 +307,8 @@ Not to be used to record an exclusion of Family History - use the EVALUATION.exc
 并非旨在用于记录家族历史排除项对于此类目的，请采用原始型EVALUATION.exclusion-family_history（评价类原始型“家族历史排除项”）。">
 		>
 	>
+	lifecycle_state = <"in_development">
+	other_contributors = <"Tomas Alme, DIPS ASA, Norway", "Ole Andreas Bjordal, Webmed, Norway", "Gunn Anita Skjulhaug, Helse-Bergen HF, Norway", "Rita Apelt, Department of Health,NT, Australia", "Vebjørn Arntzen, Oslo universitetssykehus HF, Norway (Nasjonal IKT redaktør)", "Koray Atalag, University of Auckland, New Zealand", "Silje Ljosland Bakke, Helse Vest IKT AS, Norway (openEHR Editor)", "John Bennett, NEHTA, Australia", "Kristian Berg, Universitetssykehuset Nord Norge, Norway", "Lars Bitsch-Larsen, Haukeland University Hospital, Bergen, Norway", "Anita Bjørnnes, Helse Bergen, Norway", "Terje Bless, Helse Nord FIKS, Norway", "Diego Bosca, IBIME group, Spain", "Mauricio Botero, Universidad de Caldas, Colombia", "Rong Chen, Cambio Healthcare Systems, Sweden", "Bjørn Christensen, HUS, Norway", "Stephen Chu, Queensland Health, Australia", "Lisbeth Dahlhaug, Helse Midt - Norge IT, Norway", "Eva Dybvik, Nasjonal kompetansetjeneste for leddproteser og hoftebrudd, Haukeland Universitetssjukehus, Norway", "David Evans, Queensland Health, Australia", "Shahla Foozonkhah, Ocean Informatics, Australia", "Einar Fosse, UNN HF, Norwegian Centre for Integrated Care and Telemedicine, Norway", "Samuel Frade, Marand, Portugal", "Hildegard Franke, freshEHR Clinical Informatics Ltd., United Kingdom", "Tim Garden, NTG Department of Health, Australia", "Sebastian Garde, Ocean Informatics, Germany", "Jacquie Garton-Smith, Royal Perth Hospital and DoHWA, Australia", "Andrew Goodchild, NEHTA, Australia", "Gyri Gradek, Senter for medisinsk genetikk og molekylærmedisin, Haukeland Universitetssykehus, Norway", "Heather Grain, Llewelyn Grain Informatics, Australia", "Elisabeth Gudmestad, Helse Bergen HF, Haukeland Universitetssykehus, Dokumentasjonsavdelingen, Norway", "Daniel Habashi, PasientSky AS, Norway", "Dag Hanoa, Oslo universitetssykehus, Norway", "Sam Heard, Ocean Informatics, Australia (Editor)", "Kristian Heldal, Telemark Hospital Trust, Norway", "Anca Heyd, DIPS ASA, Norway", "Nils-Harald Holsen, Nasjonal IKT HF, Norway", "Evelyn Hovenga, EJSH Consulting, Australia", "Ann Iren Tellnes Moe, Helse Vest IKT, Norway", "Leif Ivar Havelin, Helse Bergen, Norway", "Lars Ivar Mehlum, Helse Bergen HF, Norway", "Hans Johan Breidablik, Helse Førde HF, Norway", "Lars Karlsen, DIPS ASA, Norway", "Goran Karlstrom, County Of Värmland, Sweden", "Mary Kelaher, NEHTA, Australia", "Shinji Kobayashi, Kyoto University, Japan", "Nils Kolstrup, Skansen Legekontor og Nasjonalt Senter for samhandling og telemedisin, Norway", "Robert L'egan, NEHTA, Australia", "Sabine Leh, Helse-Bergen, Norway", "Heather Leslie, Atomica Informatics, Australia (openEHR Editor)", "Hugh Leslie, Ocean Informatics, Australia", "Hallvard Lærum, Oslo Universitetssykehus HF, Norway", "Mike Martyn, The Hobart Anaesthetic Group, Australia", "Shane McKee, Belfast Health & Social Care Trust, United Kingdom", "Ian McNicoll, freshEHR Clinical Informatics, United Kingdom (openEHR Editor)", "Chris Mitchell, RACGP, Australia", "Lars Morgan Karlsen, DIPS ASA, Norway", "Stewart Morrison, NEHTA, Australia", "Bengt Nilssen, Sykehuset Innlandet HFq, Norway", "Bjørn Næss, DIPS ASA, Norway", "Jeremy Oats, NT Health, Australia", "Andrej Orel, Marand d.o.o., Slovenia", "Lynne Parsons, Primary and Community Health Services, Australia", "Anne Pauline Anderssen, Helse Nord RHF, Norway", "Vladimir Pizzo, Hospital Sírio Libanês, Brazil", "Jodie Pycroft, Adelaide Northern Division of General Practice Ltd, Australia", "Norwegian Review Summary, National ICT Norway, Norway", "Robyn Richards, NEHTA - Clinical Terminology, Australia", "Tanja Riise, Nasjonal IKT HF, Norway", "Jussara Rotzsch, UNB, Brazil", "Anoop Shah, University College London, United Kingdom", "Elizabeth Stanick, Hobart Anaesthetic Group, Australia", "Kirsten Steen Kyrkjebø, Helse Vest IKT AS, Norway", "Møyfrid Stokke, Helse Vest IKT, Norway", "Line Sæle, Nasjonal IKT HF, Norway", "John Taylor, NEHTA, Australia", "Micaela Thierley, Helse Bergen, Norway", "Gordon Tomes, Australian Institute of Health and Welfare, Australia", "John Tore Valand, Haukeland Universitetssjukehus, Norway (Nasjonal IKT redaktør, Nasjonal IKT oversettelsesredaktør)", "Richard Townley-O'Neill, NEHTA, Australia", "Donna Truran, ACCTI-UoW, Australia", "Jon Tysdahl, Furst medlab AS, Norway", "Ørjan Vermeer, Haukeland Universitetssjukehus, Kvinneklinikken, Norway", "Jo Wright, NT Dept of Health, Australia (Editor)", "Natalia Strauch, Medizinische Hochschule Hannover, Germany">
 	other_details = <
 		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
 		["custodian_organisation"] = <"openEHR Foundation">
@@ -286,10 +321,10 @@ HL7 Version 3 Standard: Clinical Genomics; Pedigree, Release 1. ANSI/HL7 V3 CGPE
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"620CA4DFCAB83F3DD3EA2D01B2D39DDF">
-		["build_uid"] = <"7a0f5f93-7d9b-4959-b5c6-2f4933cb7b68">
+		["MD5-CAM-1.0.1"] = <"E60D3BF80853EA29741A2A0A4C08BD8D">
+		["build_uid"] = <"83e04805-c355-4bb5-84b4-a0d26666cfa1">
 		["ip_acknowledgements"] = <"This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomedct or info@snomed.org.">
-		["revision"] = <"2.0.0">
+		["revision"] = <"2.0.5-alpha">
 	>
 
 definition
@@ -466,6 +501,7 @@ definition
 			}
 		}
 	}
+
 
 ontology
 	terminologies_available = <"SNOMED-CT", ...>
@@ -1773,8 +1809,194 @@ Note : D'autres éléments de données seront nécessaires à l'avenir pour enre
 				>
 			>
 		>
+		["el"] = <
+			items = <
+				["at0000"] = <
+					text = <"Οικογενειακό ιστορικό">
+					description = <"Συνοπτικές πληροφορίες σχετικά με τα σημαντικά προβλήματα υγείας που διαπιστώνονται στα μέλη της οικογένειας.">
+				>
+				["at0001"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Περίληψη">
+					description = <"Αφηγηματική επισκόπηση προβλημάτων, διαγνώσεων, ψυχοκοινωνικών, περιβαλλοντικών και γενετικών δεικτών που έχουν εντοπιστεί σε μέλη της οικογένειας.">
+					comment = <"Αυτό το πεδίο μπορεί να χρησιμοποιηθεί για την καταγραφή μιας περίληψης ή του συμπεράσματος όλων των ευρημάτων, για μη δομημένες πληροφορίες οικογενειακού ιστορικού που καταγράφονται σε κλινικά αρχεία ή για την εισαγωγή δεδομένων κειμένου από υπάρχοντα / παλαιότερα κλινικά συστήματα.">
+				>
+				["at0003"] = <
+					text = <"Ανά οικογενειακό μέλος">
+					description = <"Λεπτομέρειες σχετικά με ένα συγκεκριμένο μέλος της οικογένειας.">
+					comment = <"Τα στοιχεία δεδομένων σε αυτό το σύμπλεγμα θα σχετίζονται με το άτομο που προσδιορίζεται είτε με όνομα είτε με ψευδώνυμο. Επαναλάβετε τη χρήση του συμπλέγματος για άλλα μέλη της οικογένειας.">
+				>
+				["at0004"] = <
+					text = <"Ονομασία Οικογενειακού μέλους">
+					description = <"Όνομα μέλους της οικογένειας.">
+					comment = <"Για παράδειγμα: «Σούζαν Σμιθ». Ωστόσο, για λόγους προστασίας της ιδιωτικής ζωής, αυτό μπορεί να μην είναι κατάλληλο για εγγραφή, κοινή χρήση ή δημόσια προβολή και σε αυτήν την περίπτωση θα πρέπει να χρησιμοποιείται το «ψευδώνυμο».">
+				>
+				["at0005"] = <
+					text = <"Ημερομηνία γέννησης">
+					description = <"Πλήρης ή μερική ημερομηνία γέννησης του μέλους της οικογένειας.">
+				>
+				["at0008"] = <
+					text = <"Ιατρικό ιστορικό">
+					description = <"Λεπτομέρειες σχετικά με προβλήματα ή διαγνώσεις για το μέλος της οικογένειας">
+					comment = <"Εάν απαιτούνται περισσότερες λεπτομέρειες, προτείνετε τη χρήση EVALUATION. problem_diagnosis ή του αρχέτυπου ACTION. procedure και τον προσδιορισμό του «Αντικειμένου Φροντίδας» ως μέλους της οικογένειας και όχι ως αντικειμένου του φακέλου υγείας.">
+				>
+				["at0009"] = <
+					text = <"Ονομασία προβλήματος/διάγνωσης">
+					description = <"Προσδιορισμός του σημαντικού προβλήματος ή διάγνωση στο αναγνωρισμένο μέλος της οικογένειας.">
+					comment = <"Προτιμάται η κωδικοποίηση του προβλήματος ή της διάγνωσης του μέλους της οικογένειας με ορολογία, όπου είναι δυνατόν. Μπορεί να συνδεθεί από αυτό το στοιχείο δεδομένων με μια λεπτομερή καταγραφή ενός προβλήματος / διάγνωσης χρησιμοποιώντας το αρχέτυπο EVALUATION. problem_diagnosis με το αντικείμενο φροντίδας που έχει οριστεί στο μέλος της οικογένειας και όχι στον ασθενή.">
+				>
+				["at0010"] = <
+					text = <"Ηλικία κατά την έναρξη">
+					description = <"Εκτιμώμενη ή πραγματική ηλικία του μέλους της οικογένειας όταν το πρόβλημα/διάγνωση αναγνωρίστηκε κλινικά.">
+					comment = <"Για προβλήματα υγείας με πολλαπλά περιστατικά, αυτό περιγράφει το πρώτο περιστατικό.">
+				>
+				["at0011"] = <
+					text = <"Ηλικία θανάτου">
+					description = <"Ακριβής ή εκτιμώμενη ηλικία του μέλους της οικογένειας κατά το θάνατο.">
+					comment = <"Η ηλικία θανάτου μπορεί να είναι χρήσιμη εάν το πρόβλημα/διάγνωση που προκάλεσε το θάνατό τους θεωρείται παράγοντας κινδύνου για το υποκείμενο του ιατρικού φακέλου. Για παράδειγμα: ο θάνατος της μητέρας από καρκίνο του μαστού σε νεαρή ηλικία αυξάνει σημαντικά τον κίνδυνο καρκίνου του μαστού σε μια κόρη">
+				>
+				["at0012"] = <
+					text = <"Κλινική Περιγραφή">
+					description = <"Αφηγηματική περιγραφή ή σχόλια σχετικά με κλινικές πτυχές του προβλήματος/διάγνωσης του μέλους της οικογένειας">
+				>
+				["at0014"] = <
+					text = <"Αιτιολογία θανάτου">
+					description = <"Σχέση του προβλήματος/διάγνωσης με το θάνατο αυτού του μέλους της οικογένειας.">
+				>
+				["at0016"] = <
+					text = <"Οικογενειακή σχέση">
+					description = <"Η σχέση του μέλους της οικογένειας με το αντικείμενο της φροντίδας.">
+					comment = <"Για παράδειγμα: μητέρα, πατριός, γιαγιά από την πλευρά της μητέρας ή θείος από την πλευρά του πατέρα. Προτιμάται η κωδικοποίηση της σχέσης με μια ορολογία, όπου είναι δυνατόν και συμπεριλαμβανομένου του προσδιορισμού της μητέρας και του πατέρα, όπως απαιτείται.">
+				>
+				["at0020"] = <
+					text = <"Ψευδώνυμο">
+					description = <"Ένα εναλλακτικό όνομα ή ετικέτα για τη μοναδική ταυτοποίηση ενός μέλους της οικογένειας, χωρίς τη χρήση προσωπικού ονόματος που θα μπορούσε να ταυτοποιήσει δημόσια το άτομο.">
+					comment = <"Χρησιμοποιείται για να βοηθήσει στη διάκριση ενός ατόμου από πολλά μέλη της οικογένειας με πανομοιότυπες σχέσεις. Για παράδειγμα, η ετικέτα για τη διάκριση μιας συγκεκριμένης αδελφής από τρεις γνωστές αδελφές μπορεί να είναι «μεγαλύτερη αδελφή», «αδελφή με κόκκινα μαλλιά» ή «αδελφή #1">
+				>
+				["at0022"] = <
+					text = <"Περιγραφή βιολογικών δεικτών">
+					description = <"Περιγραφή των σχετικών με τον κίνδυνο βιολογικών δεικτών που εντοπίζονται σε αυτό το μέλος της οικογένειας.">
+				>
+				["at0023"] = <
+					text = <"Αποθανών">
+					description = <"Έχει πεθάνει το μέλος της οικογένειας;">
+					comment = <"Εγγραφή ως \"True\" εάν το μέλος της οικογένειας έχει πεθάνει.">
+				>
+				["at0024"] = <
+					text = <"Βιοδείκτες">
+					description = <"Λεπτομερείς πληροφορίες σχετικά με μετρήσιμους δείκτες βιολογικής κατάστασης ή κατάστασης του μέλους της οικογένειας.">
+					comment = <"Για παράδειγμα: λεπτομερείς πληροφορίες σχετικά με τις μεταλλάξεις BRCA στα μέλη της οικογένειας.
+Σημείωση: Στο μέλλον θα χρειαστούν περισσότερα στοιχεία δεδομένων για την καταγραφή λεπτομερών πληροφοριών γενετικών δεικτών.">
+				>
+				["at0025"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0026"] = <
+					text = <"Τελευταία ενημέρωση">
+					description = <"Η ημερομηνία τελευταίας ενημέρωσης αυτής της σύνοψης οικογενειακού ιστορικού.">
+				>
+				["at0027"] = <
+					text = <"Λεπτομέρειες βιολογικών δεικτών">
+					description = <"Δομημένες λεπτομέρειες σχετικά με τους βιολογικούς δείκτες.">
+				>
+				["at0028"] = <
+					text = <"Ανά Διάγνωση">
+					description = <"Λεπτομέρειες σχετικά με την παρουσία συγκεκριμένου προβλήματος ή διάγνωσης στα μέλη της οικογένειας.">
+					comment = <"Εάν το πρόβλημα έχει γενετική προδιάθεση εντός των οικογενειών, τότε μόνο γενετικοί συγγενείς θα πρέπει να θεωρούνται μέρος αυτών των δεδομένων. Εάν το πρόβλημα έχει ψυχοκοινωνικές ή περιβαλλοντικές επιπτώσεις, τότε μπορούν επίσης να συμπεριληφθούν μη γενετικά μέλη της οικογένειας.">
+				>
+				["at0029"] = <
+					text = <"Ονομασία Διάγνωσης">
+					description = <"Εντοπισμός του σημαντικού προβλήματος ή διάγνωση στην οικογένεια συνολικά.">
+					comment = <"Αυτό είναι το πρόβλημα για το οποίο θα συλλεχθούν συγκεντρωτικά δεδομένα που αφορούν όλα τα μέλη της οικογένειας. Προτιμάται η κωδικοποίηση του προβλήματος ευρετηρίου με ορολογία, όπου είναι δυνατόν.">
+				>
+				["at0030"] = <
+					text = <"Περιγραφή">
+					description = <"Αφηγηματική περιγραφή σχετικά με την εμφάνιση του προβλήματος ή τη διάγνωση στα μέλη της οικογένειας.">
+				>
+				["at0045"] = <
+					text = <"Επέκταση">
+					description = <"Πρόσθετες πληροφορίες που απαιτούνται για την καταγραφή τοπικού περιεχομένου ή για την ευθυγράμμιση με άλλα μοντέλα αναφοράς/φορμαλισμό">
+					comment = <"Για παράδειγμα: απαιτήσεις τοπικών πληροφοριών ή πρόσθετα μεταδεδομένα για ευθυγράμμιση με ισοδύναμα FHIR ή CIMI.">
+				>
+				["at0046"] = <
+					text = <"Σχόλιο">
+					description = <"Πρόσθετη αφήγηση για το μέλος της οικογένειας που δεν αποτυπώνεται σε άλλα πεδία.">
+				>
+				["at0048"] = <
+					text = <"Λετπομέρειες οικογενειακού μέλους">
+					description = <"Δομημένη λεπτομέρεια σχετικά με το αναγνωρισμένο μέλος της οικογένειας.">
+					comment = <"Μπορεί να περιλαμβάνει δομημένες λεπτομέρειες που προσδιορίζουν το μέλος της οικογένειας πιο συγκεκριμένα ή άλλες λεπτομέρειες σχετικές με το οικογενειακό ιστορικό του μέλους της οικογένειας.">
+				>
+				["at0053"] = <
+					text = <"Πολυμέσα">
+					description = <"Πολυμεσική αναπαράσταση της οικογενειακής ιστορίας.">
+					comment = <"Για παράδειγμα: ένα γενεαλογικό γράφημα.">
+				>
+				["at0058"] = <
+					text = <"Ημερομηνία θανάτου">
+					description = <"Πλήρης ή μερική ημερομηνία θανάτου του μέλους της οικογένειας.">
+					comment = <"Η ημερομηνία θανάτου μπορεί να είναι χρήσιμη σε ορισμένες περιπτώσεις στις οποίες ο μήνας θανάτου μπορεί να προκαλέσει υποστήριξη αποφάσεων ή να εντοπίσει ομάδες ασθενειών. Για παράδειγμα: περιβαλλοντικά αλλεργιογόνα που προκαλούν αναπνευστικές επιδεινώσεις. ή εκδηλώσεις όπως τα Χριστούγεννα.">
+				>
+				["at0059"] = <
+					text = <"Λεπτομέρειες διάγνωσης">
+					description = <"Δομημένες λεπτομέρειες σχετικά με το πρόβλημα ή τη διάγνωση που εντοπίστηκε.">
+					comment = <"Για παράδειγμα: επιπολασμός του προβλήματος/διάγνωσης στην οικογένεια.">
+				>
+				["at0060"] = <
+					text = <"Βιολογικό φύλο">
+					description = <"Το βιολογικό φύλο του μέλους της οικογένειας.">
+					comment = <"Προτιμάται η κωδικοποίηση του φύλου με ορολογία, όπου είναι δυνατόν.">
+				>
+				["at0061"] = <
+					text = <"Άμεση αιτία ή στενά συνδεδεμένη">
+					description = <"Το πρόβλημα ή η διάγνωση ήταν άμεση αιτία ή στενά συνδεδεμένη με την άμεση αιτία θανάτου.">
+				>
+				["at0062"] = <
+					text = <"Δεν σχετίζεται">
+					description = <"Το πρόβλημα ή η διάγνωση δεν σχετιζόταν με την αιτία θανάτου.">
+				>
+				["at0063"] = <
+					text = <"Απροσδιόριστο">
+					description = <"Είναι αδύνατο να προσδιοριστεί εάν το πρόβλημα ή η διάγνωση ήταν στενά συνδεδεμένη με την άμεση αιτία θανάτου.">
+				>
+				["at0064"] = <
+					text = <"Βαθμός συγγένειας">
+					description = <"Ο βαθμός σχέσης μεταξύ του θέματος της φροντίδας και του μέλους της οικογένειας.">
+					comment = <"Εάν το στοιχείο δεδομένων «Σχέση» χρησιμοποιεί προσυντονισμένους όρους που περιλαμβάνουν τον βαθμό σχέσης, τότε αυτό το στοιχείο δεδομένων είναι περιττό.">
+				>
+				["at0065"] = <
+					text = <"Συγγενής πρώτου βαθμού">
+					description = <"50% γενετικό μερίδιο με το υποκείμενο - για παράδειγμα, γονέας, αδελφός ή παιδί.">
+				>
+				["at0066"] = <
+					text = <"Συγγενής δευτέρου βαθμού">
+					description = <"25% γενετικό μερίδιο με το θέμα - για παράδειγμα, παππούς, θεία, θείος, ανιψιά, ανιψιός, εγγόνια και ετεροθαλή αδέλφια.">
+				>
+				["at0067"] = <
+					text = <"Συγγενής τρίτου βαθμού">
+					description = <"12,5% γενετικό μερίδιο με το θέμα - για παράδειγμα, προπάππους, μεγάλη θεία, μεγάλος θείος, πρώτος ξάδερφος, παιδιά ανιψιών και ανιψιών και δισέγγονα.">
+				>
+				["at0068"] = <
+					text = <"Γενεαλογική σειρά">
+					description = <"Προσδιορισμός της μητρικής ή πατρικής οικογενειακής γραμμής στη σχέση.">
+					comment = <"Εάν το στοιχείο δεδομένων \"Σχέση\" χρησιμοποιεί προσυντονισμένους όρους που περιλαμβάνουν τη γραμμή οικογένειας, τότε αυτό το στοιχείο δεδομένων είναι περιττό.">
+				>
+				["at0069"] = <
+					text = <"Μητρική γενεαλογική σειρά">
+					description = <"Σχετίζεται μέσω της μητέρας του υποκειμένου.">
+				>
+				["at0070"] = <
+					text = <"Πατρική γενεαλογική σειρά">
+					description = <"Σχετίζεται μέσω του πατέρα του υποκειμένου.">
+				>
+			>
+		>
 	>
-	term_binding = <
+	term_bindings = <
 		["SNOMED-CT"] = <
 			items = <
 				["at0000"] = <[SNOMED-CT(20160131)::57177007]>
