@@ -1,31 +1,48 @@
+== Fysisk undersøkelse
+Kodeverk: SNOMED-CT
 
-[
-  ["22253000", "smerter", "SNOMED-CT"],
-  ["308921004", "nevrologisk symptom", "SNOMED-CT"],
-  ["89362005", "vekttap", "SNOMED-CT"]
-]
-``
+[cols="1,3", options="header"]
+|===
+| Kode | Beskrivelse
+| 5880005 | Fysisk undersøkelse
+| 392406005 | Pupille
+| 74262004 | Cavum oris (munnhule)
+| 39607008 | Pulm (lunge)
+| 80891009 | Cor (hjerte)
+| 51185008 | Thorax
+| 45048000 | Collum (hals)
+| 421060004 | Columna vertebralis (ryggsøyle)
+| 818983003 | Abdomen (buk)
+| 34402009 | Rectum
+| 77142006 | Genitalia externa
+| 127882003 | Kvinnelig genitalia
+| 66019005 | Ekstremitet
+| 225398001 | Nevrologisk vurdering
+| - | Status localis (fritekst)
+|===
 
+== Høyeste fullførte utdanning
+Terminologi: Utdanning
 
-[
-  ["0", "Ingen utdanning", "terminologi:utdanning"],
-  ["1", "Grunnskole", "terminologi:utdanning"],
-  ["2", "Videregående", "terminologi:utdanning"],
-  ["3", "Universitet/Høyskole <4 år", "terminologi:utdanning"],
-  ["4", "Universitet/Høyskole ≥4 år", "terminologi:utdanning"],
-  ["9", "Ukjent", "terminologi:utdanning"]
-]
-``
+[cols="1,3", options="header"]
+|===
+| Kode | Beskrivelse
+| 0 | Ingen utdanning
+| 1 | Grunnskole
+| 2 | Videregående
+| 3 | Universitet/Høyskole <4 år
+| 4 | Universitet/Høyskole ≥4 år
+| 9 | Ukjent
+|===
 
+== Symptomer / sykdomstegn
+Kodeverk: SNOMED-CT
 
-
-  ["5880005", "Fysisk undersøkelse", "SNOMED-CT"],
-  ["392406005", "Pupille", "SNOMED-CT"],
-  ["74262004", "cavum oris (munnhule)", "SNOMED-CT"],
-  ["39607008", "Pulm (lunge)", "SNOMED-CT"],
-  ["80891009", "Cor (hjerte)", "SNOMED-CT"],
-  ["51185008", "Thorax", "SNOMED-CT"],
-  ["45048000", "Collum (hals)", "SNOMED-CT"],
-  ["421060004", "Columna vertebralis (ryggsøyle)", "SNOMED-CT"],
-  ["818983003", "Abdomen (buk)", "SNOMED-CT"],
-  ["34402009", "Rectum", 
+[cols="1,3", options="header"]
+|===
+| Kode | Beskrivelse
+| 22253000 | Smerter
+| 308921004 | Nevrologisk symptom
+| 89362005 | Vekttap
+|===
+"""
