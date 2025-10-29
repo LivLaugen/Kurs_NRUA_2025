@@ -1,0 +1,31 @@
+
+[
+  ["22253000", "smerter", "SNOMED-CT"],
+  ["308921004", "nevrologisk symptom", "SNOMED-CT"],
+  ["89362005", "vekttap", "SNOMED-CT"]
+]
+``
+
+
+[
+  ["0", "Ingen utdanning", "terminologi:utdanning"],
+  ["1", "Grunnskole", "terminologi:utdanning"],
+  ["2", "Videregående", "terminologi:utdanning"],
+  ["3", "Universitet/Høyskole <4 år", "terminologi:utdanning"],
+  ["4", "Universitet/Høyskole ≥4 år", "terminologi:utdanning"],
+  ["9", "Ukjent", "terminologi:utdanning"]
+]
+``
+
+
+
+  ["5880005", "Fysisk undersøkelse", "SNOMED-CT"],
+  ["392406005", "Pupille", "SNOMED-CT"],
+  ["74262004", "cavum oris (munnhule)", "SNOMED-CT"],
+  ["39607008", "Pulm (lunge)", "SNOMED-CT"],
+  ["80891009", "Cor (hjerte)", "SNOMED-CT"],
+  ["51185008", "Thorax", "SNOMED-CT"],
+  ["45048000", "Collum (hals)", "SNOMED-CT"],
+  ["421060004", "Columna vertebralis (ryggsøyle)", "SNOMED-CT"],
+  ["818983003", "Abdomen (buk)", "SNOMED-CT"],
+  ["34402009", "Rectum", 
