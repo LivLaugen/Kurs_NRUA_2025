@@ -1,9 +1,8 @@
-archetype (adl_version=1.4; uid=f82e2500-bc76-4712-9873-8e20597c0b46)
+﻿archetype (adl_version=1.4; uid=f0ffebf8-c555-4927-a9f2-fd219d9335d8)
 	openEHR-EHR-CLUSTER.anatomical_location_relative.v2
 
 concept
-	[at0000]
-
+	[at0000]	-- Relative anatomical location
 language
 	original_language = <[ISO_639-1::en]>
 	translations = <
@@ -54,21 +53,17 @@ language
 			>
 		>
 	>
-
 description
 	original_author = <
-		["date"] = <"2008-11-10">
 		["name"] = <"Heather Leslie">
 		["organisation"] = <"Atomica Informatics">
 		["email"] = <"heather.leslie@atomicainformatics.com">
+		["date"] = <"2008-11-10">
 	>
-	lifecycle_state = <"published">
-	other_contributors = <"Hildegunn Siv Aase, Helse Bergen, Norway","Tomas Alme, DIPS, Norway","Anne Pauline Anderssen, Helse Nord RHF, Norway","Vebjoern Arntzen, Oslo university hospital, Norway","Vebjørn Arntzen, Oslo universitetssykehus HF, Norway (Nasjonal IKT redaktør)","Koray Atalag, University of Auckland, New Zealand","Gustavo Bacelar-Silva, Healthcare Designs, Brazil (openEHR Editor)","Silje Ljosland Bakke, Helse Vest IKT AS, Norway (Nasjonal IKT redaktør)","Lars Bitsch-Larsen, Haukeland University Hospital, Bergen, Norway","Hanne Marte Bårholm, Helse Vest IKT, Norway (Nasjonal IKT redaktør)","Bjørn Christensen, Helse Bergen HF, Norway","Aitor Eguzkitza, UPNA (Public University of Navarre) - CHN (Complejo Hospitalario de Navarra), Spain","Shahla Foozonkhah, Ocean Informatics, Australia","Einar Fosse, National Centre for Integrated Care and Telemedicine, Norway","Sebastian Garde, Ocean Informatics, Germany","Heather Grain, Llewelyn Grain Informatics, Australia","Mikkel Johan Gaup Grønmo, Helse Nord IKT, Norway (Nasjonal IKT redaktør)","Kristian Heldal, Telemark Hospital Trust, Norway","Anca Heyd, DIPS ASA, Norway","Dunmail Hodkinson, Black Pear Software Ltd, UK","Hilde Hollås, Norway","Hanne Joensen, Helse Bergen HUS, Norway","Karl Trygve Kalleberg, Oslo Universitetssykehus, Norway","Lars Karlsen, DIPS ASA, Norway","Lars Morgan Karlsen, Nordlandssykehuset Bodø, Norway","Shinji Kobayashi, Kyoto University, Japan","Nils Kolstrup, Skansen Legekontor og Nasjonalt Senter for samhandling og telemedisin, Norway","Kanika Kuwelker, Helse Vest IKT, Norway (Nasjonal IKT redaktør)","Siri Laronningen, Kreftregisteret, Norway","Liv Laugen, Oslo universitetssykehus, Norway (Nasjonal IKT redaktør)","Sabine Leh, Haukeland University Hospital, Department of Pathology, Norway","Heather Leslie, Atomica Informatics, Australia (openEHR Editor)","Vesna Levasic, Orthopaedic Hospital Valdoltra, Slovenia","Hallvard Lærum, Direktoratet for e-helse, Norway","Luis Marco Ruiz, Norwegian Center for Integrated Care and Telemedicine, Norway","Ian McNicoll, freshEHR Clinical Informatics, United Kingdom (openEHR Editor)","Bjoern Naess, DIPS ASA, Norway","Maria Beate Nupen-Stieng, Oslo Universitetssykehus, Norway","Andrej Orel, Marand d.o.o., Slovenia","Tanja Riise, Nasjonal IKT HF, Norway","Terje Sagmyr, Helse Vest IKT, Norway (Nasjonal IKT redaktør)","Thomas Schopf, University Hospital of North-Norway, Norway","Rowan Thomas, St. Vincent's Hospital Melbourne, Australia","Richard Townley-O'Neill, NEHTA, Australia","John Tore Valand, Helse Vest IKT, Norway (Nasjonal IKT redaktør)","Marit Alice Venheim, Helse Vest IKT, Norway (Nasjonal IKT redaktør)","Dmitri Wall, Irish Skin Foundation, Ireland">
 	details = <
 		["de"] = <
 			language = <[ISO_639-1::de]>
 			purpose = <"Zur Identifizierung und Aufzeichnung strukturierter Details über eine einzelne physische Stelle am oder im menschlichen Körper in Bezug auf ihre Beziehung zu anderen makroskopischen anatomischen Orientierungspunkten.">
-			keywords = <"Standort","Standort","anatomisch","relativ","ungefähre","anatomische Region","topographische Anatomie","makroskopische Anatomie","makroskopisch","anatomisch","Anatomie">
 			use = <"Zur Aufzeichnung strukturierter und konsistenter Details über eine einzelne identifizierte physische Stelle am oder im menschlichen Körper durch Beschreibung ihrer Lage im Verhältnis zu identifizierten makroskopischen anatomischen Orientierungspunkten. Es kann notwendig sein, die einzelne physische Stelle mit mehr als einer relativen Position zu beschreiben - z. B. 2 cm inferior zu 'Orientierungspunkt A' UND 3 cm medial zu 'Orientierungspunkt B'. 
 
 In der Regel enthalten einige Archetypen ein einziges Datenelement für eine einfache Beschreibung der Körperstelle - zum Beispiel OBSERVATION.blood_pressure und CLUSTER.symptom bei der Beschreibung von Ohrenschmerzen. In dieser Situation, in der der Wertesatz vorhersehbar und einfach zu definieren ist, ist dieses einzelne Datenelement eine sehr genaue und pragmatische Art, den Ort im Körper zu erfassen und zu einem späteren Zeitpunkt abzufragen. In Situationen, in denen der anatomische Ort nicht genau definiert ist oder zur Laufzeit bestimmt werden muss, kann es jedoch flexibler sein, diesen strukturierten Archetyp zu verwenden.
@@ -81,6 +76,7 @@ Klinische Anwendungsfälle:
 - 5 cm innerhalb der Analöffnung.
 
 In den Fällen, in denen der CLUSTER.anatomical_location nur zur Benennung eines großen und/oder unspezifischen Körperteils verwendet werden kann, unterstützt die Verwendung dieses Archetyps im SLOT \"Alternative Struktur\" die Erfassung einer genaueren Position - beispielsweise 2 cm anterior der Fossa cubitalis des linken Unterarms oder 4 cm unterhalb des Rippenbogens an der Brustwand in der mittleren Schlüsselbeinlinie.">
+			keywords = <"Standort", "Standort", "anatomisch", "relativ", "ungefähre", "anatomische Region", "topographische Anatomie", "makroskopische Anatomie", "makroskopisch", "anatomisch", "Anatomie">
 			misuse = <"Nicht für die Angabe von \"unilateral\" und \"bilateral\" zu verwenden, da diese Begriffe eher für Schlussfolgerungen als für anatomische Orte stehen.
 
 Nicht zur Angabe der einfachen Lage einer benannten physischen Stelle im Körper zu verwenden.
@@ -92,7 +88,6 @@ Dieser Archetype darf nicht verwendet werden, um die Lage anatomischer Merkmale 
 		["sv"] = <
 			language = <[ISO_639-1::sv]>
 			purpose = <"För registrering av strukturerade detaljer om en enda fysisk plats på eller i människokroppen i förhållande till andra makroskopiska anatomiska landmärken.">
-			keywords = <"plats","lokalisering","anatomisk","relativ","ungefärlig","anatomisk region","topografisk plats","topografisk anatomi","makroskopisk anatomi","makroskopisk","anatomi","placering">
 			use = <"Används för att registrera strukturerade och enhetliga detaljer om en enda identifierad fysisk plats på eller i människokroppen genom att beskriva platsen i förhållande till identifierade makroskopiska anatomiska landmärken. Det kan vara nödvändigt att beskriva en enkel fysisk plats med mer än en relativ plats - till exempel 2 cm lägre än \"landmärke A\" OCH 3 cm medialt till \"landmärke B\".
 
 Vissa arketyper innehåller ett enkelt dataelement för en enkel beskrivning av en plats på kroppen - till exempel OBSERVATION.blood_pressure och CLUSTER.symptom_sign. I de fall där värden är förutsägbara och enkla att definiera är dessa dataelement ett mycket exakt och praktiskt sätt att registrera och hämta en anatomisk plats. I fall där den anatomiska platsen inte är väldefinierad eller behöver definieras i en applikation kan det vara mer flexibelt att använda denna strukturerade arketyp.
@@ -106,6 +101,7 @@ Fall för klinisk användning:
 
 I en situation där CLUSTER.anatomical_location endast kan användas för att namnge en större eller ospecifik kroppsdel kan användningen av denna arketyp i SLOT för \"Alternativ struktur\" stödja registreringen av en mer exakt plats - t.ex. 2 cm främre än fossa cubitalis på vänster arm eller 4 cm under revbensbågen i medioklavikularlinjen på bröstväggen.
 ">
+			keywords = <"plats", "lokalisering", "anatomisk", "relativ", "ungefärlig", "anatomisk region", "topografisk plats", "topografisk anatomi", "makroskopisk anatomi", "makroskopisk", "anatomi", "placering">
 			misuse = <"Används inte för att registrera \"ensidig\" eller \"bilateral\", eftersom dessa termer kvalificerar sig för slutsatser snarare än anatomiska platser.
 
 Används inte för att ange en enda fysisk plats på kroppen som vänster lårben eller den mediala delen av näsan. Använd arketypen CLUSTER.anatomical_location för detta.
@@ -115,8 +111,6 @@ Används inte för att specificera mikroskopiska anatomiska platser.">
 		["nb"] = <
 			language = <[ISO_639-1::nb]>
 			purpose = <"For registrering av strukturerte detaljer om et enkelt fysisk sted på eller i menneskekroppen i forhold til andre makroskopiske anatomiske landemerker.">
-			keywords = <"sted","lokalisering","anatomisk","relativ","omtrentlig","anatomisk region","topografisk sted","topografisk anatomi","makroskopisk anatomi","makroskopisk","anatomi","plassering">
-			copyright = <"© openEHR Foundation">
 			use = <"Brukes for å registrere strukturerte og ensartede detaljer om et enkelt identifisert fysisk sted på eller i menneskekroppen ved å beskrive lokaliseringen i relasjon til identifiserte makroskopiske anatomiske landemerker. Det kan være nødvendig å beskrive en enkel fysisk lokalisering med mer enn en relativ lokalisering - for eksempel 2 cm inferiort for \"landemerke A\" OG 3 cm medialt for \"landemerke B\".
 
 Noen arketyper inneholder et enkelt dataelement for enkel beskrivelse av et sted på kroppen - for eksempel OBSERVATION.blood_pressure (Blodtrykk), og CLUSTER.symptom_sign (Symptom/sykdomstegn). I tilfeller hvor verdisettet er forutsigbart og enkelt å definere, er disse dataelementene en meget nøyaktig og praktisk måte for å registrere og gjenfinne et anatomisk sted. I tilfeller når den anatomiske lokaliseringen ikke er veldefinert eller må defineres i en applikasjon, kan det være mer fleksibelt å bruke denne strukturerte arketypen.
@@ -129,16 +123,17 @@ Kliniske brukstilfeller:
 -5 cm innenfor analåpningen.
 
 I en situasjon hvor CLUSTER.anatomical_location (Anatomisk lokalisering) bare kan brukes for å navngi en større eller uspesifikk kroppsdel, kan bruken av denne arketypen i \"Alternativ struktur\"-SLOTet understøtte registreringen av en mer presis lokasjon - f.eks. 2 cm anteriort for fossa cubiti på venstre arm eller 4 cm under høyre costal kant i midtclaviculær linjen på brystveggen på høyre side.">
+			keywords = <"sted", "lokalisering", "anatomisk", "relativ", "omtrentlig", "anatomisk region", "topografisk sted", "topografisk anatomi", "makroskopisk anatomi", "makroskopisk", "anatomi", "plassering">
 			misuse = <"Brukes ikke for å registrere \"unilateral\" eller \"bilateral\", da disse uttrykkene er kvalifikatorer for konklusjoner heller enn anatomiske lokaliseringer.
 
 Brukes ikke for spesifisering av et enkelt navngitt fysisk sted på kroppen som venstre femur eller den mediale del av nesen. Bruk arketypen CLUSTER.anatomical_location (Anatomisk lokalisering) for dette.
 
 Brukes ikke for å spesifisere mikroskopiske anatomiske lokaliseringer.">
+			copyright = <"© openEHR Foundation">
 		>
 		["pt-br"] = <
 			language = <[ISO_639-1::pt-br]>
 			purpose = <"Identificar and registras detalhes estruturados sobre um único local físico dentro ou fora do corpo humano, a partir das suas relações com outros pontos macroscópicos de referência anatômica.">
-			keywords = <"localização","local","anatômico","relativo","aproximado","região anatômica","Anatomia topográfica","Anatomia macroscópica","macroscópico","anatômico","anatomia">
 			use = <"Utilizar para registrar os detalhes estruturados e consistentes sobre um único local físico identificado no corpo humano ou dentro dele, descrevendo sua localização em relação a marcos anatômicos macroscópicos identificados. Pode ser necessário descrever a localização física única usando mais de uma localização relativa - por exemplo, 2 cm inferior a \"marco A\" E 3 cm medial para 'marco B'.
 
 Na prática, alguns arquétipos possuem um único elemento de dados para representar uma descrição simples do local do corpo - por exemplo, OBSERVATION.blood_pressure e CLUSTER.smpto quando descreve a dor nos ouvidos. Nessa situação, onde o conjunto de valores é previsível e simples de definir, este elemento de dados único é uma maneira muito precisa e pragmática de gravar o local do corpo e consultar posteriormente. No entanto, na situação em que a localização anatômica não está bem definida ou precisa ser determinada em tempo de execução, pode ser mais flexível usar este arquétipo estruturado.
@@ -152,28 +147,29 @@ Casos de uso clínico:
 
 Na situação em que o CLUSTER.anatomical_location só pode ser usado para nomear uma parte do corpo grande e / ou não específica, o uso deste arquétipo dentro do SLOT 'Estrutura alternativa' suportará a gravação de uma localização mais precisa - por exemplo, 2 Cm anterior à fossa cubital do antebraço esquerdo ou 4 cm abaixo da margem costal R na parede torácica na linha médio clavicular.
 ">
+			keywords = <"localização", "local", "anatômico", "relativo", "aproximado", "região anatômica", "Anatomia topográfica", "Anatomia macroscópica", "macroscópico", "anatômico", "anatomia">
 			misuse = <"Não utilizar para especificar ocorrências de características anatômicas de lateralidade.
 Não utilizar para especificar um local simples de locais do corpo já nominados, tais como, femur esquerdo ou a fossa medial do nariz. Utilize neste caso o CLUSTER.anatomical_location.">
 		>
 		["ar-sy"] = <
 			language = <[ISO_639-1::ar-sy]>
 			purpose = <"تسجيل المكان التشريحي بالتفصيل">
-			keywords = <"الموقع","المكان","تشريحي">
-			copyright = <"© openEHR Foundation">
+			use = <"">
+			keywords = <"الموقع", "المكان", "تشريحي">
 			misuse = <"لا يستخدم لتحديد حالات الحدوث في جانب واحد أو في الجانبين - حيث إن ذلك متعلق بتقييم قد يتضمن العديد من الأماكن">
+			copyright = <"© openEHR Foundation">
 		>
 		["sl"] = <
 			language = <[ISO_639-1::sl]>
 			purpose = <"*To record details about anatomical location.(en)">
-			keywords = <"*location(en)","*site(en)","*anatomical(en)">
-			copyright = <"© openEHR Foundation">
+			use = <"">
+			keywords = <"*location(en)", "*site(en)", "*anatomical(en)">
 			misuse = <"*Not for specifiying unilateral/bilateral occurence - this is related to an evaluation which perhaps includes multiple locations.(en)">
+			copyright = <"© openEHR Foundation">
 		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
 			purpose = <"To identify and record structured details about a single physical site on, or within, the human body in terms of its relationship to other macroscopic anatomical landmarks.">
-			keywords = <"location","site","anatomical","relative","approximate","anatomic region","topographic anatomy","macroscopic anatomy","macroscopic","anatomic","anatomy">
-			copyright = <"© openEHR Foundation">
 			use = <"Use to record structured and consistent details about a single identified physical site on, or within, the human body by describing its location in relation to identified macroscopic anatomical landmarks. It may be necessary to describe the single physical location using more than one relative location - for example, 2 cm inferior to 'landmark A' AND 3 cm medial to 'landmark B'. 
 
 In practice, some archetypes carry a single data element for carrying a simple description of body site - for example, OBSERVATION.blood_pressure and CLUSTER.symptom when describing ear pain. In this situation, where the value set is predictable and simple to define, this single data element is a very accurate and pragmatic way to record the site in the body and to query at a later date. However in the situation where the anatomical location is not well defined or needs to be determined at run-time, it may be more flexible to use this structured archetype.
@@ -186,6 +182,7 @@ Clinical use cases:
 - 5 cm within the anal opening.
 
 In the situation where the CLUSTER.anatomical_location can only be used to name a large and/or non-specific body part, the use of this archetype within the 'Alternative Structure' SLOT will support recording of a more precise location - for example, 2 cm anterior to the cubital fossa of the left forearm or 4 cm below R costal margin on the chest wall in the mid-clavicular line.">
+			keywords = <"location", "site", "anatomical", "relative", "approximate", "anatomic region", "topographic anatomy", "macroscopic anatomy", "macroscopic", "anatomic", "anatomy">
 			misuse = <"Not to be used to record 'unilateral' and 'bilateral', as these terms are qualifiers for conclusions rather than anatomical locations.
 
 Not to be used to specify a simple location of a named physical site in the body.
@@ -193,8 +190,11 @@ Not to be used to specify a simple location of a named physical site in the body
 Not to be used to specify a simple location of a named physical site in the body, such as left femur or medial aspect of nose. Use the CLUSTER.anatomical_location archetype for this purpose.
 
 Not to be used to represent location of anatomical features at the microscopic level, for example in reporting histopathology. Use a CLUSTER archetype for histopathology nested within the OBSERVATION.laboratory_test_result archetype for this purpose.">
+			copyright = <"© openEHR Foundation">
 		>
 	>
+	lifecycle_state = <"published">
+	other_contributors = <"Hildegunn Siv Aase, Helse Bergen, Norway", "Tomas Alme, DIPS, Norway", "Anne Pauline Anderssen, Helse Nord RHF, Norway", "Vebjoern Arntzen, Oslo university hospital, Norway", "Vebjørn Arntzen, Oslo universitetssykehus HF, Norway (Nasjonal IKT redaktør)", "Koray Atalag, University of Auckland, New Zealand", "Gustavo Bacelar-Silva, Healthcare Designs, Brazil (openEHR Editor)", "Silje Ljosland Bakke, Helse Vest IKT AS, Norway (Nasjonal IKT redaktør)", "Lars Bitsch-Larsen, Haukeland University Hospital, Bergen, Norway", "Hanne Marte Bårholm, Helse Vest IKT, Norway (Nasjonal IKT redaktør)", "Bjørn Christensen, Helse Bergen HF, Norway", "Aitor Eguzkitza, UPNA (Public University of Navarre) - CHN (Complejo Hospitalario de Navarra), Spain", "Shahla Foozonkhah, Ocean Informatics, Australia", "Einar Fosse, National Centre for Integrated Care and Telemedicine, Norway", "Sebastian Garde, Ocean Informatics, Germany", "Heather Grain, Llewelyn Grain Informatics, Australia", "Mikkel Johan Gaup Grønmo, Helse Nord IKT, Norway (Nasjonal IKT redaktør)", "Kristian Heldal, Telemark Hospital Trust, Norway", "Anca Heyd, DIPS ASA, Norway", "Dunmail Hodkinson, Black Pear Software Ltd, UK", "Hilde Hollås, Norway", "Hanne Joensen, Helse Bergen HUS, Norway", "Karl Trygve Kalleberg, Oslo Universitetssykehus, Norway", "Lars Karlsen, DIPS ASA, Norway", "Lars Morgan Karlsen, Nordlandssykehuset Bodø, Norway", "Shinji Kobayashi, Kyoto University, Japan", "Nils Kolstrup, Skansen Legekontor og Nasjonalt Senter for samhandling og telemedisin, Norway", "Kanika Kuwelker, Helse Vest IKT, Norway (Nasjonal IKT redaktør)", "Siri Laronningen, Kreftregisteret, Norway", "Liv Laugen, Oslo universitetssykehus, Norway (Nasjonal IKT redaktør)", "Sabine Leh, Haukeland University Hospital, Department of Pathology, Norway", "Heather Leslie, Atomica Informatics, Australia (openEHR Editor)", "Vesna Levasic, Orthopaedic Hospital Valdoltra, Slovenia", "Hallvard Lærum, Direktoratet for e-helse, Norway", "Luis Marco Ruiz, Norwegian Center for Integrated Care and Telemedicine, Norway", "Ian McNicoll, freshEHR Clinical Informatics, United Kingdom (openEHR Editor)", "Bjoern Naess, DIPS ASA, Norway", "Maria Beate Nupen-Stieng, Oslo Universitetssykehus, Norway", "Andrej Orel, Marand d.o.o., Slovenia", "Tanja Riise, Nasjonal IKT HF, Norway", "Terje Sagmyr, Helse Vest IKT, Norway (Nasjonal IKT redaktør)", "Thomas Schopf, University Hospital of North-Norway, Norway", "Rowan Thomas, St. Vincent's Hospital Melbourne, Australia", "Richard Townley-O'Neill, NEHTA, Australia", "John Tore Valand, Helse Vest IKT, Norway (Nasjonal IKT redaktør)", "Marit Alice Venheim, Helse Vest IKT, Norway (Nasjonal IKT redaktør)", "Dmitri Wall, Irish Skin Foundation, Ireland">
 	other_details = <
 		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
 		["custodian_organisation"] = <"openEHR Foundation">
@@ -203,10 +203,10 @@ Not to be used to represent location of anatomical features at the microscopic l
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"A7DB9CEC570C0BC25F47B3254CD1E36F">
-		["build_uid"] = <"a1b63edd-8fb3-49b8-a474-7a5ad3194a37">
+		["MD5-CAM-1.0.1"] = <"95E62F4E6D9564FD0AF5151BBB3CC2A7">
+		["build_uid"] = <"3ead758e-ab77-4b0a-8979-23821aa53050">
 		["ip_acknowledgements"] = <"This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.">
-		["revision"] = <"2.1.0">
+		["revision"] = <"2.2.0">
 	>
 
 definition
@@ -294,6 +294,7 @@ definition
 			}
 		}
 	}
+
 
 ontology
 	terminologies_available = <"SNOMED-CT", ...>
