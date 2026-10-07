@@ -1,9 +1,8 @@
-archetype (adl_version=1.4; uid=0ef14cbd-fe1b-4baa-a8a0-882fe91fb9a7)
+﻿archetype (adl_version=1.4; uid=ddb13dc5-5227-48f7-93f5-1b6825ace295)
 	openEHR-EHR-CLUSTER.genomic_variant_result.v1
 
 concept
-	[at0000]
-
+	[at0000]	-- Genomic variant result
 language
 	original_language = <[ISO_639-1::en]>
 	translations = <
@@ -24,21 +23,17 @@ language
 			>
 		>
 	>
-
 description
 	original_author = <
-		["date"] = <"2019-01-15">
 		["name"] = <"Cecilia Mascia">
 		["organisation"] = <"CRS4, Italy">
 		["email"] = <"cecilia.mascia@crs4.it">
+		["date"] = <"2019-01-15">
 	>
-	lifecycle_state = <"published">
-	other_contributors = <"Vebjørn Arntzen, Oslo University Hospital, Norway (openEHR Editor)","Silje Ljosland Bakke, Helse Vest IKT AS, Norway (openEHR Editor)","SB Bhattacharyya, Sudisa Consultancy Services, India","Shahla Foozonkhah, Iran ministry of health and education, Iran","Francesca Frexia, CRS4 - Center for advanced studies, research and development in Sardinia, Italy","Gideon Giacomelli, Charité Berlin, Germany","Sjur Gjerald, Oslo University Hospital, Norway","Heather Grain, Llewelyn Grain Informatics, Australia","Evelyn Hovenga, EJSH Consulting, Australia","Christina Jaeger-Schmidt, Heidelberg University Hospital, Germany","Florian Kaercher, Charité Berlin, Germany","Heather Leslie, Atomica Informatics, Australia (openEHR Editor)","Cecilia Mascia, CRS4, Italy (openEHR Editor)","Shane McKee, Belfast Health & Social Care Trust, United Kingdom","Ian McNicoll, freshEHR Clinical Informatics, United Kingdom (openEHR Editor)","Andrej Orel, Marand d.o.o., Slovenia","Niklas Reimer, Institut für Medizinische Informatik / Universität zu Lübeck, Germany","Simon Schumacher, HiGHmed, Germany","Natalia Strauch, Medizinische Hochschule Hannover, Germany","Nyree Taylor, Ocean Informatics, Australia","Aurelie Tomczak, Uniklinikum Heidelberg, Germany (openEHR Editor)","Paolo Uva, CRS4, Italy","John Tore Valand, Helse Bergen, Norway","Gianluigi Zanetti, CRS4, Italy">
 	details = <
 		["de"] = <
 			language = <[ISO_639-1::de]>
 			purpose = <"Wird verwendet, um Ergebnisse und Annotationen zu einer im Genom durch einen Sequenzierungstest gefundenen Variante zu berichten.">
-			keywords = <"Variation","VCF","genetisch","genomisch","Variantebenennung","Sequenz","Mutation","Allel","Genotyp">
 			use = <"*Use to report findings and annotations related to one variant found in the genome by a sequencing test. 
 
 This archetype has been designed to be nested in the 'Test result' SLOT within the OBSERVATION.laboratory_test_result archetype. It is intended to provide a consistent framework for nesting any specific genomic variant CLUSTER archetype within the 'Structured variant' SLOT.
@@ -49,12 +44,12 @@ openEHR-EHR-CLUSTER.sequencing_assay.v0. In that case, it is recommended to repo
 This archetype allows the recording of genomic variants in both the HGVS syntax in an inline parsable element, and an atomic, structured form through the use of a nested CLUSTER archetype for specific variant types. If both of those representations are used simultaneously, they need to represent identical data.
 
 Note that in the case of a multiallelic variant, it is required to instantiate the archetype as many times as the number of alternative alleles whose data are to be reported for that position in the genome. (en)">
+			keywords = <"Variation", "VCF", "genetisch", "genomisch", "Variantebenennung", "Sequenz", "Mutation", "Allel", "Genotyp">
 			misuse = <"Nicht zur Darstellung von Informationen über den Vergleich mehrerer Proben verwenden. Verwenden Sie zu diesem Zweck einen spezifischen Archetyp.">
 		>
 		["nb"] = <
 			language = <[ISO_639-1::nb]>
 			purpose = <"For å registrere resultater og annoteringer relatert til en enkelt variant funnet i en genomisk sekvens.">
-			keywords = <"allel","aminosyre","basepar","baserekkefølge","DNA","DNA-sekvens","framshift","gen","genetikk","genetisk","genfeil","genom","genotype","hetrozygot","homozygoy","kopitall","kromosom","lesedybde","leseramme","mutasjon","nukleinsyrer","nukleotid","polymorfisme","proteinkjede","proteinsekvens","sekvens","variant","variasjon","VCF">
 			use = <"Brukes for å registrere resultater og annoteringer relatert til en enkelt variant funnet i en genomisk sekvens.
 
 Denne arketypen er ment å bli nøstet og brukt i elementet \"Testresultat\" SLOTet i arketypen \"OBSERVATION.laboratory_test_result (Laboratorieresultat)\".
@@ -65,13 +60,12 @@ Arketypen kan også inneholde noe nøkkelinformasjon om metodikken, det vil si r
 Denne arketypen gjør det mulig å registrere genomiske varianter i en HGVS-syntaks både som et integrert strukturert element (inline parseable) og i en egen enkeltstående strukturert form ved bruk av en nøstet CLUSTER-arketype for den spesifikke varianttypen. Hvis man bruker begge disse metodene å registrere en varianttype på, må disse representere identiske data.
 
 Merk at ved multiallelik variant benyttes en instans av arketypen for hvert alternative allel på den aktuelle genomposisjonen som det rapporteres data for på.">
+			keywords = <"allel", "aminosyre", "basepar", "baserekkefølge", "DNA", "DNA-sekvens", "framshift", "gen", "genetikk", "genetisk", "genfeil", "genom", "genotype", "hetrozygot", "homozygoy", "kopitall", "kromosom", "lesedybde", "leseramme", "mutasjon", "nukleinsyrer", "nukleotid", "polymorfisme", "proteinkjede", "proteinsekvens", "sekvens", "variant", "variasjon", "VCF">
 			misuse = <"Brukes ikke for å registrere sammenlikninger av genetiske varianter fra flere prøver, bruk spesifikke arketyper for dette.">
 		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
 			purpose = <"To report findings and annotations related to one variant found in the genome by a sequencing test.">
-			keywords = <"variation, VCF,  variant, genetic, genomic, variant calling, sequence, mutation, allele, genotype", ...>
-			copyright = <"© openEHR Foundation">
 			use = <"Use to report findings and annotations related to one variant found in the genome by a sequencing test. 
 
 This archetype has been designed to be nested in the 'Test result' SLOT within the OBSERVATION.laboratory_test_result archetype. It is intended to provide a consistent framework for nesting any specific genomic variant CLUSTER archetype within the 'Structured variant' SLOT.
@@ -81,9 +75,13 @@ The archetype may also contain some key information about the methodology, i.e.,
 This archetype allows the recording of genomic variants in both the HGVS syntax in an inline parsable element, and an atomic, structured form through the use of a nested CLUSTER archetype for specific variant types. If both of those representations are used simultaneously, they need to represent identical data.
 
 Note that in the case of a multiallelic variant, it is required to instantiate the archetype as many times as the number of alternative alleles whose data are to be reported for that position in the genome.">
+			keywords = <"variation, VCF,  variant, genetic, genomic, variant calling, sequence, mutation, allele, genotype", ...>
 			misuse = <"Not to be used for recording information about the comparison of several samples. Use a specific archetype for this purpose.">
+			copyright = <"© openEHR Foundation">
 		>
 	>
+	lifecycle_state = <"published">
+	other_contributors = <"Vebjørn Arntzen, Oslo University Hospital, Norway (openEHR Editor)", "Silje Ljosland Bakke, Helse Vest IKT AS, Norway (openEHR Editor)", "SB Bhattacharyya, Sudisa Consultancy Services, India", "Shahla Foozonkhah, Iran ministry of health and education, Iran", "Francesca Frexia, CRS4 - Center for advanced studies, research and development in Sardinia, Italy", "Gideon Giacomelli, Charité Berlin, Germany", "Sjur Gjerald, Oslo University Hospital, Norway", "Heather Grain, Llewelyn Grain Informatics, Australia", "Evelyn Hovenga, EJSH Consulting, Australia", "Christina Jaeger-Schmidt, Heidelberg University Hospital, Germany", "Florian Kaercher, Charité Berlin, Germany", "Heather Leslie, Atomica Informatics, Australia (openEHR Editor)", "Cecilia Mascia, CRS4, Italy (openEHR Editor)", "Shane McKee, Belfast Health & Social Care Trust, United Kingdom", "Ian McNicoll, freshEHR Clinical Informatics, United Kingdom (openEHR Editor)", "Andrej Orel, Marand d.o.o., Slovenia", "Niklas Reimer, Institut für Medizinische Informatik / Universität zu Lübeck, Germany", "Simon Schumacher, HiGHmed, Germany", "Natalia Strauch, Medizinische Hochschule Hannover, Germany", "Nyree Taylor, Ocean Informatics, Australia", "Aurelie Tomczak, Uniklinikum Heidelberg, Germany (openEHR Editor)", "Paolo Uva, CRS4, Italy", "John Tore Valand, Helse Bergen, Norway", "Gianluigi Zanetti, CRS4, Italy">
 	other_details = <
 		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
 		["custodian_organisation"] = <"openEHR Foundation">
@@ -97,9 +95,9 @@ Richards S, Aziz N, Bale S, Bick D, Das S, Gastier-Foster J, Grody WW, Hegde M, 
 		["original_namespace"] = <"org.openehr">
 		["custodian_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
-		["MD5-CAM-1.0.1"] = <"7FE7646FA167B032AA8ED22D2F4D9DFD">
-		["build_uid"] = <"6828da99-eafd-487f-9776-d0381a80f8e4">
-		["revision"] = <"1.1.0">
+		["MD5-CAM-1.0.1"] = <"3EE3E8241CADF78346B218FF137A2167">
+		["build_uid"] = <"9d10164a-ce95-45a6-b8ac-0d00e0f68b4b">
+		["revision"] = <"1.1.1">
 	>
 
 definition
@@ -429,6 +427,7 @@ definition
 			}
 		}
 	}
+
 
 ontology
 	terminologies_available = <"LOINC", ...>
