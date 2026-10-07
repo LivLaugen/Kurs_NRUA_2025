@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "57.0.0",
+      "sem_ver" : "58.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "512c69d417390c5909e3fb081ebb6fbf",
+      "MD5-CAM-1.0.1" : "53bac193474b8ec4ff5241d88c1e0f50",
       "PARENT:MD5-CAM-1.0.1" : "3B0765A6B395C9D01595FDF2D440E6CB",
       "original_language" : "ISO_639-1::nb"
     },
@@ -27082,31 +27082,7 @@
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
               "nodeId" : "at0002.1",
-              "attributes" : [ {
-                "@type" : "C_ATTRIBUTE",
-                "rmAttributeName" : "value",
-                "children" : [ {
-                  "@type" : "C_COMPLEX_OBJECT",
-                  "rmTypeName" : "DV_CODED_TEXT",
-                  "occurrences" : "1..1",
-                  "attributes" : [ {
-                    "@type" : "C_ATTRIBUTE",
-                    "rmAttributeName" : "defining_code",
-                    "children" : [ {
-                      "@type" : "C_TERMINOLOGY_CODE",
-                      "rmTypeName" : "TERMINOLOGY_CODE",
-                      "occurrences" : "0..1",
-                      "terminologyId" : {
-                        "value" : "ICD10"
-                      },
-                      "constraint" : [ "ac0.1" ],
-                      "selectedTerminologies" : [ "ICD10" ],
-                      "limitToList" : false
-                    } ]
-                  } ],
-                  "attributeTuples" : [ ]
-                } ]
-              } ],
+              "attributes" : [ ],
               "attributeTuples" : [ ]
             }, {
               "@type" : "C_COMPLEX_OBJECT",
@@ -31421,35 +31397,7 @@
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "ELEMENT",
                       "nodeId" : "at0005.1",
-                      "attributes" : [ {
-                        "@type" : "C_ATTRIBUTE",
-                        "rmAttributeName" : "value",
-                        "children" : [ {
-                          "@type" : "C_COMPLEX_OBJECT",
-                          "rmTypeName" : "DV_CODED_TEXT",
-                          "occurrences" : "1..1",
-                          "attributes" : [ {
-                            "@type" : "C_ATTRIBUTE",
-                            "rmAttributeName" : "defining_code",
-                            "children" : [ {
-                              "@type" : "C_TERMINOLOGY_CODE",
-                              "rmTypeName" : "TERMINOLOGY_CODE",
-                              "occurrences" : "0..1",
-                              "terminologyId" : {
-                                "value" : "SNOMED-CT"
-                              },
-                              "constraint" : [ ],
-                              "selectedTerminologies" : [ "SNOMED-CT" ],
-                              "includedExternalTerminologyCodes" : [ {
-                                "terminologyId" : "SNOMED-CT",
-                                "code" : "15220000",
-                                "value" : "laboratorieundersøkelse"
-                              } ]
-                            } ]
-                          } ],
-                          "attributeTuples" : [ ]
-                        } ]
-                      } ],
+                      "attributes" : [ ],
                       "attributeTuples" : [ ]
                     }, {
                       "@type" : "C_COMPLEX_OBJECT",
@@ -32191,35 +32139,7 @@
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "ELEMENT",
                       "nodeId" : "at0004.1",
-                      "attributes" : [ {
-                        "@type" : "C_ATTRIBUTE",
-                        "rmAttributeName" : "value",
-                        "children" : [ {
-                          "@type" : "C_COMPLEX_OBJECT",
-                          "rmTypeName" : "DV_CODED_TEXT",
-                          "occurrences" : "1..1",
-                          "attributes" : [ {
-                            "@type" : "C_ATTRIBUTE",
-                            "rmAttributeName" : "defining_code",
-                            "children" : [ {
-                              "@type" : "C_TERMINOLOGY_CODE",
-                              "rmTypeName" : "TERMINOLOGY_CODE",
-                              "occurrences" : "0..1",
-                              "terminologyId" : {
-                                "value" : "SNOMED-CT"
-                              },
-                              "constraint" : [ ],
-                              "selectedTerminologies" : [ "SNOMED-CT" ],
-                              "includedExternalTerminologyCodes" : [ {
-                                "terminologyId" : "SNOMED-CT",
-                                "code" : "363679005",
-                                "value" : "bildediagnostikk"
-                              } ]
-                            } ]
-                          } ],
-                          "attributeTuples" : [ ]
-                        } ]
-                      } ],
+                      "attributes" : [ ],
                       "attributeTuples" : [ ]
                     }, {
                       "@type" : "C_COMPLEX_OBJECT",
