@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "61.0.0",
+      "sem_ver" : "61.1.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "8b459f2c7513a228ac7f48fbda89cf63",
+      "MD5-CAM-1.0.1" : "08047e257e25570eb8d78cb0e963da93",
       "PARENT:MD5-CAM-1.0.1" : "3B0765A6B395C9D01595FDF2D440E6CB",
       "original_language" : "ISO_639-1::nb"
     },
@@ -324,7 +324,7 @@
         "at0000.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0000.1",
-          "text" : "Generell_Innkomstjurnal_Kurs_okt2026_blank",
+          "text" : "Generell_Innkomstjurnal_Kurs_okt2026_blank_med_sections",
           "description" : "Interaction, contact or care event between a subject of care and healthcare provider(s)."
         }
       },
