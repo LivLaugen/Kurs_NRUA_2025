@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "56.1.0",
+      "sem_ver" : "57.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "9916f9d0ac5894e2064e6dbb5073ee16",
+      "MD5-CAM-1.0.1" : "56ea0d00a85b313a911dfb59029f8035",
       "PARENT:MD5-CAM-1.0.1" : "3B0765A6B395C9D01595FDF2D440E6CB",
       "original_language" : "ISO_639-1::nb"
     },
@@ -340,7 +340,7 @@
         "at0000.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0000.1",
-          "text" : "Generell_Innkomstjurnal_Kurs2025",
+          "text" : "Generell_Innkomstjurnal_Kurs2026",
           "description" : "Interaksjon, kontakt eller omsorgshendelse mellom et individ og helsepersonell."
         }
       },
@@ -27778,6 +27778,13 @@
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
               "occurrences" : "0..0",
+              "nodeId" : "at0080.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
               "nodeId" : "at0072.1",
               "attributes" : [ ],
               "attributeTuples" : [ ]
@@ -32047,7 +32054,10 @@
                               "includedExternalTerminologyCodes" : [ {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "15220000",
-                                "value" : "laboratorieundersøkelse"
+                                "value" : "laboratorieundersøkelse",
+                                "translations" : {
+                                  "nb" : "laboratorieundersøkelse (procedure)"
+                                }
                               } ]
                             } ]
                           } ],
@@ -32831,7 +32841,10 @@
                               "includedExternalTerminologyCodes" : [ {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "363679005",
-                                "value" : "bildediagnostikk"
+                                "value" : "bildediagnostikk",
+                                "translations" : {
+                                  "nb" : "bildediagnostikk (procedure)"
+                                }
                               } ]
                             } ]
                           } ],
@@ -33387,7 +33400,7 @@
             "code" : "at0004.1",
             "text" : "Bildediagnostisk undersøkelse",
             "description" : "Navnet på den utførte bildediagnostiske undersøkelsen.",
-            "comment" : "For eksempel: \"CT abdomen\", \"Doppler ultralyd av nyrearterier\", \"Røntgen thorax\". Det anbefales sterkt å bruke en terminologi der det er mulig, fortrinnsvis en kode som både spesifiserer modalitet og anatomisk lokalisering. Mulige terminologier er NCRP, LOINC, SNOMED CT eller RadLex. Vanligvis tilsvarende FIHR DiagnosticReport.code."
+            "comment" : "For eksempel: \"CT abdomen\", \"Doppler ultralyd av nyrearterier\", \"Røntgen thorax\". Det anbefales sterkt å bruke en terminologi der det er mulig, fortrinnsvis en kode som både spesifiserer modalitet og anatomisk lokalisering. Mulige terminologier er NCRP, LOINC, SNOMED CT eller RadLex. Vanligvis tilsvarende FIHR DiagnosticReport.code.\n\nDesignkommentar:\n SNOMED-CT: 363679005 - Imaging (procedure)"
           },
           "at0002.1" : {
             "@type" : "ARCHETYPE_TERM",
