@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "61.1.0",
+      "sem_ver" : "62.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "08047e257e25570eb8d78cb0e963da93",
+      "MD5-CAM-1.0.1" : "ff2b90e03d4f5276cc23354023b47cf6",
       "PARENT:MD5-CAM-1.0.1" : "3B0765A6B395C9D01595FDF2D440E6CB",
       "original_language" : "ISO_639-1::nb"
     },
@@ -7757,12 +7757,6 @@
                     "children" : [ {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "ELEMENT",
-                      "nodeId" : "at0004.1",
-                      "attributes" : [ ],
-                      "attributeTuples" : [ ]
-                    }, {
-                      "@type" : "C_COMPLEX_OBJECT",
-                      "rmTypeName" : "ELEMENT",
                       "nodeId" : "at0006.1",
                       "attributes" : [ ],
                       "attributeTuples" : [ ]
@@ -7845,13 +7839,6 @@
             "code" : "at0002.1",
             "text" : "Innkomst",
             "description" : "*Unspecified point in time which may be explicitly defined in a template or at run-time.(en)"
-          },
-          "at0004.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004.1",
-            "text" : "Overordnet beskrivelse fysisk undersøkelse",
-            "description" : "*Narrative description of the overall findings observed during a physical examination of a patient.(en)",
-            "comment" : "*May be used to record a narrative summary of the complete clinical examination or key aspects of clinical examination findings, which will be supported by structured data. Details of specific structured findings can be included using CLUSTER archetypes in the 'Examination Detail' slot. This data element may be used to capture legacy data that is not available in a structured format.(en)"
           }
         },
         "sl" : {
@@ -7866,13 +7853,6 @@
             "code" : "at0002.1",
             "text" : "Innkomst",
             "description" : "Privzeta, nespecificirana točka v času ali intervalni dogodek, ki je lahko eksplicitno definiran v predlogi ali ob izvajanju."
-          },
-          "at0004.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004.1",
-            "text" : "Overordnet beskrivelse fysisk undersøkelse",
-            "description" : "Opis splošnih ugotovitev opaženih med fizičnim pregledom pacienta.",
-            "comment" : "Uporablja se lahko za zapis pripovednega povzetka celotnega kliničnega pregleda ali ključnih vidikov ugotovitev kliničnega pregleda, ki bodo podprti s strukturiranimi podatki. Podrobnosti specifičnih strukturiranih ugotovitev je mogoče vključiti z uporabo CLUSTER arhetipov v SLOT-u 'Podrobnosti pregleda'. Ta podatkovni element se lahko uporablja za zajemanje podedovanih podatkov, ki niso na voljo v strukturirani obliki."
           }
         },
         "es-ar" : {
@@ -7887,13 +7867,6 @@
             "code" : "at0002.1",
             "text" : "Innkomst",
             "description" : "*Unspecified point in time which may be explicitly defined in a template or at run-time.(en)"
-          },
-          "at0004.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004.1",
-            "text" : "Overordnet beskrivelse fysisk undersøkelse",
-            "description" : "Descripcion narrativa de los hallazgos generales observados durante un examen fisico de un paciente",
-            "comment" : "Puede ser utilizado para registrar un resumen narrativo del examen clinico completo o aspectos claves de los hallazgos del examen clinico, que sera apoyado con data estructurada. Los detalles de hallazgos especificos estructurados pueden ser incluidos utilizando arquetipos CLUSTER en el espacio \"Detalles del Examen\". Este elemento de data puede ser utilizado para capturar data legada que no esta disponble en un formato estructurado."
           }
         },
         "en" : {
@@ -7908,13 +7881,6 @@
             "code" : "at0002.1",
             "text" : "Innkomst",
             "description" : "Default, unspecified point in time or interval event which may be explicitly defined in a template or at run-time."
-          },
-          "at0004.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004.1",
-            "text" : "Overordnet beskrivelse fysisk undersøkelse",
-            "description" : "Narrative description of the overall findings observed during a physical examination of a patient.",
-            "comment" : "May be used to record a narrative summary of the complete clinical examination or key aspects of clinical examination findings, which will be supported by structured data. Details of specific structured findings can be included using CLUSTER archetypes in the 'Examination Detail' slot. This data element may be used to capture legacy data that is not available in a structured format."
           }
         },
         "nb" : {
@@ -7929,13 +7895,6 @@
             "code" : "at0002.1",
             "text" : "Innkomst",
             "description" : "Standard, uspesifisert tidspunkt eller tidsintervall som kan defineres mer eksplisitt i en template eller i en applikasjon."
-          },
-          "at0004.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004.1",
-            "text" : "Overordnet beskrivelse av fysisk undersøkelse",
-            "description" : "Fritekstbeskrivelse av funn ved en klinisk undersøkelse av et individ.",
-            "comment" : "Kan anvendes til å registrere en tekstlig sammenfatning av en komplett klinisk undersøkelse eller nøkkelfunn ved den kliniske undersøkelsen, som vil bli understøttet av strukturerte data. Dette dataelementet kan brukes for å fange opp \"legacy data\" som ikke er tilgjengelig i et strukturert format. Detaljer om spesifikt strukturert funn inkluderes ved å bruke CLUSTER-arketyper i \"Examination Detail\" SLOT."
           }
         },
         "es" : {
@@ -7950,13 +7909,6 @@
             "code" : "at0002.1",
             "text" : "Innkomst",
             "description" : "*Default, unspecified point in time or interval event which may be explicitly defined in a template or at run-time.(en)"
-          },
-          "at0004.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004.1",
-            "text" : "Overordnet beskrivelse fysisk undersøkelse",
-            "description" : "Descripción narrativa del total de los hallazgos durante la examinación física del paciente",
-            "comment" : "*May be used to record a narrative summary of the complete clinical examination or key aspects of clinical examination findings, which will be supported by structured data. Details of specific structured findings can be included using CLUSTER archetypes in the 'Examination Detail' slot. This data element may be used to capture legacy data that is not available in a structured format.(en)"
           }
         },
         "pt-br" : {
@@ -7971,13 +7923,6 @@
             "code" : "at0002.1",
             "text" : "Innkomst",
             "description" : "Padrão, ponto indeterminado no tempo ou intervalo de evento que pode ser definido explicitamente em um modelo ou em tempo de execução."
-          },
-          "at0004.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004.1",
-            "text" : "Overordnet beskrivelse fysisk undersøkelse",
-            "description" : "Descrição narrativa dos achados gerais observados durante o exame físico de um paciente.",
-            "comment" : "Pode ser usado para gravar um resumo narrativo do exame clínico completo ou aspectos-chave dos achados do exame clínico, que serão apoiados por dados estruturados. Detalhes de conclusões específicas estruturadas podem ser incluídos usando arquétipos CLUSTER no slot 'Detalhes do exame'. Este elemento de dados pode ser usado para capturar dados do legado que não estão disponíveis em um formato estruturado."
           }
         },
         "zh-cn" : {
@@ -7992,13 +7937,6 @@
             "code" : "at0002.1",
             "text" : "Innkomst",
             "description" : "默认值，未加具体说明的，而可以在特定模板中或在运行时加以明确定义的时刻（时间点）型或时段（时间段、时间区间）型事件。"
-          },
-          "at0004.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004.1",
-            "text" : "Overordnet beskrivelse fysisk undersøkelse",
-            "description" : "关于特定患者的体格检查过程中所观察到的全部发现的叙述型描述。",
-            "comment" : "可用于记录关于整个临床检查或者临床检查发现关键方面（将采用结构化数据加以支持）的叙述型摘要。在检查细节槽位“Examination Detail”之中，可以利用群簇（CLUSTER）型原始型来包括关于具体结构化发现的细节。该数据元可用于采集和记录并未采用某种结构化格式的历史遗留数据。"
           }
         },
         "de" : {
@@ -8013,13 +7951,6 @@
             "code" : "at0002.1",
             "text" : "Innkomst",
             "description" : "Ein Standardwert, ein spezifizierter Zeitpunkt oder ein Intervallereignis, welches explizit in einem Template oder während der Laufzeit definiert werden kann."
-          },
-          "at0004.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004.1",
-            "text" : "Overordnet beskrivelse fysisk undersøkelse",
-            "description" : "Beschreibung der Gesamtbefunde, die bei der körperlichen Untersuchung eines Patienten beobachtet wurden.",
-            "comment" : "Kann verwendet werden, um eine Zusammenfassung der gesamten klinischen Untersuchung oder Schlüsselaspekte der klinischen Untersuchungsergebnisse aufzuzeichnen, die durch strukturierte Daten unterstützt wird. Details spezifischer strukturierter Befunde können unter Verwendung von CLUSTER-Archetypen in den Slot 'Untersuchungsdetails' aufgenommen werden. Dieses Datenelement kann verwendet werden, um Altdaten zu erfassen, die nicht in einem strukturierten Format verfügbar sind."
           }
         },
         "sv" : {
@@ -8034,13 +7965,6 @@
             "code" : "at0002.1",
             "text" : "Innkomst",
             "description" : "Standard, ospecificerad händelse eller intervallhändelse som kan definieras uttryckligen i en mall eller vid körning."
-          },
-          "at0004.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004.1",
-            "text" : "Overordnet beskrivelse fysisk undersøkelse",
-            "description" : "Detaljerad beskrivning av de övergripande fynden som observerats under en fysisk undersökning av en patient.",
-            "comment" : "Kan användas för att dokumentera en sammanfattning av den fullständiga kliniska undersökningen eller viktiga aspekter av kliniska undersökningsfynd, som kommer att stödjas av strukturerade data. Detaljer om specifika strukturerade fynd kan inkluderas i CLUSTER i öppningen 'Undersökningsdetaljer'. Detta dataelement kan användas för att fånga data som inte är tillgängliga i ett strukturerat format."
           }
         },
         "ca" : {
@@ -8055,13 +7979,6 @@
             "code" : "at0002.1",
             "text" : "Innkomst",
             "description" : "Esdeveniment predeterminat, en un interval de temps o moment no específic, que es pot definir de forma expressa en una plantilla o en temps d'execució."
-          },
-          "at0004.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004.1",
-            "text" : "Overordnet beskrivelse fysisk undersøkelse",
-            "description" : "Descripció narrativa del total de les troballes durant l'examen físic del pacient.",
-            "comment" : "Es pot fer servir per registrar un resum de l'examen clínic complet o aspectes clau de les troballes de l'examen clínic, que estarà recolzat per dades estructurades. Es poden incloure detalls de troballes estructurades específiques utilitzant arquetips CLUSTER a l'slot 'Detalls de l'examen'. Aquest element de dades es pot utilitzar per registrar dades heretades que no estan disponibles en un format estructurat."
           }
         }
       },
