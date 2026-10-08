@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "57.0.0",
+      "sem_ver" : "58.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "56ea0d00a85b313a911dfb59029f8035",
+      "MD5-CAM-1.0.1" : "64408ce1ab6e318cfe9f1fc0ee3c10e3",
       "PARENT:MD5-CAM-1.0.1" : "3B0765A6B395C9D01595FDF2D440E6CB",
       "original_language" : "ISO_639-1::nb"
     },
@@ -20410,10 +20410,10 @@
                       "@type" : "C_ARCHETYPE_ROOT",
                       "rmTypeName" : "CLUSTER",
                       "occurrences" : "0..1",
-                      "nodeId" : "at0005.14",
+                      "nodeId" : "at0005.15",
                       "attributes" : [ ],
                       "attributeTuples" : [ ],
-                      "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-exam-050.v2",
+                      "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-exam-001.v2",
                       "referenceType" : "archetypeOverlay"
                     } ]
                   } ],
@@ -26786,457 +26786,6 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0001.1",
             "text" : "Orienterende nevrologi",
-            "description" : "Identifiering av systemet eller strukturen som undersökts.",
-            "comment" : "Om möjligt, koda systemet eller strukturen med hjälp av ett terminologisystem."
-          }
-        },
-        "el" : { },
-        "es" : {
-          "at0006.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0006",
-            "text" : "*Clinical interpretation(en)",
-            "description" : "*Single word, phrase or brief description that represents the clinical meaning and significance of the physical examination findings.(en)",
-            "comment" : "*For example: 'No abnormality detected' or 'Moderate inflammation present'. Coding of the 'Clinical interpretation' with a terminology is preferred, where possible.(en)"
-          },
-          "at0007.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0007",
-            "text" : "*Comment(en)",
-            "description" : "*Additional narrative about the physical examination findings, not captured in other fields.(en)"
-          },
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000",
-            "text" : "*Physical examination findings (en)",
-            "description" : "*Findings observed during the physical examination of a body system or anatomical structure.(en)"
-          },
-          "at0001.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0001",
-            "text" : "*System or structure examined(en)",
-            "description" : "*Identification of the examined body system or anatomical structure.(en)",
-            "comment" : "*Coding of the system or structure examined with a terminology is preferred, where possible.(en)"
-          },
-          "at0012.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012",
-            "text" : "*Body site(en)",
-            "description" : "*Identification of the area of the body under examination. (en)",
-            "comment" : "*For example examination of a specific area of skin. If the body site has been fully identified in the 'System or structure examined' data element, this data element becomes redundant. (en)"
-          }
-        },
-        "ca" : { }
-      },
-      "termBindings" : {
-        "SNOMED-CT" : {
-          "at0000.1" : "term:SNOMED-CT::5880005"
-        }
-      },
-      "terminologyExtracts" : { },
-      "valueSets" : { }
-    },
-    "adlVersion" : "1.4",
-    "buildUid" : "881425a7-a3ad-49a7-a0be-54ae3930b21b",
-    "rmName" : "openehr",
-    "rmRelease" : "1.1.0",
-    "generated" : true,
-    "otherMetaData" : { },
-    "originalLanguage" : {
-      "terminologyId" : {
-        "value" : "ISO_639-1"
-      },
-      "codeString" : "en"
-    },
-    "translations" : [ {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "de"
-      },
-      "author" : {
-        "name" : "Nina Schewe",
-        "organisation" : "Medizinische Hochschule Hannover",
-        "email" : "schewe.nina@mh-hannover.de"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "sv"
-      },
-      "author" : {
-        "name" : "Erik Sundvall",
-        "organisation" : "Region Östergötland + Linköping University",
-        "email" : "erik.sundvall@regionostergotland.se"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "nb"
-      },
-      "author" : {
-        "name" : "Silje Ljosland Bakke, Vebjørn Arntzen",
-        "organisation" : "Nasjonal IKT HF, Oslo University Hospital",
-        "email" : "varntzen@ous-hf.no"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "pt-br"
-      },
-      "author" : {
-        "name" : "Adriana Kitajima",
-        "organisation" : "Hospital Alemão Oswaldo Cruz - HAOC",
-        "email" : "adrianakitajima@gmail.com"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "el"
-      },
-      "author" : {
-        "name" : "Erasmia Partafylla",
-        "organisation" : "Sigmasoft",
-        "email" : "c.partafylla@sigmasoft.gr"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "es"
-      },
-      "author" : {
-        "name" : "Julio de Sosa",
-        "organisation" : "Servei Català de la Salut",
-        "email" : "juliodesosa@catsalut.cat"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "ca"
-      },
-      "author" : {
-        "name" : "Laura Moral López",
-        "organisation" : "Sistema de Salut de Catalunya",
-        "email" : "lauramoral@catsalut.cat"
-      },
-      "otherDetails" : {
-        "other_contributors" : "Tradcrea"
-      }
-    } ]
-  }, {
-    "@type" : "TEMPLATE_OVERLAY",
-    "uid" : "61930ae3-1e00-4336-bfcf-3f23a19863f9",
-    "description" : {
-      "@type" : "RESOURCE_DESCRIPTION",
-      "originalAuthor" : { },
-      "otherContributors" : [ ],
-      "ipAcknowledgements" : { },
-      "references" : { },
-      "conversionDetails" : { },
-      "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "419545A4ABAC8966511DFB6F7F5993EA"
-      },
-      "details" : {
-        "de" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "de"
-          },
-          "purpose" : "*To record the findings observed during the physical examination of a body system or anatomical structure. (en)",
-          "keywords" : [ ],
-          "use" : "*Use to record the observed findings during the physical examination of a body system or anatomical structure.\r\n\r\nThis archetype has been specifically designed to be used in the 'Examination detail' SLOT within the OBSERVATION.exam or the \"Procedure detail\" SLOT within the ACTION.procedure archetype, but can also be used within other ENTRY or CLUSTER archetypes, where clinically appropriate. Specialisations of this archetype can be used to record examination findings for identified body systems or anatomical structures. If there is no appropriate specialisation available, use this archetype and identify the system or structure being examined using the 'System or structure examined' data element and the location on the body using the 'Body site' data element or the 'Structured body site' SLOT.\r\n\r\nInterpretation of the findings, for example 'No abnormality detected' or 'Moderate inflammation present', can be recorded using the 'Clinical interpretation' data element.\r\n\r\nUse to provide a framework in which CLUSTER archetypes can be nested in the 'Examination findings' SLOT to record additional structured physical examination findings.\r\n\r\nThe CLUSTER.exclusion_exam archetype can be nested within the 'Examination not done' SLOT to optionally record explicit details about the examination not being performed.\r\n\r\nUse to incorporate the narrative descriptions of clinical findings within existing or legacy clinical systems into an archetyped format, using the 'Clinical Description' data element. (en)",
-          "misuse" : "*Not to be used for recording the clinical history - use specific OBSERVATION and CLUSTER archetypes. For example OBSERVATION.story and CLUSTER.symptom_sign.\r\n\r\nNot to be used for recording the results of an imaging examination - use the CLUSTER.imaging_exam family of archetypes for this purpose. (en)",
-          "copyright" : "© Nasjonal IKT HF",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        },
-        "sv" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "sv"
-          },
-          "purpose" : "*To record the findings observed during the physical examination of a body system or anatomical structure. (en)",
-          "keywords" : [ "fynd, undersökningsfynd, fysisk undersökning, u.a., utan anmärkning" ],
-          "use" : "*Use to record the observed findings during the physical examination of a body system or anatomical structure.\r\n\r\nThis archetype has been specifically designed to be used in the 'Examination detail' SLOT within the OBSERVATION.exam or the \"Procedure detail\" SLOT within the ACTION.procedure archetype, but can also be used within other ENTRY or CLUSTER archetypes, where clinically appropriate. Specialisations of this archetype can be used to record examination findings for identified body systems or anatomical structures. If there is no appropriate specialisation available, use this archetype and identify the system or structure being examined using the 'System or structure examined' data element and the location on the body using the 'Body site' data element or the 'Structured body site' SLOT.\r\n\r\nInterpretation of the findings, for example 'No abnormality detected' or 'Moderate inflammation present', can be recorded using the 'Clinical interpretation' data element.\r\n\r\nUse to provide a framework in which CLUSTER archetypes can be nested in the 'Examination findings' SLOT to record additional structured physical examination findings.\r\n\r\nThe CLUSTER.exclusion_exam archetype can be nested within the 'Examination not done' SLOT to optionally record explicit details about the examination not being performed.\r\n\r\nUse to incorporate the narrative descriptions of clinical findings within existing or legacy clinical systems into an archetyped format, using the 'Clinical Description' data element. (en)",
-          "misuse" : "*Not to be used for recording the clinical history - use specific OBSERVATION and CLUSTER archetypes. For example OBSERVATION.story and CLUSTER.symptom_sign.\r\n\r\nNot to be used for recording the results of an imaging examination - use the CLUSTER.imaging_exam family of archetypes for this purpose. (en)",
-          "copyright" : "© Nasjonal IKT HF",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        },
-        "nb" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "nb"
-          },
-          "purpose" : "For å registrere observerte funn ved fysisk undersøkelse av et organsystem eller anatomisk struktur.",
-          "keywords" : [ ],
-          "use" : "Bruk for å registrere observerte funn ved fysisk undersøkelse av et organsystem eller anatomisk struktur. \r\n\r\nDenne arketypen har vært designet spesifikt for å kunne brukes i SLOT'et \"Undersøkelsesdetaljer\" i arketypen OBSERVATION.exam (Funn ved fysisk undersøkelse) eller SLOT'et \"Prosedyredetaljer\" i arketypen ACTION.procedure (Prosedyre), men kan også bli brukt i andre ENTRY- eller CLUSTER-arketyper der det er klinisk passende. Spesialiseringer av denne arketypen for bestemte organsystem eller anatomiske strukturer kan brukes for å registrere undersøkelsesfunn for disse. Dersom det ikke finnes noen passende spesialisering, bruk denne arketypen, og registrer organstrukturen eller den anatomiske strukturen i elementet \"Undersøkt organsystem eller struktur\" og lokalisering på kroppen i SLOT'et \"Anatomisk lokalisasjon\" eller \"Strukturert anatomisk lokalisasjon\".\r\n\r\nTolkning av funn kan bli registrert i dataelementet \"Fortolkning\", for eksempel \"Uten anmerkning\" eller \"Moderat inflammasjon\".\r\n\r\nKan også brukes som et rammeverk der man kan nøste CLUSTER-arketyper i SLOT'et \"Spesifikke funn\" for å registrere ytterligere strukturerte undersøkelsesfunn.\r\n\r\nArketypen CLUSTER.exclusion_exam (Eksklusjon av en undersøkelse) kan nøstes inn i SLOT'et \"Undersøkelse ikke utført\" for å registrere begrunnelse eller detaljer om hvorfor undersøkelsen ikke ble utført.\r\n\r\nBrukes for å legge til fritekstlige beskrivelser av undersøkelsesfunn fra eksisterende eller historiske journalsystemer til arketypeformat ved å benytte dataelementet \"Klinisk beskrivelse\".",
-          "misuse" : "Skal ikke brukes til å ta opp anamnese - bruk da spesifikke OBSERVATION og CLUSTER arketyper. For eksempel OBSERVATION.story og CLUSTER.symptom_sign.\r\n\r\nSkal ikke brukes for å registrere funn ved bildeundersøkelse - bruk arketype innen gruppen av CLUSTER.imaging_exam (Bildeundersøkelse) for dette.",
-          "copyright" : "© Nasjonal IKT HF",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        },
-        "pt-br" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "pt-br"
-          },
-          "purpose" : "*To record the findings observed during the physical examination of a body system or anatomical structure. (en)",
-          "keywords" : [ ],
-          "use" : "*Use to record the observed findings during the physical examination of a body system or anatomical structure.\r\n\r\nThis archetype has been specifically designed to be used in the 'Examination detail' SLOT within the OBSERVATION.exam or the \"Procedure detail\" SLOT within the ACTION.procedure archetype, but can also be used within other ENTRY or CLUSTER archetypes, where clinically appropriate. Specialisations of this archetype can be used to record examination findings for identified body systems or anatomical structures. If there is no appropriate specialisation available, use this archetype and identify the system or structure being examined using the 'System or structure examined' data element and the location on the body using the 'Body site' data element or the 'Structured body site' SLOT.\r\n\r\nInterpretation of the findings, for example 'No abnormality detected' or 'Moderate inflammation present', can be recorded using the 'Clinical interpretation' data element.\r\n\r\nUse to provide a framework in which CLUSTER archetypes can be nested in the 'Examination findings' SLOT to record additional structured physical examination findings.\r\n\r\nThe CLUSTER.exclusion_exam archetype can be nested within the 'Examination not done' SLOT to optionally record explicit details about the examination not being performed.\r\n\r\nUse to incorporate the narrative descriptions of clinical findings within existing or legacy clinical systems into an archetyped format, using the 'Clinical Description' data element. (en)",
-          "misuse" : "*Not to be used for recording the clinical history - use specific OBSERVATION and CLUSTER archetypes. For example OBSERVATION.story and CLUSTER.symptom_sign.\r\n\r\nNot to be used for recording the results of an imaging examination - use the CLUSTER.imaging_exam family of archetypes for this purpose. (en)",
-          "copyright" : "© Nasjonal IKT HF",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        },
-        "en" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "en"
-          },
-          "purpose" : "To record the findings observed during the physical examination of a body system or anatomical structure.",
-          "keywords" : [ ],
-          "use" : "Use to record the observed findings during the physical examination of a body system or anatomical structure.\r\n\r\nThis archetype has been specifically designed to be used in the 'Examination detail' SLOT within the OBSERVATION.exam or the \"Procedure detail\" SLOT within the ACTION.procedure archetype, but can also be used within other ENTRY or CLUSTER archetypes, where clinically appropriate. Specialisations of this archetype can be used to record examination findings for identified body systems or anatomical structures. If there is no appropriate specialisation available, use this archetype and identify the system or structure being examined using the 'System or structure examined' data element and the location on the body using the 'Body site' data element or the 'Structured body site' SLOT.\r\n\r\nInterpretation of the findings, for example 'No abnormality detected' or 'Moderate inflammation present', can be recorded using the 'Clinical interpretation' data element.\r\n\r\nUse to provide a framework in which CLUSTER archetypes can be nested in the 'Examination findings' SLOT to record additional structured physical examination findings.\r\n\r\nThe CLUSTER.exclusion_exam archetype can be nested within the 'Examination not done' SLOT to optionally record explicit details about the examination not being performed.\r\n\r\nUse to incorporate the narrative descriptions of clinical findings within existing or legacy clinical systems into an archetyped format, using the 'Clinical Description' data element.",
-          "misuse" : "Not to be used for recording the clinical history - use specific OBSERVATION and CLUSTER archetypes. For example OBSERVATION.story and CLUSTER.symptom_sign.\r\n\r\nNot to be used for recording the results of an imaging examination - use the CLUSTER.imaging_exam family of archetypes for this purpose.",
-          "copyright" : "© Nasjonal IKT HF",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        },
-        "el" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "el"
-          },
-          "purpose" : "Για την καταγραφή των ευρημάτων που παρατηρούνται κατά τη φυσική εξέταση ενός συστήματος σώματος ή ανατομικής δομής.",
-          "keywords" : [ ],
-          "use" : "*Use to record the observed findings during the physical examination of a body system or anatomical structure.\r\n\r\nThis archetype has been specifically designed to be used in the 'Examination detail' SLOT within the OBSERVATION.exam or the \"Procedure detail\" SLOT within the ACTION.procedure archetype, but can also be used within other ENTRY or CLUSTER archetypes, where clinically appropriate. Specialisations of this archetype will be used to record examination findings for identified body systems, anatomical structures or more precise body sites. Each specialisation will preserve the underlying structure of this general archetype as its base and be extended by the addition of elements specific to the body site. If there is no appropriate specialisation available, use this archetype and identify the system or structure being examined using the 'System or structure examined' data element and the location on the body using the 'Body site' data element or the 'Structured body site' SLOT.\r\n\r\nInterpretation of the findings, for example 'No abnormality detected' or 'Moderate inflammation present', can be recorded using the 'Clinical interpretation' data element.\r\n\r\nUse to provide a framework in which CLUSTER archetypes can be nested in the 'Examination findings' SLOT to record additional structured physical examination findings.\r\n\r\nThe CLUSTER.exclusion_exam archetype can be nested within the 'Examination not done' SLOT to optionally record explicit details about the examination not being performed.\r\n\r\nUse to incorporate the narrative descriptions of clinical findings within existing or legacy clinical systems into an archetyped format, using the 'Clinical Description' data element. (en)",
-          "misuse" : "*Not to be used for recording the clinical history - use specific OBSERVATION and CLUSTER archetypes. For example OBSERVATION.story and CLUSTER.symptom_sign.\r\n\r\nNot to be used for recording the results of an imaging examination - use the CLUSTER.imaging_exam family of archetypes for this purpose.(en)",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        },
-        "es" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "es"
-          },
-          "purpose" : "Registrar los hallazgos observados durante la exploración física de un sistema corporal o una estructura anatómica.",
-          "keywords" : [ ],
-          "use" : "*Use to record the observed findings during the physical examination of a body system or anatomical structure.\r\n\r\nThis archetype has been specifically designed to be used in the 'Examination detail' SLOT within the OBSERVATION.exam or the \"Procedure detail\" SLOT within the ACTION.procedure archetype, but can also be used within other ENTRY or CLUSTER archetypes, where clinically appropriate. Specialisations of this archetype will be used to record examination findings for identified body systems, anatomical structures or more precise body sites. Each specialisation will preserve the underlying structure of this general archetype as its base and be extended by the addition of elements specific to the body site. If there is no appropriate specialisation available, use this archetype and identify the system or structure being examined using the 'System or structure examined' data element and the location on the body using the 'Body site' data element or the 'Structured body site' SLOT.\r\n\r\nInterpretation of the findings, for example 'No abnormality detected' or 'Moderate inflammation present', can be recorded using the 'Clinical interpretation' data element.\r\n\r\nUse to provide a framework in which CLUSTER archetypes can be nested in the 'Examination findings' SLOT to record additional structured physical examination findings.\r\n\r\nThe CLUSTER.exclusion_exam archetype can be nested within the 'Examination not done' SLOT to optionally record explicit details about the examination not being performed.\r\n\r\nUse to incorporate the narrative descriptions of clinical findings within existing or legacy clinical systems into an archetyped format, using the 'Clinical Description' data element. (en)",
-          "misuse" : "*Not to be used for recording the clinical history - use specific OBSERVATION and CLUSTER archetypes. For example OBSERVATION.story and CLUSTER.symptom_sign.\r\n\r\nNot to be used for recording the results of an imaging examination - use the CLUSTER.imaging_exam family of archetypes for this purpose.(en)",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        },
-        "ca" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "ca"
-          },
-          "purpose" : "Registrar les troballes observades durant l'examen físic del cos o estructura anatòmica.",
-          "keywords" : [ ],
-          "use" : "S'utilitza per registrar les troballes observades durant l'examen físic del cos o estructura anatòmica.\r\n\r\nAquest arquetip ha estat dissenyat específicament per a ser utilitzat en el SLOT 'Examination detail' dins de l'OBSERVATION.exam o del SLOT \"Procedure detail\" dins de l'arquetip ACTION.procedure, però també es pot utilitzar dins d'altres arquetips ENTRY o CLUSTER, quan sigui clínicament apropiat. Les especialitzacions d'aquest arquetip s'utilitzaran per registrar els resultats de l'examen per a sistemes corporals identificats, estructures anatòmiques o llocs corporals més precisos. Cada especialització preservarà com a base l'estructura subjacent d'aquest arquetip general i s'ampliarà mitjançant l'addició d'elements específics al cos. Si no hi ha una especialització adequada disponible, utilitzeu aquest arquetip i identifiqueu el sistema o estructura que s'està examinant utilitzant l'element de dades \"Sistema o estructura examinada\" i la ubicació en el cos utilitzant l'element de dades \"lloc del cos\" o la RANURA \"lloc del cos estructurat\".\r\n\r\nLa interpretació de les troballes, per exemple 'No s'ha detectat cap anormalitat' o 'inflamació present moderada', es pot registrar utilitzant l'element de dades 'interpretació clínica'.\r\n\r\nS'utilitza per proporcionar un marc en el qual els arquetips de CLUSTER poden ser afegits en el SLOT \"Troballes de l'examen\" per registrar resultats d'un examen físic estructurats addicionals.\r\n\r\nL'arquetip CLUSTER.exclusion_exam es pot afegir dins del SLOT 'Examen no realitzat' per tal de registrar opcionalment detalls explícits sobre l'examen que no s'està realitzant.\r\n\r\nIncorporar les descripcions narratives de les troballes clíniques dins dels sistemes clínics existents o llegats en un format arquetipat, utilitzant l'element de dades de \"Descripció clínica\".",
-          "misuse" : "No s'ha d'utilitzar per registrar la història clínica - utilitzar els arquetipis OBSERVATION i CLUSTER. Exemple: OBSERVATION.story i CLUSTER.symptom_sign.\r\n\r\nNo s'ha d'utilitzar per registrar els resultats d'un examen d'imatge - utilitzar la família d'arquetips CLUSTER.imaging_exam per a aquest propòsit.",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        }
-      }
-    },
-    "parentArchetypeId" : "openEHR-EHR-CLUSTER.exam.v2",
-    "differential" : true,
-    "archetypeId" : {
-      "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-CLUSTER.ovl-exam-050.v2"
-    },
-    "definition" : {
-      "@type" : "C_COMPLEX_OBJECT",
-      "rmTypeName" : "CLUSTER",
-      "nodeId" : "at0000.1",
-      "attributes" : [ {
-        "@type" : "C_ATTRIBUTE",
-        "rmAttributeName" : "items",
-        "children" : [ {
-          "@type" : "C_COMPLEX_OBJECT",
-          "rmTypeName" : "ELEMENT",
-          "nodeId" : "at0001.1",
-          "attributes" : [ {
-            "@type" : "C_ATTRIBUTE",
-            "rmAttributeName" : "value",
-            "children" : [ {
-              "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "DV_TEXT",
-              "defaultValue" : {
-                "@type" : "DV_TEXT",
-                "value" : "Status localis"
-              },
-              "attributes" : [ {
-                "@type" : "C_ATTRIBUTE",
-                "rmAttributeName" : "value",
-                "existence" : "0..1",
-                "children" : [ {
-                  "@type" : "C_STRING",
-                  "constraint" : [ "Status localis" ]
-                } ]
-              } ],
-              "attributeTuples" : [ ]
-            } ]
-          } ],
-          "attributeTuples" : [ ]
-        }, {
-          "@type" : "C_COMPLEX_OBJECT",
-          "rmTypeName" : "ELEMENT",
-          "occurrences" : "0..0",
-          "nodeId" : "at0012.1",
-          "attributes" : [ ],
-          "attributeTuples" : [ ]
-        }, {
-          "@type" : "C_COMPLEX_OBJECT",
-          "rmTypeName" : "ELEMENT",
-          "occurrences" : "0..0",
-          "nodeId" : "at0006.1",
-          "attributes" : [ ],
-          "attributeTuples" : [ ]
-        }, {
-          "@type" : "C_COMPLEX_OBJECT",
-          "rmTypeName" : "ELEMENT",
-          "occurrences" : "0..0",
-          "nodeId" : "at0007.1",
-          "attributes" : [ ],
-          "attributeTuples" : [ ]
-        } ]
-      } ],
-      "attributeTuples" : [ ]
-    },
-    "terminology" : {
-      "@type" : "ARCHETYPE_TERMINOLOGY",
-      "conceptCode" : "at0000",
-      "termDefinitions" : {
-        "en" : {
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000.1",
-            "text" : "Status localis",
-            "description" : "Findings observed during the physical examination of a body system or anatomical structure."
-          },
-          "at0001.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0001.1",
-            "text" : "Status localis",
-            "description" : "Identification of the examined body system or anatomical structure.",
-            "comment" : "Coding of the system or structure examined with a terminology is preferred, where possible."
-          }
-        },
-        "nb" : {
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000.1",
-            "text" : "Status localis",
-            "description" : "Funn ved fysisk undersøkelse av et organsystem eller anatomisk struktur."
-          },
-          "at0001.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0001.1",
-            "text" : "Status localis",
-            "description" : "Identifisering av det undersøkte organsystemet eller den anatomiske strukturen.",
-            "comment" : "Det anbefales å kode organsystem eller den anatomiske strukturen med en terminologi dersom mulig."
-          }
-        },
-        "pt-br" : {
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000.1",
-            "text" : "Status localis",
-            "description" : "Constatações observadas durante o exame físico de um sistema corporal ou estrutura anatômica."
-          },
-          "at0001.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0001.1",
-            "text" : "Status localis",
-            "description" : "Identificação do sistema do corpo examinado ou da estrutura anatômica.",
-            "comment" : "A codificação do sistema ou estrutura examinada com uma terminologia é preferível, sempre que possível."
-          }
-        },
-        "de" : {
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000.1",
-            "text" : "Status localis",
-            "description" : "Während der körperlichen Untersuchung eines Körpersystems oder einer anatomischen Struktur beobachtete Befunde."
-          },
-          "at0001.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0001.1",
-            "text" : "Status localis",
-            "description" : "Identifizierung des untersuchten Körpersystems oder der anatomischen Struktur.",
-            "comment" : "Wenn möglich wird die Kodierung des untersuchten Systems oder der untersuchten Struktur mit einer Terminologie bevorzugt."
-          },
-          "at0012.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012",
-            "text" : "Körperstelle",
-            "description" : "*Identification of the area of the body under examination. (en)",
-            "comment" : "*For example examination of a specific area of skin. If the body site has been fully identified in the 'System or structure examined' data element, this data element becomes redundant. (en)"
-          }
-        },
-        "sv" : {
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000.1",
-            "text" : "Status localis",
-            "description" : "Observerade fynd vid fysisk undersökning av system i kroppen, eller av anatomisk struktur"
-          },
-          "at0001.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0001.1",
-            "text" : "Status localis",
             "description" : "Identifiering av systemet eller strukturen som undersökts.",
             "comment" : "Om möjligt, koda systemet eller strukturen med hjälp av ett terminologisystem."
           }
@@ -39774,6 +39323,382 @@
         "email" : "martijn.vaneenennaam@nedap.com"
       },
       "accreditation" : "Ph.D.",
+      "otherDetails" : { }
+    } ]
+  }, {
+    "@type" : "TEMPLATE_OVERLAY",
+    "uid" : "61930ae3-1e00-4336-bfcf-3f23a19863f9",
+    "description" : {
+      "@type" : "RESOURCE_DESCRIPTION",
+      "originalAuthor" : {
+        "date" : "2026-10-08"
+      },
+      "otherContributors" : [ ],
+      "lifecycleState" : {
+        "codeString" : "unmanaged"
+      },
+      "ipAcknowledgements" : { },
+      "references" : { },
+      "conversionDetails" : { },
+      "otherDetails" : {
+        "licence" : "This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.",
+        "custodian_organisation" : "openEHR Foundation",
+        "original_namespace" : "org.openehr",
+        "original_publisher" : "openEHR Foundation",
+        "custodian_namespace" : "org.openehr",
+        "MD5-CAM-1.0.1" : "546a834df4b830b94dc57d1b17c6911c",
+        "PARENT:MD5-CAM-1.0.1" : "419545A4ABAC8966511DFB6F7F5993EA",
+        "ip_acknowledgements" : "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org."
+      },
+      "details" : {
+        "de" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "de"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "sv" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "sv"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "nb" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "nb"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "pt-br" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt-br"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "el" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "el"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
+    },
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.exam.v2",
+    "differential" : true,
+    "archetypeId" : {
+      "@type" : "ARCHETYPE_HRID",
+      "value" : "openEHR-EHR-CLUSTER.ovl-exam-001.v2"
+    },
+    "definition" : {
+      "@type" : "C_COMPLEX_OBJECT",
+      "rmTypeName" : "CLUSTER",
+      "nodeId" : "at0000.1",
+      "attributes" : [ {
+        "@type" : "C_ATTRIBUTE",
+        "rmAttributeName" : "items",
+        "children" : [ {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0001.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "occurrences" : "1..1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "TERMINOLOGY_CODE",
+                  "occurrences" : "0..1",
+                  "terminologyId" : {
+                    "value" : "SNOMED-CT"
+                  },
+                  "constraint" : [ ],
+                  "selectedTerminologies" : [ "SNOMED-CT" ],
+                  "includedExternalTerminologyCodes" : [ {
+                    "terminologyId" : "SNOMED-CT",
+                    "code" : "38266002",
+                    "value" : "Kropp, som helhet (body structure)"
+                  } ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0012.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0006.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0007.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        } ]
+      } ],
+      "attributeTuples" : [ ]
+    },
+    "terminology" : {
+      "@type" : "ARCHETYPE_TERMINOLOGY",
+      "conceptCode" : "at0000",
+      "termDefinitions" : {
+        "en" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Status localis",
+            "description" : "Findings observed during the physical examination of a body system or anatomical structure."
+          }
+        },
+        "nb" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Status localis",
+            "description" : "Funn ved fysisk undersøkelse av et organsystem eller anatomisk struktur.",
+            "comment" : "Designkommentar:\nStatus localis: Det brukes særlig om funn fra den fysiske undersøkelsen, og beskriver hva legen faktisk observerer, palperer eller påviser i det aktuelle området.\nEksempler:\n- Ved brystkreft: størrelse, lokalisasjon og palpatoriske funn ved tumor, hudforandringer, lymfeknuter osv.\n- Ved hode-/halskreft: inspeksjons- og palpasjonsfunn i munnhule, svelg, hals og lymfeknutestasjoner.\n- Ved hudforandring: lokalisasjon, størrelse, farge, avgrensning, overflate osv."
+          },
+          "at0001.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0001.1",
+            "text" : "Status localis",
+            "description" : "Identifisering av det undersøkte organsystemet eller den anatomiske strukturen.",
+            "comment" : "Det anbefales å kode organsystem eller den anatomiske strukturen med en terminologi dersom mulig."
+          }
+        },
+        "pt-br" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Status localis",
+            "description" : "Constatações observadas durante o exame físico de um sistema corporal ou estrutura anatômica."
+          }
+        },
+        "de" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Status localis",
+            "description" : "Während der körperlichen Untersuchung eines Körpersystems oder einer anatomischen Struktur beobachtete Befunde."
+          },
+          "at0012.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0012",
+            "text" : "Körperstelle",
+            "description" : "*Identification of the area of the body under examination. (en)",
+            "comment" : "*For example examination of a specific area of skin. If the body site has been fully identified in the 'System or structure examined' data element, this data element becomes redundant. (en)"
+          }
+        },
+        "sv" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Status localis",
+            "description" : "Observerade fynd vid fysisk undersökning av system i kroppen, eller av anatomisk struktur"
+          }
+        },
+        "el" : { },
+        "es" : {
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006",
+            "text" : "*Clinical interpretation(en)",
+            "description" : "*Single word, phrase or brief description that represents the clinical meaning and significance of the physical examination findings.(en)",
+            "comment" : "*For example: 'No abnormality detected' or 'Moderate inflammation present'. Coding of the 'Clinical interpretation' with a terminology is preferred, where possible.(en)"
+          },
+          "at0007.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0007",
+            "text" : "*Comment(en)",
+            "description" : "*Additional narrative about the physical examination findings, not captured in other fields.(en)"
+          },
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000",
+            "text" : "*Physical examination findings (en)",
+            "description" : "*Findings observed during the physical examination of a body system or anatomical structure.(en)"
+          },
+          "at0012.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0012",
+            "text" : "*Body site(en)",
+            "description" : "*Identification of the area of the body under examination. (en)",
+            "comment" : "*For example examination of a specific area of skin. If the body site has been fully identified in the 'System or structure examined' data element, this data element becomes redundant. (en)"
+          }
+        },
+        "ca" : { }
+      },
+      "termBindings" : {
+        "SNOMED-CT" : {
+          "at0000.1" : "term:SNOMED-CT::5880005"
+        }
+      },
+      "terminologyExtracts" : { },
+      "valueSets" : { }
+    },
+    "adlVersion" : "1.4",
+    "buildUid" : "0f180fe1-358e-364f-b0f5-75fca0566512",
+    "rmName" : "openehr",
+    "rmRelease" : "1.1.0",
+    "generated" : true,
+    "otherMetaData" : { },
+    "originalLanguage" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "en"
+    },
+    "translations" : [ {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "de"
+      },
+      "author" : { },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "sv"
+      },
+      "author" : { },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "nb"
+      },
+      "author" : { },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt-br"
+      },
+      "author" : { },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "el"
+      },
+      "author" : { },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : { },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : { },
       "otherDetails" : { }
     } ]
   } ],
