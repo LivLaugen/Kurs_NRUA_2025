@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "59.0.0",
+      "sem_ver" : "60.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "39d4536d1dbc13e644a722a9d76b14ef",
+      "MD5-CAM-1.0.1" : "3a76da894ef05124755b3d649f2ee56d",
       "PARENT:MD5-CAM-1.0.1" : "3B0765A6B395C9D01595FDF2D440E6CB",
       "original_language" : "ISO_639-1::nb"
     },
@@ -1883,7 +1883,6 @@
                     "children" : [ {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "ELEMENT",
-                      "occurrences" : "0..1",
                       "nodeId" : "at0004.1",
                       "attributes" : [ ],
                       "attributeTuples" : [ ]
@@ -1994,23 +1993,11 @@
           }
         },
         "nb" : {
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000.1",
-            "text" : "Aktuelt/anamnese",
-            "description" : "Et individs sykehistorie/anamnese, som fortalt til kliniker eller dokumentert direkte av individet."
-          },
           "at0002.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0002.1",
             "text" : "Innkomst",
             "description" : "Standard, uspesifisert tidspunkt eller tidsintervall som kan defineres mer eksplisitt i en templat eller i en applikasjon."
-          },
-          "at0004.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004.1",
-            "text" : "Aktuelt/Anamnese",
-            "description" : "Narrativ beskrivelse av sykehistorie/anamnese for et individ."
           }
         },
         "pt-br" : {
@@ -2592,26 +2579,6 @@
         }, {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
-          "nodeId" : "at0164.1",
-          "attributes" : [ {
-            "@type" : "C_ATTRIBUTE",
-            "rmAttributeName" : "value",
-            "children" : [ {
-              "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "DV_DURATION",
-              "attributes" : [ ],
-              "attributeTuples" : [ ]
-            }, {
-              "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "DV_INTERVAL<DV_DURATION>",
-              "attributes" : [ ],
-              "attributeTuples" : [ ]
-            } ]
-          } ],
-          "attributeTuples" : [ ]
-        }, {
-          "@type" : "C_COMPLEX_OBJECT",
-          "rmTypeName" : "ELEMENT",
           "nodeId" : "at0028.1",
           "attributes" : [ {
             "@type" : "C_ATTRIBUTE",
@@ -2807,13 +2774,6 @@
       "conceptCode" : "at0000",
       "termDefinitions" : {
         "ar-sy" : {
-          "at0164.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0164",
-            "text" : "*Onset type(en)",
-            "description" : "*Description of the onset of the symptom or sign.(en)",
-            "comment" : "*The type of the onset can be coded with a terminology, if desired. For example: gradual; or sudden.(en)"
-          },
           "at0028.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0028",
@@ -2823,13 +2783,6 @@
           }
         },
         "en" : {
-          "at0164.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0164",
-            "text" : "Onset type",
-            "description" : "Description of the onset of the symptom or sign.",
-            "comment" : "The type of the onset can be coded with a terminology, if desired. For example: gradual; or sudden."
-          },
           "at0028.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0028",
@@ -2839,13 +2792,6 @@
           }
         },
         "de" : {
-          "at0164.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0164",
-            "text" : "Art des ersten Auftretens",
-            "description" : "Beschreibung des ersten Auftretens des Symptoms/Krankheitsanzeichens.",
-            "comment" : "Es besteht die Möglichkeit die Art des ersten Auftretens mit einer Terminologie zu kodieren. Zum Beispiel: schleichend oder plötzlich."
-          },
           "at0028.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0028",
@@ -2855,29 +2801,15 @@
           }
         },
         "nb" : {
-          "at0164.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0164",
-            "text" : "Debuttype",
-            "description" : "Beskrivelse av symptomets eller sykdomstegnets debut.",
-            "comment" : "Debuttypen kan kodes med en terminologi om ønsket. For eksempel: Gradvis eller plutselig."
-          },
           "at0028.1" : {
             "@type" : "ARCHETYPE_TERM",
-            "code" : "at0028",
-            "text" : "Varighet",
+            "code" : "at0028.1",
+            "text" : "Varighet av episoden",
             "description" : "Varigheten av denne episoden av symptomet eller sykdomstegnet siden debut.",
             "comment" : "Brukes \"Dato/tid for debut\" og \"Dato/tid for opphør\" i systemer, kan dette dataelementet kalkuleres av systemet eller være overflødig. Tekst-datatypen kan brukes for å registrere forhåndsdefinerte intervaller som \"0-7 dager, 1-2 uker, 2 uker eller mer\"."
           }
         },
         "fi" : {
-          "at0164.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0164",
-            "text" : "Oireen puhkeaminen",
-            "description" : "Description of the onset of the symptom or sign.(en)",
-            "comment" : "*The type of the onset can be coded with a terminology, if desired. For example: gradual; or sudden.(en)"
-          },
           "at0028.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0028",
@@ -2920,13 +2852,6 @@
             "text" : "Episoddebut",
             "description" : "Debut för denna episod av symtomet eller tecknet.",
             "comment" : "Partiella datum och tider är tillåtna, men om det är möjligt och lämpligt kan det exakta datumet och tiden för debut kan registreras. Om det här symtomet eller tecknet upplevs för första gången eller är ett återfall, så används det här datumet för att utgöra början på just denna episod. Om det här symtomet eller tecknet är pågående kan det här fältet vara överflödigt om det redan tidigare har beskrivits."
-          },
-          "at0164.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0164",
-            "text" : "Typ av debut",
-            "description" : "Beskrivning av symtomets eller tecknets debut.",
-            "comment" : "Typ av debut kan kodas med en terminologi, om så önskas. Exempelvis: gradvis eller plötslig."
           },
           "at0163.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -3024,13 +2949,6 @@
           }
         },
         "pt-br" : {
-          "at0164.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0164",
-            "text" : "Tipo de início",
-            "description" : "Descrição do inicio do sintoma ou sinal.",
-            "comment" : "O tipo de início pode ser codificado utilizando uma terminologia, se desejado. Por exemplo: gradual; ou súbito."
-          },
           "at0028.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0028",
@@ -3063,12 +2981,6 @@
             "code" : "at0152",
             "text" : "*Episode onset(en)",
             "description" : "*The onset for this episode of the symptom or sign.(en)"
-          },
-          "at0164.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0164",
-            "text" : "*Onset type(en)",
-            "description" : "*Description of the onset of the symptom or sign.(en)"
           },
           "at0165.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -4753,70 +4665,7 @@
                   "@type" : "C_COMPLEX_OBJECT",
                   "rmTypeName" : "ITEM_TREE",
                   "nodeId" : "at0003.1",
-                  "attributes" : [ {
-                    "@type" : "C_ATTRIBUTE",
-                    "rmAttributeName" : "items",
-                    "children" : [ {
-                      "@type" : "C_COMPLEX_OBJECT",
-                      "rmTypeName" : "ELEMENT",
-                      "nodeId" : "at0004.1",
-                      "attributes" : [ {
-                        "@type" : "C_ATTRIBUTE",
-                        "rmAttributeName" : "value",
-                        "children" : [ {
-                          "@type" : "C_COMPLEX_OBJECT",
-                          "rmTypeName" : "DV_QUANTITY",
-                          "attributes" : [ {
-                            "@type" : "C_ATTRIBUTE",
-                            "rmAttributeName" : "property",
-                            "children" : [ {
-                              "@type" : "C_TERMINOLOGY_CODE",
-                              "terminologyId" : {
-                                "value" : "openehr"
-                              },
-                              "constraint" : [ "122" ]
-                            } ]
-                          } ],
-                          "attributeTuples" : [ {
-                            "@type" : "C_ATTRIBUTE_TUPLE",
-                            "members" : [ {
-                              "@type" : "C_ATTRIBUTE",
-                              "rmAttributeName" : "magnitude",
-                              "children" : [ ]
-                            }, {
-                              "@type" : "C_ATTRIBUTE",
-                              "rmAttributeName" : "units",
-                              "children" : [ ]
-                            } ],
-                            "tuples" : [ {
-                              "@type" : "C_PRIMITIVE_TUPLE",
-                              "members" : [ {
-                                "@type" : "C_REAL",
-                                "constraint" : [ {
-                                  "lower" : 0.0,
-                                  "upper" : 1000.0,
-                                  "lowerIncluded" : true,
-                                  "upperIncluded" : true,
-                                  "lowerUnbounded" : false,
-                                  "upperUnbounded" : false
-                                } ]
-                              }, {
-                                "@type" : "C_STRING",
-                                "constraint" : [ "cm" ]
-                              } ]
-                            } ]
-                          } ]
-                        } ]
-                      } ],
-                      "attributeTuples" : [ ]
-                    }, {
-                      "@type" : "C_COMPLEX_OBJECT",
-                      "rmTypeName" : "ELEMENT",
-                      "nodeId" : "at0018.1",
-                      "attributes" : [ ],
-                      "attributeTuples" : [ ]
-                    } ]
-                  } ],
+                  "attributes" : [ ],
                   "attributeTuples" : [ ]
                 } ]
               }, {
@@ -4875,50 +4724,7 @@
                   "@type" : "C_COMPLEX_OBJECT",
                   "rmTypeName" : "ITEM_TREE",
                   "nodeId" : "at0013.1",
-                  "attributes" : [ {
-                    "@type" : "C_ATTRIBUTE",
-                    "rmAttributeName" : "items",
-                    "children" : [ {
-                      "@type" : "C_COMPLEX_OBJECT",
-                      "rmTypeName" : "ELEMENT",
-                      "nodeId" : "at0014.1",
-                      "attributes" : [ {
-                        "@type" : "C_ATTRIBUTE",
-                        "rmAttributeName" : "value",
-                        "children" : [ {
-                          "@type" : "C_COMPLEX_OBJECT",
-                          "rmTypeName" : "DV_CODED_TEXT",
-                          "attributes" : [ {
-                            "@type" : "C_ATTRIBUTE",
-                            "rmAttributeName" : "defining_code",
-                            "children" : [ {
-                              "@type" : "C_TERMINOLOGY_CODE",
-                              "rmTypeName" : "CODE_PHRASE",
-                              "occurrences" : "1..1",
-                              "assumedValue" : {
-                                "terminologyId" : {
-                                  "value" : "local"
-                                },
-                                "codeString" : "at0016"
-                              },
-                              "terminologyId" : {
-                                "value" : "local"
-                              },
-                              "constraint" : [ "at0016", "at0020" ]
-                            } ]
-                          } ],
-                          "attributeTuples" : [ ]
-                        } ]
-                      } ],
-                      "attributeTuples" : [ ]
-                    }, {
-                      "@type" : "C_COMPLEX_OBJECT",
-                      "rmTypeName" : "ELEMENT",
-                      "nodeId" : "at0019.1",
-                      "attributes" : [ ],
-                      "attributeTuples" : [ ]
-                    } ]
-                  } ],
+                  "attributes" : [ ],
                   "attributeTuples" : [ ]
                 } ]
               } ],
@@ -5631,6 +5437,447 @@
             "rmAttributeName" : "events",
             "children" : [ {
               "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "EVENT",
+              "nodeId" : "at0006",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "data",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ITEM_TREE",
+                  "nodeId" : "at0003",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "items",
+                    "children" : [ {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "nodeId" : "at0004.1",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "value",
+                        "children" : [ {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_QUANTITY",
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "property",
+                            "children" : [ {
+                              "@type" : "C_TERMINOLOGY_CODE",
+                              "terminologyId" : {
+                                "value" : "openehr"
+                              },
+                              "constraint" : [ "125" ]
+                            } ]
+                          } ],
+                          "attributeTuples" : [ {
+                            "@type" : "C_ATTRIBUTE_TUPLE",
+                            "members" : [ {
+                              "@type" : "C_ATTRIBUTE",
+                              "rmAttributeName" : "magnitude",
+                              "children" : [ ]
+                            }, {
+                              "@type" : "C_ATTRIBUTE",
+                              "rmAttributeName" : "units",
+                              "children" : [ ]
+                            }, {
+                              "@type" : "C_ATTRIBUTE",
+                              "rmAttributeName" : "precision",
+                              "children" : [ ]
+                            } ],
+                            "tuples" : [ {
+                              "@type" : "C_PRIMITIVE_TUPLE",
+                              "members" : [ {
+                                "@type" : "C_REAL",
+                                "constraint" : [ {
+                                  "lower" : 0.0,
+                                  "upper" : 1000.0,
+                                  "lowerIncluded" : true,
+                                  "upperIncluded" : false,
+                                  "lowerUnbounded" : false,
+                                  "upperUnbounded" : false
+                                } ]
+                              }, {
+                                "@type" : "C_STRING",
+                                "constraint" : [ "mm[Hg]" ]
+                              }, {
+                                "@type" : "C_INTEGER",
+                                "constraint" : [ {
+                                  "lower" : 0,
+                                  "upper" : 0,
+                                  "lowerIncluded" : true,
+                                  "upperIncluded" : true,
+                                  "lowerUnbounded" : false,
+                                  "upperUnbounded" : false
+                                } ]
+                              } ]
+                            } ]
+                          } ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "nodeId" : "at0005.1",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "value",
+                        "children" : [ {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_QUANTITY",
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "property",
+                            "children" : [ {
+                              "@type" : "C_TERMINOLOGY_CODE",
+                              "terminologyId" : {
+                                "value" : "openehr"
+                              },
+                              "constraint" : [ "125" ]
+                            } ]
+                          } ],
+                          "attributeTuples" : [ {
+                            "@type" : "C_ATTRIBUTE_TUPLE",
+                            "members" : [ {
+                              "@type" : "C_ATTRIBUTE",
+                              "rmAttributeName" : "magnitude",
+                              "children" : [ ]
+                            }, {
+                              "@type" : "C_ATTRIBUTE",
+                              "rmAttributeName" : "units",
+                              "children" : [ ]
+                            }, {
+                              "@type" : "C_ATTRIBUTE",
+                              "rmAttributeName" : "precision",
+                              "children" : [ ]
+                            } ],
+                            "tuples" : [ {
+                              "@type" : "C_PRIMITIVE_TUPLE",
+                              "members" : [ {
+                                "@type" : "C_REAL",
+                                "constraint" : [ {
+                                  "lower" : 0.0,
+                                  "upper" : 1000.0,
+                                  "lowerIncluded" : true,
+                                  "upperIncluded" : false,
+                                  "lowerUnbounded" : false,
+                                  "upperUnbounded" : false
+                                } ]
+                              }, {
+                                "@type" : "C_STRING",
+                                "constraint" : [ "mm[Hg]" ]
+                              }, {
+                                "@type" : "C_INTEGER",
+                                "constraint" : [ {
+                                  "lower" : 0,
+                                  "upper" : 0,
+                                  "lowerIncluded" : true,
+                                  "upperIncluded" : true,
+                                  "lowerUnbounded" : false,
+                                  "upperUnbounded" : false
+                                } ]
+                              } ]
+                            } ]
+                          } ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "nodeId" : "at1006.1",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "value",
+                        "children" : [ {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_QUANTITY",
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "property",
+                            "children" : [ {
+                              "@type" : "C_TERMINOLOGY_CODE",
+                              "terminologyId" : {
+                                "value" : "openehr"
+                              },
+                              "constraint" : [ "125" ]
+                            } ]
+                          } ],
+                          "attributeTuples" : [ {
+                            "@type" : "C_ATTRIBUTE_TUPLE",
+                            "members" : [ {
+                              "@type" : "C_ATTRIBUTE",
+                              "rmAttributeName" : "magnitude",
+                              "children" : [ ]
+                            }, {
+                              "@type" : "C_ATTRIBUTE",
+                              "rmAttributeName" : "units",
+                              "children" : [ ]
+                            }, {
+                              "@type" : "C_ATTRIBUTE",
+                              "rmAttributeName" : "precision",
+                              "children" : [ ]
+                            } ],
+                            "tuples" : [ {
+                              "@type" : "C_PRIMITIVE_TUPLE",
+                              "members" : [ {
+                                "@type" : "C_REAL",
+                                "constraint" : [ {
+                                  "lower" : 0.0,
+                                  "upper" : 1000.0,
+                                  "lowerIncluded" : true,
+                                  "upperIncluded" : false,
+                                  "lowerUnbounded" : false,
+                                  "upperUnbounded" : false
+                                } ]
+                              }, {
+                                "@type" : "C_STRING",
+                                "constraint" : [ "mm[Hg]" ]
+                              }, {
+                                "@type" : "C_INTEGER",
+                                "constraint" : [ {
+                                  "lower" : 0,
+                                  "upper" : 0,
+                                  "lowerIncluded" : true,
+                                  "upperIncluded" : true,
+                                  "lowerUnbounded" : false,
+                                  "upperUnbounded" : false
+                                } ]
+                              } ]
+                            } ]
+                          } ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "nodeId" : "at1007.1",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "value",
+                        "children" : [ {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_QUANTITY",
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "property",
+                            "children" : [ {
+                              "@type" : "C_TERMINOLOGY_CODE",
+                              "terminologyId" : {
+                                "value" : "openehr"
+                              },
+                              "constraint" : [ "125" ]
+                            } ]
+                          } ],
+                          "attributeTuples" : [ {
+                            "@type" : "C_ATTRIBUTE_TUPLE",
+                            "members" : [ {
+                              "@type" : "C_ATTRIBUTE",
+                              "rmAttributeName" : "magnitude",
+                              "children" : [ ]
+                            }, {
+                              "@type" : "C_ATTRIBUTE",
+                              "rmAttributeName" : "units",
+                              "children" : [ ]
+                            }, {
+                              "@type" : "C_ATTRIBUTE",
+                              "rmAttributeName" : "precision",
+                              "children" : [ ]
+                            } ],
+                            "tuples" : [ {
+                              "@type" : "C_PRIMITIVE_TUPLE",
+                              "members" : [ {
+                                "@type" : "C_REAL",
+                                "constraint" : [ {
+                                  "lower" : 0.0,
+                                  "upper" : 1000.0,
+                                  "lowerIncluded" : true,
+                                  "upperIncluded" : false,
+                                  "lowerUnbounded" : false,
+                                  "upperUnbounded" : false
+                                } ]
+                              }, {
+                                "@type" : "C_STRING",
+                                "constraint" : [ "mm[Hg]" ]
+                              }, {
+                                "@type" : "C_INTEGER",
+                                "constraint" : [ {
+                                  "lower" : 0,
+                                  "upper" : 0,
+                                  "lowerIncluded" : true,
+                                  "upperIncluded" : true,
+                                  "lowerUnbounded" : false,
+                                  "upperUnbounded" : false
+                                } ]
+                              } ]
+                            } ]
+                          } ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "nodeId" : "at1059.1",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "nodeId" : "at0033.1",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                } ]
+              }, {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "state",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ITEM_TREE",
+                  "nodeId" : "at0007",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "items",
+                    "children" : [ {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "nodeId" : "at0008.1",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "value",
+                        "children" : [ {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_CODED_TEXT",
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "defining_code",
+                            "children" : [ {
+                              "@type" : "C_TERMINOLOGY_CODE",
+                              "rmTypeName" : "CODE_PHRASE",
+                              "occurrences" : "1..1",
+                              "terminologyId" : {
+                                "value" : "local"
+                              },
+                              "constraint" : [ "at1000", "at1001", "at1002", "at1003", "at1014" ]
+                            } ]
+                          } ],
+                          "attributeTuples" : [ ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "nodeId" : "at1052.1",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "nodeId" : "at1043.1",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "value",
+                        "children" : [ {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_CODED_TEXT",
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "defining_code",
+                            "children" : [ {
+                              "@type" : "C_TERMINOLOGY_CODE",
+                              "rmTypeName" : "CODE_PHRASE",
+                              "occurrences" : "1..1",
+                              "terminologyId" : {
+                                "value" : "local"
+                              },
+                              "constraint" : [ "at1044", "at1045" ]
+                            } ]
+                          } ],
+                          "attributeTuples" : [ ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "nodeId" : "at1005.1",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "value",
+                        "children" : [ {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_QUANTITY",
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "property",
+                            "children" : [ {
+                              "@type" : "C_TERMINOLOGY_CODE",
+                              "terminologyId" : {
+                                "value" : "openehr"
+                              },
+                              "constraint" : [ "497" ]
+                            } ]
+                          } ],
+                          "attributeTuples" : [ {
+                            "@type" : "C_ATTRIBUTE_TUPLE",
+                            "members" : [ {
+                              "@type" : "C_ATTRIBUTE",
+                              "rmAttributeName" : "magnitude",
+                              "children" : [ ]
+                            }, {
+                              "@type" : "C_ATTRIBUTE",
+                              "rmAttributeName" : "units",
+                              "children" : [ ]
+                            }, {
+                              "@type" : "C_ATTRIBUTE",
+                              "rmAttributeName" : "precision",
+                              "children" : [ ]
+                            } ],
+                            "tuples" : [ {
+                              "@type" : "C_PRIMITIVE_TUPLE",
+                              "members" : [ {
+                                "@type" : "C_REAL",
+                                "constraint" : [ {
+                                  "lower" : -90.0,
+                                  "upper" : 90.0,
+                                  "lowerIncluded" : true,
+                                  "upperIncluded" : true,
+                                  "lowerUnbounded" : false,
+                                  "upperUnbounded" : false
+                                } ]
+                              }, {
+                                "@type" : "C_STRING",
+                                "constraint" : [ "deg" ]
+                              }, {
+                                "@type" : "C_INTEGER",
+                                "constraint" : [ {
+                                  "lower" : 0,
+                                  "upper" : 0,
+                                  "lowerIncluded" : true,
+                                  "upperIncluded" : true,
+                                  "lowerUnbounded" : false,
+                                  "upperUnbounded" : false
+                                } ]
+                              } ]
+                            } ]
+                          } ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "INTERVAL_EVENT",
               "nodeId" : "at1042.1",
               "attributes" : [ {
@@ -5690,114 +5937,6 @@
                     "@type" : "C_ATTRIBUTE",
                     "rmAttributeName" : "items",
                     "children" : [ {
-                      "@type" : "C_COMPLEX_OBJECT",
-                      "rmTypeName" : "ELEMENT",
-                      "occurrences" : "1..1",
-                      "nodeId" : "at0004.2",
-                      "attributes" : [ {
-                        "@type" : "C_ATTRIBUTE",
-                        "rmAttributeName" : "value",
-                        "children" : [ {
-                          "@type" : "C_COMPLEX_OBJECT",
-                          "rmTypeName" : "DV_QUANTITY",
-                          "attributes" : [ {
-                            "@type" : "C_ATTRIBUTE",
-                            "rmAttributeName" : "property",
-                            "children" : [ {
-                              "@type" : "C_TERMINOLOGY_CODE",
-                              "terminologyId" : {
-                                "value" : "openehr"
-                              },
-                              "constraint" : [ "125" ]
-                            } ]
-                          } ],
-                          "attributeTuples" : [ {
-                            "@type" : "C_ATTRIBUTE_TUPLE",
-                            "members" : [ {
-                              "@type" : "C_ATTRIBUTE",
-                              "rmAttributeName" : "magnitude",
-                              "children" : [ ]
-                            }, {
-                              "@type" : "C_ATTRIBUTE",
-                              "rmAttributeName" : "units",
-                              "children" : [ ]
-                            } ],
-                            "tuples" : [ {
-                              "@type" : "C_PRIMITIVE_TUPLE",
-                              "members" : [ {
-                                "@type" : "C_REAL",
-                                "constraint" : [ {
-                                  "lower" : 0.0,
-                                  "upper" : 1000.0,
-                                  "lowerIncluded" : true,
-                                  "upperIncluded" : false,
-                                  "lowerUnbounded" : false,
-                                  "upperUnbounded" : false
-                                } ]
-                              }, {
-                                "@type" : "C_STRING",
-                                "constraint" : [ "mm[Hg]" ]
-                              } ]
-                            } ]
-                          } ]
-                        } ]
-                      } ],
-                      "attributeTuples" : [ ]
-                    }, {
-                      "@type" : "C_COMPLEX_OBJECT",
-                      "rmTypeName" : "ELEMENT",
-                      "occurrences" : "1..1",
-                      "nodeId" : "at0005.2",
-                      "attributes" : [ {
-                        "@type" : "C_ATTRIBUTE",
-                        "rmAttributeName" : "value",
-                        "children" : [ {
-                          "@type" : "C_COMPLEX_OBJECT",
-                          "rmTypeName" : "DV_QUANTITY",
-                          "attributes" : [ {
-                            "@type" : "C_ATTRIBUTE",
-                            "rmAttributeName" : "property",
-                            "children" : [ {
-                              "@type" : "C_TERMINOLOGY_CODE",
-                              "terminologyId" : {
-                                "value" : "openehr"
-                              },
-                              "constraint" : [ "125" ]
-                            } ]
-                          } ],
-                          "attributeTuples" : [ {
-                            "@type" : "C_ATTRIBUTE_TUPLE",
-                            "members" : [ {
-                              "@type" : "C_ATTRIBUTE",
-                              "rmAttributeName" : "magnitude",
-                              "children" : [ ]
-                            }, {
-                              "@type" : "C_ATTRIBUTE",
-                              "rmAttributeName" : "units",
-                              "children" : [ ]
-                            } ],
-                            "tuples" : [ {
-                              "@type" : "C_PRIMITIVE_TUPLE",
-                              "members" : [ {
-                                "@type" : "C_REAL",
-                                "constraint" : [ {
-                                  "lower" : 0.0,
-                                  "upper" : 1000.0,
-                                  "lowerIncluded" : true,
-                                  "upperIncluded" : false,
-                                  "lowerUnbounded" : false,
-                                  "upperUnbounded" : false
-                                } ]
-                              }, {
-                                "@type" : "C_STRING",
-                                "constraint" : [ "mm[Hg]" ]
-                              } ]
-                            } ]
-                          } ]
-                        } ]
-                      } ],
-                      "attributeTuples" : [ ]
-                    }, {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "ELEMENT",
                       "nodeId" : "at1006.2",
@@ -6568,18 +6707,6 @@
             "text" : "*blood pressure(en)",
             "description" : "@ internal @"
           },
-          "at0004.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004.2",
-            "text" : "Systolisk blodtrykk",
-            "description" : "Peak systemic arterial blood pressure  - measured in systolic or contraction phase of the heart cycle."
-          },
-          "at0005.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0005.2",
-            "text" : "Diastolisk blodtrykk",
-            "description" : "Minimum systemic arterial blood pressure - measured in the diastolic or relaxation phase of the heart cycle."
-          },
           "at0007.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0007.1",
@@ -6593,18 +6720,6 @@
             "code" : "at0003.1",
             "text" : "*blood pressure(en)",
             "description" : "*@ internal @(en)"
-          },
-          "at0004.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004.2",
-            "text" : "Systolisk blodtrykk",
-            "description" : "全身の動脈血圧での最高値 - 心機図の収縮期で測定される"
-          },
-          "at0005.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0005.2",
-            "text" : "Diastolisk blodtrykk",
-            "description" : "全身の動脈血圧での最低値 - 心機図の拡張期で測定される"
           },
           "at1059.2" : {
             "@type" : "ARCHETYPE_TERM",
@@ -6644,18 +6759,6 @@
             "text" : "*blood pressure(en)",
             "description" : "@ internal @"
           },
-          "at0004.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004.2",
-            "text" : "Systolisk blodtrykk",
-            "description" : "Der höchste arterielle Blutdruck eines Zyklus - gemessen in der systolischen oder Kontraktionsphase des Herzens."
-          },
-          "at0005.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0005.2",
-            "text" : "Diastolisk blodtrykk",
-            "description" : "Der minimale systemische arterielle Blutdruck eines Zyklus - gemessen in der diastolischen oder Entspannungsphase des Herzens."
-          },
           "at0007.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0007.1",
@@ -6669,18 +6772,6 @@
             "code" : "at0003.1",
             "text" : "*blood pressure(en)",
             "description" : "*@ internal @(en)"
-          },
-          "at0004.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004.2",
-            "text" : "Systolisk blodtrykk",
-            "description" : "在心动周期的收缩期所测量到的体循环动脉血压峰值。"
-          },
-          "at0005.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0005.2",
-            "text" : "Diastolisk blodtrykk",
-            "description" : "在心动周期的舒张期所测量到的体循环动脉血压最低值（谷值，最小值）。"
           }
         },
         "nl" : {
@@ -6690,18 +6781,6 @@
             "text" : "*blood pressure(en)",
             "description" : "*@ internal @"
           },
-          "at0004.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004.2",
-            "text" : "Systolisk blodtrykk",
-            "description" : "De hoogste (piek) systemische arteriële bloeddruk - gemeten in de systolische of samentrekkingsfase van de hartslag."
-          },
-          "at0005.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0005.2",
-            "text" : "Diastolisk blodtrykk",
-            "description" : "De laagste systemische arteriële bloeddruk - gemeten in de diastolische of ontspanningsfase van de hartslag."
-          },
           "at0007.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0007.1",
@@ -6710,18 +6789,6 @@
           }
         },
         "ru" : {
-          "at0004.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004.2",
-            "text" : "Systolisk blodtrykk",
-            "description" : "Пик системного артериального давления - измеряется в систолиу или в фазу сокращения сердца"
-          },
-          "at0005.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0005.2",
-            "text" : "Diastolisk blodtrykk",
-            "description" : "Минимальное системное артериальное давление - измеряется в диастолу или в фазу релаксации сердца."
-          },
           "at1059.2" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at1059",
@@ -6741,94 +6808,17 @@
             "description" : "Локальное измерение артериального давления, которое является суррогатом артериального давления в системном кровотоке. Как правило, термин относится к давления плечевой артерии на предплечье.\r\n"
           }
         },
-        "fa" : {
-          "at0004.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004.2",
-            "text" : "Systolisk blodtrykk",
-            "description" : "اوج فشار خون وریدی کلی که در سیستولیک یا فاز انقباضی چرخه گردش خون اندازه گیری می شود "
-          },
-          "at0005.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0005.2",
-            "text" : "Diastolisk blodtrykk",
-            "description" : "حداقل فشار خون وریدی کلی که در دیاستولیک یا فاز انبساطی چرخه گردش خون اندازه گیری می شود"
-          }
-        },
-        "ar-sy" : {
-          "at0004.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004.2",
-            "text" : "Systolisk blodtrykk",
-            "description" : "ذروة ضغط الدم الشرياني الجهازي - يتم قياسه في طور الانقباض من دورة القلب"
-          },
-          "at0005.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0005.2",
-            "text" : "Diastolisk blodtrykk",
-            "description" : "الحد الأدني لضغط الدم الشرياني الجهازي - يتم قياسها في طور الانبساط - الارتخاء من دورة القلب"
-          }
-        },
-        "es-ar" : {
-          "at0004.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004.2",
-            "text" : "Systolisk blodtrykk",
-            "description" : "Presión arterial sistólica pico - medido en sístole o la fase de contracción del ciclo cardíaco"
-          },
-          "at0005.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0005.2",
-            "text" : "Diastolisk blodtrykk",
-            "description" : "Presión arterial sistémica mínima - medido durante la diástole o fase de relajación del ciclo cardíaco."
-          }
-        },
-        "pt-br" : {
-          "at0004.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004.2",
-            "text" : "Systolisk blodtrykk",
-            "description" : "Pressão arterial sistêmica máxima - medida na fase sistólica ou de contração do ciclo cardíaco."
-          },
-          "at0005.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0005.2",
-            "text" : "Diastolisk blodtrykk",
-            "description" : "Pressão arterial sistêmica mínima - medida na fase diastólica ou de dilatação do ciclo cardíaco."
-          }
-        },
-        "ko" : {
-          "at0004.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004.2",
-            "text" : "Systolisk blodtrykk",
-            "description" : "최대 체동맥 혈압 - 심장 싸이클의 수축기에서 측정."
-          },
-          "at0005.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0005.2",
-            "text" : "Diastolisk blodtrykk",
-            "description" : "최소 체동맥 혈압 - 심장 싸이클의 이완기에서 측정됨."
-          }
-        },
+        "fa" : { },
+        "ar-sy" : { },
+        "es-ar" : { },
+        "pt-br" : { },
+        "ko" : { },
         "es" : {
           "at0003.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0003.1",
             "text" : "*blood pressure(en)",
             "description" : "@ internal @"
-          },
-          "at0004.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004.2",
-            "text" : "Systolisk blodtrykk",
-            "description" : "Presión arterial sistólica"
-          },
-          "at0005.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0005.2",
-            "text" : "Diastolisk blodtrykk",
-            "description" : "Presión arterial diastólica"
           },
           "at0007.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -6941,38 +6931,13 @@
             "description" : "Medida de la presión arterial"
           }
         },
-        "nb" : {
-          "at0004.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004.2",
-            "text" : "Systolisk blodtrykk",
-            "description" : "Maksimalt systemisk arterielt blodtrykk - målt i systolen, det vil si i hjertets kontraksjonsfase."
-          },
-          "at0005.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0005.2",
-            "text" : "Diastolisk blodtrykk",
-            "description" : "Laveste systemiske arterielle blodtrykk - målt i diastolen, det vil si under hjertets relaksasjonsfase."
-          }
-        },
+        "nb" : { },
         "sv" : {
           "at0003.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0003.1",
             "text" : "*blood pressure(en)",
             "description" : "@ internal @"
-          },
-          "at0004.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004.2",
-            "text" : "Systolisk blodtrykk",
-            "description" : "Det högsta systemiskt arteriella blodtrycket uppmätt systoliskt eller under sammandragningsfasen av hjärtcykeln."
-          },
-          "at0005.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0005.2",
-            "text" : "Diastolisk blodtrykk",
-            "description" : "Det minsta systemiskt arteriella blodtrycket uppmätt diastoliskt eller i hjärtcykelns avslappningsfas."
           },
           "at0007.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -7031,18 +6996,6 @@
             "code" : "at0003.1",
             "text" : "*blood pressure(en)",
             "description" : "@ internal @"
-          },
-          "at0004.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004.2",
-            "text" : "Systolisk blodtrykk",
-            "description" : "Systeemisen verenkierron valtimoverenpaineen huippuarvo – mitataan sydämenlyönnin systolisessa, eli supistumisvaiheessa."
-          },
-          "at0005.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0005.2",
-            "text" : "Diastolisk blodtrykk",
-            "description" : "Systeemisen verenkierron valtimoverenpaineen pienin arvo – mitataan sydämenlyönnin diastolisessa, eli veltostumisvaiheessa."
           },
           "at0007.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -7176,18 +7129,6 @@
             "text" : "24 hour average",
             "description" : "Estimate of the average blood pressure over a 24 hour period."
           },
-          "at0004.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004",
-            "text" : "Systolic",
-            "description" : "Peak systemic arterial blood pressure  - measured in systolic or contraction phase of the heart cycle."
-          },
-          "at0005.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0005",
-            "text" : "Diastolic",
-            "description" : "Minimum systemic arterial blood pressure - measured in the diastolic or relaxation phase of the heart cycle."
-          },
           "at0008.2" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0008",
@@ -7294,18 +7235,6 @@
             "text" : "24 hour average",
             "description" : "Estimate of the average blood pressure over a 24 hour period."
           },
-          "at0004.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0004",
-            "text" : "Systolic",
-            "description" : "Peak systemic arterial blood pressure  - measured in systolic or contraction phase of the heart cycle."
-          },
-          "at0005.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0005",
-            "text" : "Diastolic",
-            "description" : "Minimum systemic arterial blood pressure - measured in the diastolic or relaxation phase of the heart cycle."
-          },
           "at0008.2" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0008",
@@ -7324,9 +7253,9 @@
       "termBindings" : {
         "SNOMED-CT" : {
           "at0000.1" : "term:SNOMED-CT(2003)::364090009",
-          "at0004.2" : "term:SNOMED-CT(2003)::271649006",
-          "at0005.2" : "term:SNOMED-CT(2003)::271650006",
-          "at0013.1" : "term:SNOMED-CT(2003)::246153002"
+          "at0013.1" : "term:SNOMED-CT(2003)::246153002",
+          "at0004.1" : "term:SNOMED-CT(2003)::271649006",
+          "at0005.1" : "term:SNOMED-CT(2003)::271650006"
         }
       },
       "terminologyExtracts" : { },
@@ -8458,20 +8387,27 @@
             "rmAttributeName" : "value",
             "children" : [ {
               "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "DV_TEXT",
-              "defaultValue" : {
-                "defining_code" : {
-                  "terminology_id" : {
-                    "value" : "SNOMED-CT",
-                    "@type" : "TERMINOLOGY_ID"
+              "rmTypeName" : "DV_CODED_TEXT",
+              "occurrences" : "1..1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "TERMINOLOGY_CODE",
+                  "occurrences" : "0..1",
+                  "terminologyId" : {
+                    "value" : "SNOMED-CT"
                   },
-                  "code_string" : "39607008",
-                  "@type" : "CODE_PHRASE"
-                },
-                "value" : "Pulm (lunge)",
-                "@type" : "DV_CODED_TEXT"
-              },
-              "attributes" : [ ],
+                  "constraint" : [ ],
+                  "selectedTerminologies" : [ "SNOMED-CT" ],
+                  "includedExternalTerminologyCodes" : [ {
+                    "terminologyId" : "SNOMED-CT",
+                    "code" : "39607008",
+                    "value" : "Pulm (lunge)"
+                  } ]
+                } ]
+              } ],
               "attributeTuples" : [ ]
             } ]
           } ],
@@ -12090,13 +12026,6 @@
             "code" : "at0000.1",
             "text" : "Røyk",
             "description" : "Sammendrag eller detaljer om et individs tidligere og nåværende tobakksrøykevaner."
-          },
-          "at0043.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0043.1",
-            "text" : "Beskrivelse røykevaner",
-            "description" : "Fritekstsammendrag om individets overordnede røykemønster og historikk.",
-            "comment" : "Bruk dette datalementet til å registrere en fritekstbeskrivelse av individets tobakksrøykevaner, eller for å overføre ustrukturert informasjon fra eksisterende eller tidligere kliniske systemer til arketypeformat."
           }
         },
         "sv" : { },
@@ -12211,27 +12140,27 @@
       "@type" : "RESOURCE_ANNOTATIONS",
       "documentation" : {
         "ar-sy" : {
-          "/data[at0001]/events[at0002]/data[at0003]/items[at0100]" : {
-            "fhir_mapping" : "*DiagnosticReport.requestDetail.clinicalNotes(en)"
-          },
-          "/data[at0001]/events[at0002]/data[at0003]/items[at0057]" : {
-            "fhir_mapping" : "*DiagnosticReport.conclusion(en)"
-          },
           "/data[at0001]/events[at0002]/data[at0003]/items[at0118]" : {
             "fhir_mapping" : "*DiagnosticReport.presentedForm(en)"
+          },
+          "/data[at0001]/events[at0002]/data[at0003]/items[at0100.1]" : {
+            "fhir_mapping" : "*DiagnosticReport.requestDetail.clinicalNotes(en)"
+          },
+          "/data[at0001]/events[at0002]/data[at0003]/items[at0057.1]" : {
+            "fhir_mapping" : "*DiagnosticReport.conclusion(en)"
           }
         },
         "en" : { },
         "nb" : { },
         "zh-cn" : {
-          "/data[at0001]/events[at0002]/data[at0003]/items[at0100]" : {
-            "fhir_mapping" : "*DiagnosticReport.requestDetail.clinicalNotes(en)"
-          },
-          "/data[at0001]/events[at0002]/data[at0003]/items[at0057]" : {
-            "fhir_mapping" : "*DiagnosticReport.conclusion(en)"
-          },
           "/data[at0001]/events[at0002]/data[at0003]/items[at0118]" : {
             "fhir_mapping" : "*DiagnosticReport.presentedForm(en)"
+          },
+          "/data[at0001]/events[at0002]/data[at0003]/items[at0100.1]" : {
+            "fhir_mapping" : "*DiagnosticReport.requestDetail.clinicalNotes(en)"
+          },
+          "/data[at0001]/events[at0002]/data[at0003]/items[at0057.1]" : {
+            "fhir_mapping" : "*DiagnosticReport.conclusion(en)"
           }
         },
         "de" : { },
@@ -12255,7 +12184,231 @@
       "@type" : "C_COMPLEX_OBJECT",
       "rmTypeName" : "OBSERVATION",
       "nodeId" : "at0000.1",
-      "attributes" : [ ],
+      "attributes" : [ {
+        "@type" : "C_ATTRIBUTE",
+        "rmAttributeName" : "data",
+        "children" : [ {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "HISTORY",
+          "nodeId" : "at0001",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "events",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "EVENT",
+              "nodeId" : "at0002",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "data",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ITEM_TREE",
+                  "nodeId" : "at0003",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "items",
+                    "children" : [ {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "nodeId" : "at0073.1",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "value",
+                        "children" : [ {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_CODED_TEXT",
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "defining_code",
+                            "children" : [ {
+                              "@type" : "C_TERMINOLOGY_CODE",
+                              "rmTypeName" : "CODE_PHRASE",
+                              "occurrences" : "1..1",
+                              "terminologyId" : {
+                                "value" : "local"
+                              },
+                              "constraint" : [ "at0107", "at0037", "at0120", "at0038", "at0040", "at0115", "at0119", "at0074", "at0116" ]
+                            } ]
+                          } ],
+                          "attributeTuples" : [ ]
+                        }, {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_TEXT",
+                          "attributes" : [ ],
+                          "attributeTuples" : [ ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "nodeId" : "at0075.1",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "nodeId" : "at0077.1",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "nodeId" : "at0100.1",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "nodeId" : "at0057.1",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "nodeId" : "at0098.1",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "nodeId" : "at0101.1",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                } ]
+              }, {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "state",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ITEM_TREE",
+                  "nodeId" : "at0112",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "items",
+                    "children" : [ {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "nodeId" : "at0113.1",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        } ]
+      }, {
+        "@type" : "C_ATTRIBUTE",
+        "rmAttributeName" : "protocol",
+        "children" : [ {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ITEM_TREE",
+          "nodeId" : "at0004",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "items",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "nodeId" : "at0068.1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_IDENTIFIER",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                }, {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_TEXT",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "CLUSTER",
+              "nodeId" : "at0094",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "items",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ELEMENT",
+                  "nodeId" : "at0106.1",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                }, {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ELEMENT",
+                  "nodeId" : "at0062.1",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "value",
+                    "children" : [ {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "DV_IDENTIFIER",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "DV_TEXT",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                }, {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ELEMENT",
+                  "nodeId" : "at0063.1",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "value",
+                    "children" : [ {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "DV_IDENTIFIER",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "DV_TEXT",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "nodeId" : "at0111.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "nodeId" : "at0121.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        } ]
+      } ],
       "attributeTuples" : [ ]
     },
     "terminology" : {
