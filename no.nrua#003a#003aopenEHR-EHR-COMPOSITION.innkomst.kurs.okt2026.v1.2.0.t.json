@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "60.0.0",
+      "sem_ver" : "60.0.1",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "9afb4816578a3d81f2e76fdbf7bab289",
+      "MD5-CAM-1.0.1" : "e0112dac01c8af05c55f9f8e511c76dc",
       "PARENT:MD5-CAM-1.0.1" : "3B0765A6B395C9D01595FDF2D440E6CB",
       "original_language" : "ISO_639-1::nb"
     },
@@ -29867,18 +29867,9 @@
           "referenceType" : "archetypeOverlay"
         }, {
           "@type" : "C_ARCHETYPE_ROOT",
-          "rmTypeName" : "SECTION",
-          "occurrences" : "0..1",
-          "nodeId" : "at0.44",
-          "attributes" : [ ],
-          "attributeTuples" : [ ],
-          "archetypeRef" : "openEHR-EHR-SECTION.ovl-adhoc-004.v1",
-          "referenceType" : "archetypeOverlay"
-        }, {
-          "@type" : "C_ARCHETYPE_ROOT",
           "rmTypeName" : "OBSERVATION",
           "occurrences" : "0..1",
-          "nodeId" : "at0.25",
+          "nodeId" : "at0.51",
           "attributes" : [ ],
           "attributeTuples" : [ ],
           "archetypeRef" : "openEHR-EHR-OBSERVATION.ovl-progress_note-022.v1",
@@ -29887,7 +29878,7 @@
           "@type" : "C_ARCHETYPE_ROOT",
           "rmTypeName" : "OBSERVATION",
           "occurrences" : "0..1",
-          "nodeId" : "at0.45",
+          "nodeId" : "at0.52",
           "attributes" : [ ],
           "attributeTuples" : [ ],
           "archetypeRef" : "openEHR-EHR-OBSERVATION.ovl-medication_screening-023.v1",
@@ -29896,7 +29887,7 @@
           "@type" : "C_ARCHETYPE_ROOT",
           "rmTypeName" : "EVALUATION",
           "occurrences" : "0..*",
-          "nodeId" : "at0.36",
+          "nodeId" : "at0.53",
           "attributes" : [ ],
           "attributeTuples" : [ ],
           "archetypeRef" : "openEHR-EHR-EVALUATION.ovl-medication_summary-001.v1",
@@ -29905,28 +29896,37 @@
           "@type" : "C_ARCHETYPE_ROOT",
           "rmTypeName" : "OBSERVATION",
           "occurrences" : "0..1",
-          "nodeId" : "at0.41",
+          "nodeId" : "at0.54",
           "attributes" : [ ],
           "attributeTuples" : [ ],
           "archetypeRef" : "openEHR-EHR-OBSERVATION.ovl-problem_screening-001.v1",
           "referenceType" : "archetypeOverlay"
         }, {
           "@type" : "C_ARCHETYPE_ROOT",
-          "rmTypeName" : "EVALUATION",
-          "occurrences" : "0..*",
-          "nodeId" : "at0.43",
+          "rmTypeName" : "SECTION",
+          "occurrences" : "0..1",
+          "nodeId" : "at0.58",
           "attributes" : [ ],
           "attributeTuples" : [ ],
-          "archetypeRef" : "openEHR-EHR-EVALUATION.ovl-adverse_reaction_risk-001.v2",
+          "archetypeRef" : "openEHR-EHR-SECTION.ovl-adhoc-004.v1",
           "referenceType" : "archetypeOverlay"
         }, {
           "@type" : "C_ARCHETYPE_ROOT",
           "rmTypeName" : "OBSERVATION",
           "occurrences" : "0..1",
-          "nodeId" : "at0.50",
+          "nodeId" : "at0.59",
           "attributes" : [ ],
           "attributeTuples" : [ ],
           "archetypeRef" : "openEHR-EHR-OBSERVATION.ovl-adverse_reaction_screening-001.v1",
+          "referenceType" : "archetypeOverlay"
+        }, {
+          "@type" : "C_ARCHETYPE_ROOT",
+          "rmTypeName" : "EVALUATION",
+          "occurrences" : "0..*",
+          "nodeId" : "at0.55",
+          "attributes" : [ ],
+          "attributeTuples" : [ ],
+          "archetypeRef" : "openEHR-EHR-EVALUATION.ovl-adverse_reaction_risk-001.v2",
           "referenceType" : "archetypeOverlay"
         } ]
       } ],
@@ -30438,18 +30438,18 @@
         },
         "children" : [ {
           "@type" : "C_ARCHETYPE_ROOT",
-          "rmTypeName" : "EVALUATION",
+          "rmTypeName" : "SECTION",
           "occurrences" : "0..1",
-          "nodeId" : "at0.19",
+          "nodeId" : "at0.22",
           "attributes" : [ ],
           "attributeTuples" : [ ],
-          "archetypeRef" : "openEHR-EHR-EVALUATION.ovl-clinical_synopsis-054.v1",
+          "archetypeRef" : "openEHR-EHR-SECTION.ovl-adhoc-003.v1",
           "referenceType" : "archetypeOverlay"
         }, {
           "@type" : "C_ARCHETYPE_ROOT",
           "rmTypeName" : "EVALUATION",
           "occurrences" : "0..1",
-          "nodeId" : "at0.1",
+          "nodeId" : "at0.27",
           "attributes" : [ ],
           "attributeTuples" : [ ],
           "archetypeRef" : "openEHR-EHR-EVALUATION.ovl-problem_diagnosis-052.v1",
@@ -30458,19 +30458,19 @@
           "@type" : "C_ARCHETYPE_ROOT",
           "rmTypeName" : "EVALUATION",
           "occurrences" : "0..1",
-          "nodeId" : "at0.7",
+          "nodeId" : "at0.28",
           "attributes" : [ ],
           "attributeTuples" : [ ],
           "archetypeRef" : "openEHR-EHR-EVALUATION.ovl-differential_diagnoses-053.v1",
           "referenceType" : "archetypeOverlay"
         }, {
           "@type" : "C_ARCHETYPE_ROOT",
-          "rmTypeName" : "SECTION",
+          "rmTypeName" : "EVALUATION",
           "occurrences" : "0..1",
-          "nodeId" : "at0.14",
+          "nodeId" : "at0.26",
           "attributes" : [ ],
           "attributeTuples" : [ ],
-          "archetypeRef" : "openEHR-EHR-SECTION.ovl-adhoc-003.v1",
+          "archetypeRef" : "openEHR-EHR-EVALUATION.ovl-clinical_synopsis-054.v1",
           "referenceType" : "archetypeOverlay"
         }, {
           "@type" : "C_ARCHETYPE_ROOT",
@@ -39556,9 +39556,9 @@
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0000.1",
-            "text" : "Status localis",
+            "text" : "Status localis (us. av aktuelt problem)",
             "description" : "Funn ved fysisk undersøkelse av et organsystem eller anatomisk struktur.",
-            "comment" : "Designkommentar:\nStatus localis: Det brukes særlig om funn fra den fysiske undersøkelsen, og beskriver hva legen faktisk observerer, palperer eller påviser i det aktuelle området.\nEksempler:\n- Ved brystkreft: størrelse, lokalisasjon og palpatoriske funn ved tumor, hudforandringer, lymfeknuter osv.\n- Ved hode-/halskreft: inspeksjons- og palpasjonsfunn i munnhule, svelg, hals og lymfeknutestasjoner.\n- Ved hudforandring: lokalisasjon, størrelse, farge, avgrensning, overflate osv."
+            "comment" : "Designkommentar:\nUndersøkelse av aktuelt problem.\nStatus localis: Det brukes særlig om funn fra den fysiske undersøkelsen, og beskriver hva legen faktisk observerer, palperer eller påviser i det aktuelle området.\nEksempler:\n- Ved brystkreft: størrelse, lokalisasjon og palpatoriske funn ved tumor, hudforandringer, lymfeknuter osv.\n- Ved hode-/halskreft: inspeksjons- og palpasjonsfunn i munnhule, svelg, hals og lymfeknutestasjoner.\n- Ved hudforandring: lokalisasjon, størrelse, farge, avgrensning, overflate osv."
           },
           "at0001.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -39734,7 +39734,39 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "B80FC61F1D57F56A038D6FE9631F4BC5"
       },
-      "details" : { }
+      "details" : {
+        "nb" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "nb"
+          },
+          "purpose" : "For å lage et rammeverk for registrering av svar på forhåndsdefinerte spørsmål om overfølsomhetsreaksjoner.",
+          "keywords" : [ "kartlegging, spørreskjema, allergi, bivirkning, overfølsomhetsreaksjon, reaksjon, allergi, intoleranse" ],
+          "use" : "Bruk for å lage et rammeverk for registrering av svar på forhåndsdefinerte spørsmål om tidligere overfølsomhetsreaksjoner.\r\n\r\nArketypen er løst modellert for å inkludere det bredeste spekteret av overfølsomhetsreaksjoner, som inkluderer men ikke er begrenset til allergier, overfølsomhet, intoleranser og bivirkninger som krever at man unngår kontakt med substansen. Substanser inkluderer, men er ikke begrenset til:\r\n- Terapeutiske substanser administrert korrekt i en passende dosering for individet.\r\n- Mat.\r\n- Materiale av plante- eller animalsk opprinnelse.\r\n- Gift fra insektstikk.\r\n\r\nVanlige bruksområder inkluderer, men er ikke begrenset til:\r\n- Systematiserte spørsmål ved enhver konsultasjon, for eksempel:\r\n--- Er du allergisk mot penicillin? Ja, Nei, Ukjent, Usikker.\r\n--- Reagerer du på plaster? Ja, Nei, Ukjent, Usikker.\r\n--- Har du noen matintoleranser?\r\n--- Har du noen gang hatt allergi mot hunder?\r\n\r\nSemantikken i denne arketypen er med vilje løst definert, og spørringer etter data i denne arketypen vil normalt bare være hensiktsmessig eller sikkert i konteksten av det spesifikke templatet. I et templat vil hvert dataelement vanligvis døpes om til det (spesifikke) spørsmålet man ønsker svar på. Flere steder er det foreslått verdisett som passer til de vanligste bruksområder, men det er allikevel mulig å tilpasse/endre verdisett for lokal bruk ved å benytte de alternative datatypene DV_TEXT eller DV_BOOLEAN i stedet. \r\n\r\nBruk en separat instans av denne arketypen for å skille mellom spørsmål som registrerer informasjon om en overfølsomhetsreaksjon som har oppstått når som helst i fortiden og informasjon om en overfølsomhetsreaksjon som har oppstått innenfor et spesifisert tidsintervall - for eksempel forskjellen mellom \"Har du noen allergier?\" sammenlignet med \"Har du hatt noen overfølsomhetsreaksjoner på medikamenter de siste fire ukene?\"\r\n\r\nKilden til informasjonen i et spørreskjema kan variere i ulike kontekster, men kan identifiseres spesifikt ved å benytte \"Information provider\" elementet i openEHR-referansemodell.\r\n\r\nDenne arketypen er laget for å bli brukt i et spørreskjema eller for å registrere enkle strukturerte data til for eksempel et sykdomsregister. Dersom det i spørreskjemaet identifiseres at det er noen overfølsomhetsreaksjoner som bør lagres i den elektroniske journalen, utover et øyeblikksbilde, er det tenkt at dette skal lagres i persistente arketyper laget spesielt for detaljer om overfølsomhetsreaksjonen (som for eksempel datoen for klinisk anerkjennelse) ved bruk av EVALUATION.adverse_reaction_risk archetype eller CLUSTER.adverse_reaction_event.",
+          "misuse" : "Skal ikke brukes til å registrere tilstedeværelse eller fravær av overfølsomhetsreaksjoner utenfor kartleggingssammenheng. Bruk EVALUATION.adverse_reaction_risk, CLUSTER.adverse_reaction_event eller EVALUATION.exclusion_specific for dette formålet.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "purpose" : "To create a framework for recording answers to pre-defined screening questions about adverse reactions.",
+          "keywords" : [ "Condition, state, illness, syndrome, questionnaire, screening, issue, allergy, intolerance" ],
+          "use" : "Use to create a framework for recording answers to pre-defined screening questions about past adverse reactions. \r\n\r\nThis archetype has deliberately been loosely modelled to be inclusive of the broadest range of adverse reactions, including but not limited to allergies, sensitivities, intolerances and side effects which warrant avoiding exposure to the identified substance. Substances include, but are not limited to: \r\n- Therapeutic substance administered correctly at an appropriate dosage for the individual.\r\n- Food.\r\n- Materials derived from plants or animals.\r\n- Venom from insect stings.\r\n\r\nCommon use cases include, but are not limited to:\r\n- Systematic questioning in any consultation, for example:\r\n--- Allergy to penicilin? Yes, No, Unknown, Unsure.\r\n--- Reaction to sticking plasters? Yes, No, Unknown, Unsure.\r\n--- Do you have any food intolerances?\r\n--- Have you ever had an allergy to dogs?\r\n\r\nThe semantics of this archetype are intentionally loose, and querying this archetype would normally only be useful or safe within the context of each specific template. In a template, each data element would usually be renamed to the specific question asked. Where value sets have been proposed for common use cases, these can be adapted for local use by using the DV_TEXT or the DV_BOOLEAN datatypes choice to match each specific use case.\r\n\r\nUse a separate instance of this archetype to distinguish between a questionnaire recording information about an adverse reaction that has occurred at any time in the past and information about an adverse reaction which occurred within a specified time interval - for example the difference between \"Do you have any allergies?\" compared to \"Have you had any reactions to any medications in the last four weeks?\"\r\n\r\nThe source of the information in a questionnaire response may vary in different contexts but can be specifically identified using the 'Information provider' element in the Reference Model.\r\n\r\nThis archetype has been designed to be used as a screening tool or to record simple questionnaire-format data for use in situations such as a disease registry. If the screening questionnaire identifies the presence of an adverse reaction, it is recommended that clinical system record and persist the specific details about the adverse reaction (such as the date of clinical recognition) using the EVALUATION.adverse_reaction_risk archetype or the CLUSTER.adverse_reaction_event.",
+          "misuse" : "Not to be used to record details about the presence or absence of an adverse reaction, outside of a screening context. Use EVALUATION.adverse_reaction_risk, CLUSTER.adverse_reaction_event or EVALUATION.exclusion_specific for these purposes.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.adverse_reaction_screening.v1",
     "differential" : true,
