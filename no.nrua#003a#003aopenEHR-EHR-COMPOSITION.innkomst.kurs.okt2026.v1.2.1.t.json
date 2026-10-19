@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "65.0.0",
+      "sem_ver" : "66.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "d91738a0783946dad14bfe69333973d8",
+      "MD5-CAM-1.0.1" : "1500aea0fa1d1b674007431418c5fd46",
       "PARENT:MD5-CAM-1.0.1" : "3B0765A6B395C9D01595FDF2D440E6CB",
       "original_language" : "ISO_639-1::nb"
     },
@@ -5663,7 +5663,7 @@
           "at0004.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0004.1",
-            "text" : "Naturlige funksjoner",
+            "text" : "Beskrivelse naturlige funksjoner",
             "description" : "Fritekstbeskrivelse av helserelaterte hendelser, status, funn eller oppfatninger på et spesifikt tidspunkt."
           }
         },
@@ -37972,6 +37972,13 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.2",
             "description" : ""
+          },
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Kartleggingsspørsmål om overfølsomhetsreaksjoner (skal føres i cave)",
+            "description" : "Spørsmål og tilhørende svar som brukes til å kartlegge forekomst av tidligere overfølsomhetsreaksjoner.",
+            "comment" : "Svarene kan være pasientregistrerte.\r\n"
           }
         }
       },
@@ -38182,7 +38189,7 @@
           "at0004.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0004.1",
-            "text" : "Fritekst relatert til sosial anamnese",
+            "text" : "Sosialanamnese fritekst",
             "description" : "Fritekstbeskrivelse av helserelaterte hendelser, status, funn eller oppfatninger på et spesifikt tidspunkt."
           },
           "at0002.1" : {
