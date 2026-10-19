@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "61.0.0",
+      "sem_ver" : "62.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "ecca2bcf85e9b7c8940157cd408fbc31",
+      "MD5-CAM-1.0.1" : "9ced6f9d063ac898a5e551af5e321823",
       "PARENT:MD5-CAM-1.0.1" : "3B0765A6B395C9D01595FDF2D440E6CB",
       "original_language" : "ISO_639-1::nb"
     },
@@ -4617,6 +4617,12 @@
         }, {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0002.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
           "occurrences" : "0..0",
           "nodeId" : "at0175.1",
           "attributes" : [ {
@@ -4702,6 +4708,22 @@
             }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "DV_INTERVAL<DV_DURATION>",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0200.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_DATE_TIME",
               "attributes" : [ ],
               "attributeTuples" : [ ]
             } ]
@@ -4980,6 +5002,13 @@
             "text" : "Varighet",
             "description" : "Varigheten av denne episoden av symptomet eller sykdomstegnet siden debut.",
             "comment" : "Brukes \"Dato/tid for debut\" og \"Dato/tid for opphør\" i systemer, kan dette dataelementet kalkuleres av systemet eller være overflødig. Tekst-datatypen kan brukes for å registrere forhåndsdefinerte intervaller som \"0-7 dager, 1-2 uker, 2 uker eller mer\"."
+          },
+          "at0002.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0002.1",
+            "text" : "Beskrivelse av symptomet",
+            "description" : "Fritekstbeskrivelse av det rapporterte symptomet eller sykdomstegnet.",
+            "comment" : "Eksempel: \"Svimmelhet med rotasjonsfølelse og av og til besvimelsesfølelse. Hurtig bevegelse fra sittende eller liggende til stående stilling virker å være en utløsende faktor. Opptrer typisk flere ganger daglig, og varer i ca et halvt til ett minutt hver gang. Å sette eller legge seg ned virker lindrende.\""
           }
         },
         "fi" : {
@@ -27384,7 +27413,7 @@
                       "terminologyId" : {
                         "value" : "local"
                       },
-                      "constraint" : [ "ac0.2" ],
+                      "constraint" : [ "ac0.3" ],
                       "selectedTerminologies" : [ ]
                     } ]
                   } ],
@@ -27411,28 +27440,22 @@
       "conceptCode" : "at0000",
       "termDefinitions" : {
         "es" : {
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
         "es-ar" : {
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
         "de" : {
-          "ac0.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
-            "description" : ""
-          },
           "at0002.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0002",
@@ -27467,54 +27490,54 @@
             "text" : "Problem/Diagnose",
             "description" : "Angaben über einen einzelnen identifizierten Gesundheitszustand, eine Verletzung, eine Behinderung oder ein Problem, welches das körperliche, geistige und/oder soziale Wohlergehen einer Einzelperson beeinträchtigt.",
             "comment" : "Eine klare Abgrenzung zwischen Problem und Diagnose ist in der Praxis nicht einfach zu erreichen. Für die Zwecke der klinischen Dokumentation mit diesem Archetyp werden Problem und Diagnose als ein Kontinuum betrachtet, mit zunehmendem Detaillierungsgrad und unterstützenden Beweisen, die in der Regel dem Etikett \"Diagnose\" Gewicht verleihen."
+          },
+          "ac0.3" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.3",
+            "description" : ""
           }
         },
         "en" : {
-          "ac0.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.2",
-            "description" : ""
-          },
           "at0079.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0079",
             "text" : "Variant",
             "description" : "Specific variant or subtype of the Diagnosis, if relevant.",
             "comment" : "For example: 'acute motor axonal neuropathy' as a variant of Guillain-Barre Syndrome. Coding of the name of the variant with a terminology is preferred, where possible. "
+          },
+          "ac0.3" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.3",
+            "description" : ""
           }
         },
         "ar-sy" : {
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
         "pt-br" : {
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
         "nb" : {
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
         "sv" : {
-          "ac0.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
-            "description" : ""
-          },
           "at0002.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0002",
@@ -27589,55 +27612,55 @@
             "text" : "Problem/Diagnos",
             "description" : "Detaljer av ett enskilt identifierat hälsotillstånd, skada, funktionshinder eller något annat problem som påverkar individens fysiska, psykiska och eller sociala välbefinnande.",
             "comment" : "Det är inte lätt att i praktiken uppnå en tydlig avgränsning mellan ett problem och en diagnos. Vid tillämpning av klinisk dokumentation med denna arketyp betraktas problem och diagnos som ett kontinuum, med plats för fler detaljer och stödjande bevis som vanligtvis ger tyngd till etiketten ”diagnos”."
+          },
+          "ac0.3" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.3",
+            "description" : ""
           }
         },
         "ko" : {
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
         "fi" : {
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
         "it" : {
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
         "nl" : {
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
         "zh" : {
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
         "ca" : {
-          "ac0.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
-            "description" : ""
-          },
           "at0002.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0002",
@@ -27712,15 +27735,15 @@
             "text" : "Problema/Diagnòstic",
             "description" : "Detalls sobre una única condició de salut, lesió, discapacitat o qualsevol altre problema identificat que afecti al benestar físic, mental i/o social d'una persona.",
             "comment" : "*Clear delineation between the scope of a problem versus a diagnosis is not easy to achieve in practice. For the purposes of clinical documentation with this archetype, problem and diagnosis are regarded as a continuum, with increasing levels of detail and supportive evidence usually providing weight towards the label of 'diagnosis'.(en)"
+          },
+          "ac0.3" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.3",
+            "description" : ""
           }
         },
         "zh-cn" : {
-          "ac0.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
-            "description" : ""
-          },
           "at0002.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0002",
@@ -27795,13 +27818,19 @@
             "text" : "Problem/Diagnosis",
             "description" : "Details about a single identified health condition, injury, disability or any other issue which impacts on the physical, mental and/or social well-being of an individual.",
             "comment" : "Clear delineation between the scope of a problem versus a diagnosis is not easy to achieve in practice. For the purposes of clinical documentation with this archetype, problem and diagnosis are regarded as a continuum, with increasing levels of detail and supportive evidence usually providing weight towards the label of 'diagnosis'."
+          },
+          "ac0.3" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.3",
+            "description" : ""
           }
         },
         "fr" : {
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.2",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.3",
             "description" : ""
           }
         }
@@ -27817,6 +27846,11 @@
           "@type" : "VALUE_SET",
           "id" : "ac0.2",
           "members" : [ "at0074", "at0075", "at0076" ]
+        },
+        "ac0.3" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.3",
+          "members" : [ "at0074", "at0076" ]
         }
       }
     },
@@ -28828,6 +28862,12 @@
             "rmAttributeName" : "items",
             "children" : [ {
               "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "nodeId" : "at0002.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "CLUSTER",
               "occurrences" : "0..0",
               "nodeId" : "at0028.1",
@@ -28859,6 +28899,13 @@
             "code" : "at0000.1",
             "text" : "Familieanamnese/herdiditet",
             "description" : "Sammenfattet informasjon om helserelaterte forhold hos familiemedlemmer."
+          },
+          "at0002.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0002.1",
+            "text" : "Famile og herdiditet sammendrag",
+            "description" : "Fritekstoversikt over problemer, diagnoser og psykososiale, miljømessige eller genetiske markører som er funnet hos familiemedlemmer.",
+            "comment" : "Bruk dette feltet for å registrere et sammmendrag eller konklusjon, eller for å importere tekstlige data fra eksisterende/tidligere kliniske system."
           }
         },
         "zh-cn" : { },
@@ -29339,7 +29386,7 @@
           "at0043.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0043.1",
-            "text" : "Beskrivelse ovrfølsomhetsreaksjon",
+            "text" : "Ikke kritisk allergi",
             "description" : "Fritekstbeskrivelse om bekymringer, plager, problemer eller diagnoser som er innenfor kartleggingsformålet."
           }
         },
@@ -29891,15 +29938,6 @@
           "attributes" : [ ],
           "attributeTuples" : [ ],
           "archetypeRef" : "openEHR-EHR-OBSERVATION.ovl-medication_screening-023.v1",
-          "referenceType" : "archetypeOverlay"
-        }, {
-          "@type" : "C_ARCHETYPE_ROOT",
-          "rmTypeName" : "EVALUATION",
-          "occurrences" : "0..*",
-          "nodeId" : "at0.53",
-          "attributes" : [ ],
-          "attributeTuples" : [ ],
-          "archetypeRef" : "openEHR-EHR-EVALUATION.ovl-medication_summary-001.v1",
           "referenceType" : "archetypeOverlay"
         }, {
           "@type" : "C_ARCHETYPE_ROOT",
@@ -35859,530 +35897,6 @@
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
-    "uid" : "bf493fd9-6e2b-4ae5-95bf-be8eaef9e7c3",
-    "description" : {
-      "@type" : "RESOURCE_DESCRIPTION",
-      "originalAuthor" : { },
-      "otherContributors" : [ ],
-      "ipAcknowledgements" : { },
-      "references" : { },
-      "conversionDetails" : { },
-      "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "50B8849AB9B274AB2D8E0456FA33FF85"
-      },
-      "details" : {
-        "de" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "de"
-          },
-          "purpose" : "Zur Darstellung von zusammenfassenden oder dauerhaften Informationen über alle Anwendungen eines bestimmten Medikaments oder einer Medikamentengruppe oder -klasse, insbesondere wenn das Anwendungsmuster oder die kumulative Dosierung überwacht werden muss.",
-          "keywords" : [ "Medikament, Arzneimittel, Arznei, lebenslang, Medikation, Sebstmedikation, Medizin, Anamnese, Lebenszeit, kumulativ, Dosis, Anwendung, Verabreichung, Verbrauch" ],
-          "use" : "Zur Darstellung zusammenfassender Informationen über die Anrwendung eines einzelnen Medikaments oder einer Medikamentengruppe oder -klasse, insbesondere wenn das Anwendungsmuster oder die kumulative Dosierung überwacht werden muss.\r\n\r\nDieser Archetyp wurde entwickelt, um einen Überblick über die Anrwendung von Medikamenten nur in bestimmten Situationen darzustellen, in denen es einen Mehrwert für die Gesundheitsakte darstellt, z. B. eine einzelne Instanz des Archetyps wird verwendet, um eine oder mehrere Anwendungsepisoden zu erfassen, sodass ein Anwendungsmuster identifiziert und/oder eine kumulative Dosis berechnet werden kann.\r\n \r\nAnwendungsbeispiele für diesen Archetyp:\r\n- Monitoring der ein Leben lang eingenommenen kumulativen Dosis von Doxorubicin- oder Methotrexat.\r\n- Monitoring der Dauer von hochdosierten Bisphosphanaten.\r\n- Monitoring der Anwendung eines experimentellen Medikaments in einer Studie.\r\n\r\nVerwenden Sie eine neue Instanz dieses Archetyps, um Details zu jedem Medikament oder jeder Gruppe oder Klasse von Medikamenten darzustellen.\r\n\r\nAuslöser für das Beenden einer Episode und das Beginnen einer neuen spiegeln weitgehend die lokalen Präferenzen der Datenerfassung und klinischen Prioritäten wider, einschließlich, wenn die Person:\r\n- das Medikament für einen längeren Zeitraum (der wahrscheinlich lokal definiert ist) nicht mehr einnimmt.\r\n- die angewendete Menge oder ihr Anwendungsmuster erheblich verändert.\r\n- die Art und Weise, wie das Medikament verabreicht wurde, ändert.",
-          "misuse" : "Der Archetyp darf nicht zur Darstellung einer „Medikamentenliste“ verwendet werden. Verwenden Sie für diesen Zweck den Archetyp COMPOSITION.medication_list. Darüber hinaus darf er nicht verwendet werden, um ein Medikament innerhalb einer „Medikamentenliste“ darzustellen – verwenden Sie zu diesem Zweck entweder den INSTRUCTION.medication_order oder den ACTION.medication Archetyp.\r\n\r\nNicht zur Darstellung einer Verordnung von einem zu verabreichenden oder einzunehmenden Medikament - verwenden Sie zu diesem Zweck den Archetyp INSTRUCTION.medication_order.\r\n\r\nNicht zur Dokumentation der tatsächlichen Verabreichung oder Einnahme eines Medikaments - verwenden Sie den Archetyp ACTION.medication für diesen Zweck.\r\n\r\nNicht zur Darstellung des Anwendungsstatus oder von Antworten auf vordefinierte Screening-Fragen zum Medikament zu verwenden - verwenden Sie zu diesem Zweck den Archetyp OBSERVATION.medication_screening.\r\n\r\nNicht zu verwenden, um eine Beobachtung über die Verwendung eines Medikaments darzustellen – verwenden Sie zu diesem Zweck den Archetyp OBSERVATION.medication_statement.",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        },
-        "nb" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "nb"
-          },
-          "purpose" : "For å registrere et sammendrag eller varig (persistent) informasjon om all bruk av ett spesifisert legemiddel, gruppe eller klasse av legemidler, spesielt der bruksmønsteret eller kumulativ mengde må overvåkes.",
-          "keywords" : [ "medisin, livslang, medikament, kur, legemiddel, historikk, levetid, kumulativ, dose, administrasjon, behandling" ],
-          "use" : "Brukes for å registrere et sammendrag eller varig (persistent) informasjon om all bruk av ett spesifisert legemiddel, gruppe eller klasse av legemidler, spesielt der bruksmønsteret eller kumulativ mengde må overvåkes.\r\n\r\nDenne arketypen er utviklet for å representere en oversikt over bruken av legemidler kun i tilfeller der det gir verdi for pasientjournalen, for eksempel hvor den kumulative dosen av et legemiddel har betydelige toksiske effekter eller langtidsbruk har negative helseeffekter. For hver periode et legemiddel er brukt oppdateres samme instans av arketypen, slik at man kan følge bruken over tid og kumulativ mengde kan regnes ut.\r\n\r\nFor eksempel:\r\n- overvåkning av kumulativ dose av Doxorubicin tatt i løpet av livet.\r\n- overvåking av varigheten av høydose bisfosfonater.\r\n- overvåking av bruk av et eksperimentelt legemiddel i en studie.\r\n\r\nBruk en ny instans av denne arketypen for å registre detaljer om hvert enkelt legemiddel, gruppe eller klasse av legemidler.\r\n\r\nDet som skal trigge en avslutning av en periode og starte en ny avhenger av lokale behov og hva som blir prioritert klinisk. For eksempel:\r\n- individet har opphold i bruken av legemiddelet i en vesentlig tidsperiode.\r\n- stor endring i mengde eller bruksmønster.\r\n- endringer i administreringsvei for legemiddelet.",
-          "misuse" : "Brukes ikke for å representere en legemiddeliste, bruk COMPOSITION.medication_list for dette formålet. Brukes heller ikke for å representere et legemiddel i en \"Legemiddelliste\". Bruk arketypen INSTRUCTION.medication_order (Legemiddelordinering) eller arketypen ACTION.medication (Legemiddelhåndtering) til dette formålet.\r\n\r\nBrukes ikke for å dokumentere forordningen av et legemiddel - bruk arketypen INSTRUCTION.medication_order (Legemiddelordinering) til dette formålet.\r\n\r\nBrukes ikke for å dokumentere administreringen av et legemiddel - bruk arketypen ACTION.medication (Legemiddelhåndtering) til dette formålet\r\n\r\nBrukes ikke for å registrere svar på spørsmål om legemiddelbruk i typiske spørreskjema-settinger, som Ja/Nei på spesifikke legemidler. Bruk arketypen OBSERVATION.medication_screening til dette formålet.\r\n\r\nBrukes ikke for å registrere status på bruken av ett spesifikt legemiddel på et bestemt tidspunkt - bruk arketypen OBSERVATION.medication_statement til dette formålet.",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        },
-        "pt-br" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "pt-br"
-          },
-          "purpose" : "*To record summary or persistent information about the use of a single medication or group or class of medications, especially where the pattern of use or cumulative dosage needs to be monitored. (en)",
-          "keywords" : [ "*drug, lifelong, medication, self-medicate, medicine, history, lifetime, cumulative, dose, use, administration, consumption (en)" ],
-          "use" : "*Use to record summary information about the use of a single medication or group or class of medications, especially where the pattern of use or cumulative dosage needs to be monitored.\r\n \r\nThis archetype has been designed to represent an overview of the use of medication only in specific situations where it adds value to the health record, such as where the cumulative dose of the medication has significant toxic effects or long term use has adverse health impacts. A single instance of the archetype will be used to capture one or more episodes of use, so that a pattern of use can be identified and/or a cumulative dose can be calculated.\r\n \r\nExamples of use include:\r\n- monitoring of the cumulative dose of doxorubicin or methotrexate taken over a lifetime.\r\n- monitoring the duration of high dose bisphosphanates.\r\n- monitoring the use of an experimental medication in a trial.\r\n \r\nUse a new instance of this archetype to record details about each medication or group or class of medications.\r\n \r\nTriggers for closing one episode and commencing a new one will largely reflect local data collection preferences and clinical priorities, including if the individual:\r\n- stops using the medication for a significant period of time (which will likely be locally defined).\r\n- significantly changes their amount or pattern of use.\r\n- changes in the route by which the medication was administed. (en)",
-          "misuse" : "*Not to be used to represent a 'Medication list' - use COMPOSITION.medication_list for this purpose. In addition, not to be used to represent a medication within a 'Medication list' - use either an INSTRUCTION.medication_order or ACTION.medication for this purpose.\r\n\r\nNot to be used for recording an order for a medication to be administered or consumed - use INSTRUCTION.medication_order for this purpose.\r\n\r\nNot to be used for documenting the actual administration or consumption of a medication - use ACTION.medication for this purpose.\r\n\r\nNot to be used for recording the status of use or screening question/answer pairs regarding the medication - use OBSERVATION.medication_screening for this purpose.\r\n\r\nNot to be used to record an observation about the use of a medication - use OBSERVATION.medication_statement for this purpose. (en)",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        },
-        "en" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "en"
-          },
-          "purpose" : "To record summary or persistent information about the use of a single medication or group or class of medications, especially where the pattern of use or cumulative dosage needs to be monitored.",
-          "keywords" : [ "drug, lifelong, medication, self-medicate, medicine, history, lifetime, cumulative, dose, use, administration, consumption" ],
-          "use" : "Use to record summary information about the use of a single medication or group or class of medications, especially where the pattern of use or cumulative dosage needs to be monitored.\r\n \r\nThis archetype has been designed to represent an overview of the use of medication only in specific situations where it adds value to the health record, such as where the cumulative dose of the medication has significant toxic effects or long term use has adverse health impacts. A single instance of the archetype will be used to capture one or more episodes of use, so that a pattern of use can be identified and/or a cumulative dose can be calculated.\r\n \r\nExamples of use include:\r\n- monitoring of the cumulative dose of doxorubicin or methotrexate taken over a lifetime.\r\n- monitoring the duration of high dose bisphosphanates.\r\n- monitoring the use of an experimental medication in a trial.\r\n \r\nUse a new instance of this archetype to record details about each medication or group or class of medications.\r\n \r\nTriggers for closing one episode and commencing a new one will largely reflect local data collection preferences and clinical priorities, including if the individual:\r\n- stops using the medication for a significant period of time (which will likely be locally defined).\r\n- significantly changes their amount or pattern of use.\r\n- changes in the route by which the medication was administered.",
-          "misuse" : "Not to be used to represent a 'Medication list' - use COMPOSITION.medication_list for this purpose. In addition, not to be used to represent a medication within a 'Medication list' - use either an INSTRUCTION.medication_order or ACTION.medication for this purpose.\r\n\r\nNot to be used for recording an order for a medication to be administered or consumed - use INSTRUCTION.medication_order for this purpose.\r\n\r\nNot to be used for documenting the actual administration or consumption of a medication - use ACTION.medication for this purpose.\r\n\r\nNot to be used for recording the status of use or screening question/answer pairs regarding the medication - use OBSERVATION.medication_screening for this purpose.\r\n\r\nNot to be used to record an observation about the use of a medication - use OBSERVATION.medication_statement for this purpose.",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        }
-      }
-    },
-    "parentArchetypeId" : "openEHR-EHR-EVALUATION.medication_summary.v1",
-    "differential" : true,
-    "archetypeId" : {
-      "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-EVALUATION.ovl-medication_summary-001.v1"
-    },
-    "definition" : {
-      "@type" : "C_COMPLEX_OBJECT",
-      "rmTypeName" : "EVALUATION",
-      "nodeId" : "at0000.1",
-      "attributes" : [ {
-        "@type" : "C_ATTRIBUTE",
-        "rmAttributeName" : "data",
-        "children" : [ {
-          "@type" : "C_COMPLEX_OBJECT",
-          "rmTypeName" : "ITEM_TREE",
-          "nodeId" : "at0001",
-          "attributes" : [ {
-            "@type" : "C_ATTRIBUTE",
-            "rmAttributeName" : "items",
-            "children" : [ {
-              "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "ELEMENT",
-              "occurrences" : "0..0",
-              "nodeId" : "at0007.1",
-              "attributes" : [ ],
-              "attributeTuples" : [ ]
-            }, {
-              "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "ELEMENT",
-              "occurrences" : "0..0",
-              "nodeId" : "at0028.1",
-              "attributes" : [ ],
-              "attributeTuples" : [ ]
-            }, {
-              "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "ELEMENT",
-              "occurrences" : "0..0",
-              "nodeId" : "at0009.1",
-              "attributes" : [ ],
-              "attributeTuples" : [ ]
-            }, {
-              "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "CLUSTER",
-              "occurrences" : "0..0",
-              "nodeId" : "at0008.1",
-              "attributes" : [ {
-                "@type" : "C_ATTRIBUTE",
-                "rmAttributeName" : "items",
-                "children" : [ {
-                  "@type" : "C_COMPLEX_OBJECT",
-                  "rmTypeName" : "ELEMENT",
-                  "occurrences" : "0..0",
-                  "nodeId" : "at0011.1",
-                  "attributes" : [ ],
-                  "attributeTuples" : [ ]
-                }, {
-                  "@type" : "C_COMPLEX_OBJECT",
-                  "rmTypeName" : "ELEMENT",
-                  "occurrences" : "0..0",
-                  "nodeId" : "at0018.1",
-                  "attributes" : [ ],
-                  "attributeTuples" : [ ]
-                }, {
-                  "@type" : "C_COMPLEX_OBJECT",
-                  "rmTypeName" : "ELEMENT",
-                  "occurrences" : "0..0",
-                  "nodeId" : "at0020.1",
-                  "attributes" : [ ],
-                  "attributeTuples" : [ ]
-                }, {
-                  "@type" : "C_COMPLEX_OBJECT",
-                  "rmTypeName" : "ELEMENT",
-                  "occurrences" : "0..0",
-                  "nodeId" : "at0014.1",
-                  "attributes" : [ ],
-                  "attributeTuples" : [ ]
-                }, {
-                  "@type" : "C_COMPLEX_OBJECT",
-                  "rmTypeName" : "ELEMENT",
-                  "occurrences" : "0..0",
-                  "nodeId" : "at0016.1",
-                  "attributes" : [ {
-                    "@type" : "C_ATTRIBUTE",
-                    "rmAttributeName" : "value",
-                    "children" : [ {
-                      "@type" : "C_COMPLEX_OBJECT",
-                      "rmTypeName" : "DV_QUANTITY",
-                      "attributes" : [ ],
-                      "attributeTuples" : [ ]
-                    }, {
-                      "@type" : "C_COMPLEX_OBJECT",
-                      "rmTypeName" : "DV_TEXT",
-                      "attributes" : [ ],
-                      "attributeTuples" : [ ]
-                    } ]
-                  } ],
-                  "attributeTuples" : [ ]
-                }, {
-                  "@type" : "C_COMPLEX_OBJECT",
-                  "rmTypeName" : "ELEMENT",
-                  "occurrences" : "0..0",
-                  "nodeId" : "at0012.1",
-                  "attributes" : [ ],
-                  "attributeTuples" : [ ]
-                }, {
-                  "@type" : "C_COMPLEX_OBJECT",
-                  "rmTypeName" : "ELEMENT",
-                  "occurrences" : "0..0",
-                  "nodeId" : "at0031.1",
-                  "attributes" : [ {
-                    "@type" : "C_ATTRIBUTE",
-                    "rmAttributeName" : "value",
-                    "children" : [ {
-                      "@type" : "C_COMPLEX_OBJECT",
-                      "rmTypeName" : "DV_DURATION",
-                      "attributes" : [ {
-                        "@type" : "C_ATTRIBUTE",
-                        "rmAttributeName" : "value",
-                        "children" : [ {
-                          "@type" : "C_DURATION",
-                          "rmTypeName" : "DURATION",
-                          "occurrences" : "1..1",
-                          "patternedConstraint" : "PYMDTH",
-                          "constraint" : [ {
-                            "lower" : "PT0H",
-                            "lowerIncluded" : true,
-                            "upperIncluded" : false,
-                            "lowerUnbounded" : false,
-                            "upperUnbounded" : true
-                          } ]
-                        } ]
-                      } ],
-                      "attributeTuples" : [ ]
-                    } ]
-                  } ],
-                  "attributeTuples" : [ ]
-                }, {
-                  "@type" : "C_COMPLEX_OBJECT",
-                  "rmTypeName" : "ELEMENT",
-                  "occurrences" : "0..0",
-                  "nodeId" : "at0013.1",
-                  "attributes" : [ ],
-                  "attributeTuples" : [ ]
-                }, {
-                  "@type" : "C_COMPLEX_OBJECT",
-                  "rmTypeName" : "ELEMENT",
-                  "occurrences" : "0..0",
-                  "nodeId" : "at0032.1",
-                  "attributes" : [ ],
-                  "attributeTuples" : [ ]
-                }, {
-                  "@type" : "C_COMPLEX_OBJECT",
-                  "rmTypeName" : "ELEMENT",
-                  "occurrences" : "0..0",
-                  "nodeId" : "at0022.1",
-                  "attributes" : [ ],
-                  "attributeTuples" : [ ]
-                } ]
-              } ],
-              "attributeTuples" : [ ]
-            }, {
-              "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "ELEMENT",
-              "occurrences" : "0..0",
-              "nodeId" : "at0015.1",
-              "attributes" : [ ],
-              "attributeTuples" : [ ]
-            }, {
-              "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "ELEMENT",
-              "occurrences" : "0..0",
-              "nodeId" : "at0010.1",
-              "attributes" : [ ],
-              "attributeTuples" : [ ]
-            }, {
-              "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "ELEMENT",
-              "occurrences" : "0..0",
-              "nodeId" : "at0030.1",
-              "attributes" : [ ],
-              "attributeTuples" : [ ]
-            }, {
-              "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "ELEMENT",
-              "occurrences" : "0..0",
-              "nodeId" : "at0027.1",
-              "attributes" : [ {
-                "@type" : "C_ATTRIBUTE",
-                "rmAttributeName" : "value",
-                "children" : [ {
-                  "@type" : "C_COMPLEX_OBJECT",
-                  "rmTypeName" : "DV_DURATION",
-                  "attributes" : [ {
-                    "@type" : "C_ATTRIBUTE",
-                    "rmAttributeName" : "value",
-                    "children" : [ {
-                      "@type" : "C_DURATION",
-                      "rmTypeName" : "DURATION",
-                      "occurrences" : "1..1",
-                      "constraint" : [ {
-                        "lower" : "PT0S",
-                        "lowerIncluded" : true,
-                        "upperIncluded" : false,
-                        "lowerUnbounded" : false,
-                        "upperUnbounded" : true
-                      } ]
-                    } ]
-                  } ],
-                  "attributeTuples" : [ ]
-                } ]
-              } ],
-              "attributeTuples" : [ ]
-            } ]
-          } ],
-          "attributeTuples" : [ ]
-        } ]
-      }, {
-        "@type" : "C_ATTRIBUTE",
-        "rmAttributeName" : "protocol",
-        "children" : [ {
-          "@type" : "C_COMPLEX_OBJECT",
-          "rmTypeName" : "ITEM_TREE",
-          "nodeId" : "at0005",
-          "attributes" : [ {
-            "@type" : "C_ATTRIBUTE",
-            "rmAttributeName" : "items",
-            "children" : [ {
-              "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "ELEMENT",
-              "occurrences" : "0..0",
-              "nodeId" : "at0006.1",
-              "attributes" : [ ],
-              "attributeTuples" : [ ]
-            } ]
-          } ],
-          "attributeTuples" : [ ]
-        } ]
-      } ],
-      "attributeTuples" : [ ]
-    },
-    "terminology" : {
-      "@type" : "ARCHETYPE_TERMINOLOGY",
-      "conceptCode" : "at0000",
-      "termDefinitions" : {
-        "en" : { },
-        "nb" : {
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000.1",
-            "text" : "Legemiddelsammendrag (hivs du vil legge til ett og ett legemiddel)",
-            "description" : "Sammendrag eller varig (persistent) informasjon om all bruk av ett spesifisert legemiddel, gruppe eller klasse av legemidler, spesielt der bruksmønsteret eller kumulativ mengde må overvåkes."
-          }
-        },
-        "pt-br" : { },
-        "de" : {
-          "at0013.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0013",
-            "text" : "*Episode reason for cessation (en)",
-            "description" : "Der Grund, warum die Anwendung des Medikaments beendet wurde.",
-            "comment" : "Wenn möglich, wird die Codierung mit einer externen Terminologie bevorzugt. Zum Beispiel: suboptimale Kontrolle von Diabetes; Nebenwirkung oder hohe Kosten."
-          },
-          "at0014.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0014",
-            "text" : "*Description (en)",
-            "description" : "Beschreibung der Anwendung des Medikaments während des definierten Anwendungszeitraums."
-          },
-          "at0015.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0015",
-            "text" : "Kumulative Dosis",
-            "description" : "Gesamtmenge des über die Lebenszeit der Person angewendeten Medikaments.",
-            "comment" : "*For example: monitoring of the cumulative dose of doxorubicin.\r\nMay be manually calculated or derived via the EHR from multiple sources.\r\n\r\n (en)"
-          },
-          "at0016.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0016",
-            "text" : "Menge im Anwendungszeitraum",
-            "description" : "*Cumulative dose of the medication used in this episode. (en)"
-          },
-          "at0006.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0006",
-            "text" : "Datum der letzten Aktualisierung",
-            "description" : "Das Datum der letzten Aktualisierung der Zusammenfassung."
-          },
-          "at0007.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0007",
-            "text" : "Klinische Beschreibung",
-            "description" : "*Changing the description to: Narrative description about the overall use of the medication. (en)",
-            "comment" : "*For example: \"Used between 1996 and 2001 against osteoporosis. Ceased after five years of use to minimise risk of adverse effects.\" (en)"
-          },
-          "at0028.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0028",
-            "text" : "Klinische Indikation",
-            "description" : "Die allgemeine klinische Indikation für die Anrwendung des Medikaments.",
-            "comment" : "*Coding with an external terminology is preferred, where possible. For example: 'Osteoporosis'. (en)"
-          },
-          "at0018.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0018",
-            "text" : "Indikation für den Anwendungszeitraum",
-            "description" : "Die klinische Indikation für die Anwendung des Medikaments in dem Anwendungszeitraum, insbesondere wenn dieser spezifischer ist oder von der „Klinischen Indikation“ abweicht oder es keine klinische Indikation gibt, die für alle Anwendungszeiträume gilt.",
-            "comment" : "*This element and the root level 'Clinical indication' element can potentially be in conflict with each other. In those situations, this element takes precedence over 'Clinical indication' for this episode.\r\nCoding with an external terminology is preferred, where possible. \r\nFor example: 'Cancer therapy' or 'rheumatoid arthritis for osteoporosis'. (en)"
-          },
-          "at0008.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0008",
-            "text" : "Anwendungszeitraum",
-            "description" : "Details zur Anwendung des Medikaments während eines bestimmten Zeitraums.",
-            "comment" : "*Triggers for closing one episode and commencing a new one can include: \r\n- a change in dose; \r\n- or a significant change in the pattern of use (en)"
-          },
-          "at0009.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0009",
-            "text" : "Beginn der Anwendung",
-            "description" : "*The date when the medication was first administered. (en)",
-            "comment" : "Kann ein Teildatum sein, zum Beispiel nur ein Jahr."
-          },
-          "at0030.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0030",
-            "text" : "*Reason for cessation (en)",
-            "description" : "*The reason why all use of the medication was stopped. (en)",
-            "comment" : "Wenn möglich, wird die Codierung mit einer externen Terminologie bevorzugt. Zum Beispiel: suboptimale Kontrolle von Diabetes; Nebenwirkung oder hohe Kosten."
-          },
-          "at0032.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0032",
-            "text" : "*Route (en)",
-            "description" : "*The route by which the ordered item was, administed during this episode. (en)",
-            "comment" : "*For example: 'oral', 'intravenous', or 'topical'. Coding of the route with a terminology is preferred, where possible. (en)"
-          },
-          "at0020.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0020",
-            "text" : "Therapeutische Intention",
-            "description" : "Die therapeutische Absicht für die Anrwendung des Medikaments in diesem Anwendungszeitraum.",
-            "comment" : "Codierung mit einer externen Terminologie, soweit möglich. Zum Beispiel: Schmerzlinderung; palliativ oder kurativ; Kurzzeitkurs oder lebenslange Antibiotika.\r\n\t\r\n\r\n"
-          },
-          "at0031.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0031",
-            "text" : "*Episode duration (en)",
-            "description" : "*The duration of the use of the medication in this episode.  (en)",
-            "comment" : "*If 'Episode onset' and 'Episode cessation' are used in systems, this data element may be calculated, or alternatively, be considered redundant in this scenario. (en)"
-          },
-          "at0010.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0010",
-            "text" : "Ende der Anwendung",
-            "description" : "*The date when the medication was last administered. (en)",
-            "comment" : "Kann ein Teildatum sein, zum Beispiel nur ein Jahr."
-          },
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000",
-            "text" : "Zusammenfassung der Medikation",
-            "description" : "*Summary or persistent information about the use of a single medication or group of medications, especially where the pattern of use or cumulative dosage needs to be monitored. (en)"
-          },
-          "at0011.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0011",
-            "text" : "Beginn des Anwendungszeitraums",
-            "description" : "*The date of the first administration of the medication for this episode. (en)",
-            "comment" : "Kann ein Teildatum sein, zum Beispiel nur ein Jahr."
-          },
-          "at0012.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012",
-            "text" : "Ende des Anwendungszeitraums",
-            "description" : "*The date of the last administration of the medication for this episode. (en)",
-            "comment" : "Kann ein Teildatum sein, zum Beispiel nur ein Jahr."
-          },
-          "at0022.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0022",
-            "text" : "*Therapeutic response (en)",
-            "description" : "Das beobachtete Ansprechen der Person auf die Behandlung mit diesem Medikament während des Anwendungszeitraums.",
-            "comment" : "Wenn möglich, wird die Codierung mit einer externen Terminologie bevorzugt. Zum Beispiel: UTI behoben."
-          }
-        }
-      },
-      "termBindings" : { },
-      "terminologyExtracts" : { },
-      "valueSets" : { }
-    },
-    "adlVersion" : "1.4",
-    "buildUid" : "0c00cb63-d882-4789-83b5-9e27946b84d8",
-    "rmName" : "openehr",
-    "rmRelease" : "1.1.0",
-    "generated" : true,
-    "otherMetaData" : { },
-    "originalLanguage" : {
-      "terminologyId" : {
-        "value" : "ISO_639-1"
-      },
-      "codeString" : "en"
-    },
-    "translations" : [ {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "de"
-      },
-      "author" : {
-        "name" : "Ramona Wellmann, Alina Rehberg, Natalia Strauch",
-        "organisation" : "Medizinische Hochschule Hannover",
-        "email" : "wellmann.ramona@mh-hannover.de, rehberg.alina@mh-hannover.de, Strauch.Natalia@mh-hannover.de"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "nb"
-      },
-      "author" : {
-        "name" : "Gro-Hilde Ulriksen, John Tore Valand, Liv Laugen, Vebjørn Arntzen",
-        "organisation" : "Norwegian centre for e-health research, Helse Bergen, ​Oslo University Hospital, Norway",
-        "email" : "john.tore.valand@helse-bergen.no, liv.laugen@ous-hf.no, varntzen@ous-hf.no, john.tore.valand@helse-vest-ikt.no"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "pt-br"
-      },
-      "author" : {
-        "name" : "Adriana Kitajima, Débora Farage, Fernanda Maia, Laíse Figueiredo, Marivan Abrahão",
-        "organisation" : "Core Consulting",
-        "email" : "contato@coreconsulting.com.br"
-      },
-      "accreditation" : "Hospital Alemão Oswaldo Cruz (HAOC)",
-      "otherDetails" : { }
-    } ]
-  }, {
-    "@type" : "TEMPLATE_OVERLAY",
     "uid" : "8f1dfeb6-7e53-4175-93d6-d9d676478f65",
     "description" : {
       "@type" : "RESOURCE_DESCRIPTION",
@@ -39841,7 +39355,88 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "5E574D6BBAB51E31A81716AD14B6781D"
       },
-      "details" : { }
+      "details" : {
+        "de" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "de"
+          },
+          "purpose" : "Zur Repräsentation eines manuellen Zusammenfassen von gesundheitsbezogenen Ereignissen, die aus Sicht eines Gesundheitsdienstleisters zum Zeitpunkt der Aufzeichnung aktuell sind.",
+          "keywords" : [ "Kommentar", "Notiz", "Anmerkung", "Fortschritt", "Ablauf" ],
+          "use" : "Verwenden Sie diesen Archetyp, um eine Beschreibung über aktuelle gesundheitsbezogene Ereignisse und Aktivitäten aus der Sicht eines Gesundheitsdienstleisters manuell zu synthetisieren und aufzuzeichnen. \r\n\r\nDiese unstrukturierte Beschreibung kann den Gesundheitszustand und die Befunde des Patienten enthalten, die zum Zeitpunkt der Aufzeichnung aktuell sind. Am häufigsten bezieht sich diese Beschreibung wahrscheinlich auf Notizen zur Krankenpflege am Ende einer Schicht oder auf die täglichen Notizen von Gesundheitsdienstleistern wie einem Arzt oder einem Physiotherapeuten. In der Praxis ist Fortschrittbericht eine Meta-Beobachtung, die die vorhandene strukturierte Patientenakte ergänzt und es ermöglicht, subtile, subjektive oder interpretative Informationen über den Patienten auszudrücken, die ansonsten möglicherweise nicht allein durch strukturierte Daten offensichtlich sind, und der EHR-Aufzeichnung Ausgewogenheit und Sinnzusammenhang verleiht. In vielen Situationen wird dieser Archetyp zusammen mit anderen strukturierteren Archetypen in einer einzigen COMPOSITION zusammengefasst. \r\n\r\nDieser Archetyp kann auch verwendet werden, wenn keine strukturierten Archetypen verfügbar sind oder um Fortschrittberichte aufzuzeichnen, die aus alten Systemen importiert wurden.",
+          "misuse" : "Nicht zur Repräsentation bestimmter strukturierter oder semistrukturierter Gesundheitsinformationen verwenden. Beispielsweise sollten detaillierte Informationen zu Problemen / Diagnosen, Testergebnissen und Vitalzeichen, Untersuchungsergebnissen und Patientengeschichte / -anamnese unter Verwendung der spezifischen relevanten EVALUATION- oder OBSERVATION-Archetypen dargestellt werden.\r\n\r\nDarf nicht verwendet werden, um eine beschreibende, zusammenfassende Ansicht des Gesundheitszustands des Patienten darzustellen, beispielsweise um eine kurze Zusammenfassung der stationären Aufnahme des Patienten als Bestandteil eines umfassenden und strukturierten Entlassungsberichtes zu übermitteln. Verwenden Sie zu diesem Zweck den Archetyp EVALUATION.clinical_synopsis.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es-ar" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es-ar"
+          },
+          "purpose" : "Para la síntesis y registro manuales de la descripción narrativa de eventos actuales relacionados con la salud, desde la perspectiva del proveedor de cuidados de la salud.",
+          "keywords" : [ "comentario", "nota", "evolución" ],
+          "use" : "utilizado para la síntesis y registro manuales de la descripción narrativa de eventos y actividades actuales relacionados con la salud, desde la perspectiva del proveedor de cuidados de la salud.\r\nEsta descripción no estructurada puede incluir el estado de salud y hallazgos propios del sujeto que corresponden al momento del registro. El caso mas común probablemente se relacione con las notas de enfermería al final de un turno o las notas diarias del proveedor de cuidados de la salud, como es el caso de un médico o un fisioterapeuta. En la práctica, la Nota de Evolución es una meta observación que complementará el registro estructurado, permitiendo la expresión de información sutil, subjetiva o interpretativa acerca del paciente que de otro modo podría no resultar obvia a partir de los datos estructurados solamente, proveyendo así balance y contexto al registro clínico. En muchas situaciones, este arquetipo puede usarse en combinación con otros arquetipos mas estructurados dentro de una misma COMPOSITION.\r\n\r\nEste arquetipo también puede ser utilizado si no existe un arquetipo estructurado disponible para un dato determinado, o para importar notas de evolución de sistemas legados.",
+          "misuse" : "No debe utilizarse para registrar información específica de salud estructurada o semiestructurada. Por ejemplo, la información detallada acerca de problemas o diagnósticos, resultados de exámenes y signos vitales, hallazgos del examen y la enfermedad actual descrita por el paciente deben ser registrada utilizando los arquetipos específicos relevantes del tipo EVALUATION u OBSERVATION.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "nb" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "nb"
+          },
+          "purpose" : "For at helsepersonell skal kunne lage og lagre en oppsummering i fritekst om helserelaterte hendelser eller status som er gyldig på tidspunktet det registreres.",
+          "keywords" : [ "kommentar", "notat", "løpende" ],
+          "use" : "Brukes for at helsepersonell skal kunne lage en oppsummering i fritekst om helserelaterte hendelser eller status som er gyldig på tidspunktet det registreres. Denne ustrukturerte beskrivelsen kan inkludere individets helsestatus og funn som er gyldige på registreringstidspunktet. Dette kan sammenlignes med et fritekst journalnotat, som et sykepleiernotat ved vaktskifte, eller et daglig notat fra lege, fysioterapeut eller annet helsepersonell. I praksis vil \"Tidfestet fritekst\" være observasjoner på overordnet nivå som vil komplettere eksisterende strukturert informasjon, og dermed tillate mer subtile, subjektive eller tolkende informasjon om et individ. Det vil være naturlig å kombinere denne arketypen med strukturerte arketyper i en COMPOSITION.\r\n\r\nArketypen kan også benyttes når det ikke finnes strukturerte arketyper tilgjengelig, eller til å lagre journaltekst som blir konvertert fra et annet journalsystem.",
+          "misuse" : "Skal ikke brukes for å registrere spesifikk strukturert eller semistrukturert helseinformasjon, for eksempel detaljert informasjon om problem/diagnose, laboratoriesvar og vitale tegn, undersøkelsesfunn og anamneseinformasjon. Denne type data skal registreres i de spesifikke relevante EVALUATION- eller OBSERVATION-arketypene.\r\n\r\nBrukes ikke for registrere en fritekstoppsummering av en pasients helse, for eksempel for å gi en konkret oppsummering av en sykehusinnleggelse som en del av en strukturert epikrise eller en sykepleiesammenfatning. Bruk arketypen EVALUATION.clinical_synopsis (Klinisk sammendrag) for dette formålet.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "purpose" : "To manually synthesise and record a narrative description about health related events that are current at the time of recording, from the perspective of a healthcare provider.",
+          "keywords" : [ "comment", "note", "progress" ],
+          "use" : "Use to manually synthesise and record a narrative description about contemporary health-related events and activities from the perspective of a healthcare provider.\r\n \r\nThis unstructured description may include the subject's health status and findings, that are current at the time of recording. Most commonly this description is likely to be related to nursing notes at the end of a shift, or the daily notes from healthcare providers such as a physician or a physiotherapist. In practice, Progress note is a meta observation that will complement the existing structured clinical record, allowing for expression of subtle, subjective or interpretive information about the patient that might not otherwise be obvious through structured data alone, providing balance and context to the EHR record. In many situations, this archetype will be combined alongside other more structured archetypes within a single COMPOSITION.\r\n\r\nThis archetype may also be used if there are no structured archetypes available, or to record progress notes imported from legacy systems.",
+          "misuse" : "Not to be used to record specific structured or semi-structured health information. For example, detailed information about problems/diagnoses, test results and vital signs, examination findings and patient story/history should be recorded using the specific relevant archetypes EVALUATION or OBSERVATION archetypes.\r\n\r\nNot to be used to record a narrative, summary view of the patient's health, for example to communicate a succinct summary of the patient's hospital admission as one component of a comprehensive and structured Discharge Summary document. Use the EVALUATION.clinical_synopsis archetype for this purpose.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "nl" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "nl"
+          },
+          "purpose" : "*To manually synthesise and record a narrative description about health related events that are current at the time of recording, from the perspective of a healthcare provider.(en)",
+          "keywords" : [ "*comment(en)", "*note(en)", "*progress(en)" ],
+          "use" : "*Use to manually synthesise and record a narrative description about contemporary health-related events and activities from the perspective of a healthcare provider. \r\nThis unstructured description may include the subject's health status and findings, that are current at the time of recording. Most commonly this description is likely to be related to nursing notes at the end of a shift, or the daily notes from healthcare providers such as a physician or a physioterapist. In practice, Progress note is a meta observation that will complement the existing structured clinical record, allowing for expression of subtle, subjective or interpretive information about the patient that might not otherwise be obvious through structured data alone, providing balance and context to the EHR record. In many situations, this archetype will be combined alongside other more structured archetypes within a single COMPOSITION.\r\n\r\nThis archetype may also be used if there are no structured archetypes available, or to record progress notes imported from legacy systems.(en)",
+          "misuse" : "*Not to be used to record specific structured or semistructured health information. For example, detailed information about problems/diagnoses, test results and vital signs, examination findings and patient story/history should be recorded using the specific relevant archetypes EVALUATION or OBSERVATION archetypes.\r\n\r\nNot to be used to record a narrative, summary view of the patient's health, for example to communicate a succinct summary of the patient's hospital admission as one component of a comprehensive and structured Discharge Summary document. Use the EVALUATION.clinical_synopsis archetype for this purpose.(en)",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.progress_note.v1",
     "differential" : true,
@@ -39865,7 +39460,7 @@
             "rmAttributeName" : "events",
             "children" : [ {
               "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "EVENT",
+              "rmTypeName" : "POINT_EVENT",
               "occurrences" : "0..1",
               "nodeId" : "at0002.1",
               "attributes" : [ {
@@ -39914,6 +39509,12 @@
             "code" : "at0004.1",
             "text" : "Fritekst relatert til sosial anamnese",
             "description" : "Fritekstbeskrivelse av helserelaterte hendelser, status, funn eller oppfatninger på et spesifikt tidspunkt."
+          },
+          "at0002.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0002.1",
+            "text" : "Innkomst",
+            "description" : "Standard, uspesifisert tidspunkt eller tidsintervall som kan defineres mer eksplisitt i en template eller i en applikasjon."
           }
         },
         "es-ar" : { },
