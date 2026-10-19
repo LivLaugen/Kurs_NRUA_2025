@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "64.0.0",
+      "sem_ver" : "65.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "d8d46e0e73f82ab367304f922360f685",
+      "MD5-CAM-1.0.1" : "d91738a0783946dad14bfe69333973d8",
       "PARENT:MD5-CAM-1.0.1" : "3B0765A6B395C9D01595FDF2D440E6CB",
       "original_language" : "ISO_639-1::nb"
     },
@@ -2727,6 +2727,13 @@
                               "attributeTuples" : [ ]
                             } ]
                           } ],
+                          "attributeTuples" : [ ]
+                        }, {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "ELEMENT",
+                          "occurrences" : "0..0",
+                          "nodeId" : "at0025.1",
+                          "attributes" : [ ],
                           "attributeTuples" : [ ]
                         } ]
                       } ],
@@ -37789,7 +37796,10 @@
                               "includedExternalTerminologyCodes" : [ {
                                 "terminologyId" : "no_innkomst_kartlegging",
                                 "code" : "3",
-                                "value" : "Overfølelsesreaksjoner (Allergi)"
+                                "value" : "Overfølelsesreaksjoner (Allergi)",
+                                "translations" : {
+                                  "nb" : "Overfølelsesreaksjoner"
+                                }
                               } ]
                             } ]
                           } ],
