@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "73.1.0",
+      "sem_ver" : "73.1.1",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "900e20d8b6275a3697366d71c2f43280",
+      "MD5-CAM-1.0.1" : "9c887ceb2447369e207e9265bedff2f8",
       "PARENT:MD5-CAM-1.0.1" : "3B0765A6B395C9D01595FDF2D440E6CB",
       "original_language" : "ISO_639-1::nb"
     },
@@ -340,7 +340,7 @@
         "at0000.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0000.1",
-          "text" : "Generell_Innkomstjurnal_Kurs2026",
+          "text" : "Generell_Innkomstjurnal_Kurs",
           "description" : "Interaksjon, kontakt eller omsorgshendelse mellom et individ og helsepersonell."
         }
       },
